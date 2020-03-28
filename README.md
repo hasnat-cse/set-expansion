@@ -1,2 +1,2 @@
-# 605-project
+# 605_project
 Project repository for 605 project
