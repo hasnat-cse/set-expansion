@@ -1,0 +1,14 @@
+Query: ESPN,ABC,CBS,RTV
+Static_Seisa depending on alpha: Running for infinite time. The expanded list contains "Milestone" and "Imani Coppola" in alternate iterations. All other entities are same.
+Situation for infinite loop:
+current: a b c d e
+candidate: a f c e d
+current: a b c d f
+candidate: d c f e d
+again current: a b c d e
+
+Static Seisa tries to replace only the last one over iterations. Is it worth doing?
+
+For lower alpha value both Seisa: results depends on the coherence( other entities) a lot resulting semantic drift and poor result.
+
+Dynamic Seisa: completely replaces the currently expanded entity set. That can cause more semantic drift and poor result depending on alpha.

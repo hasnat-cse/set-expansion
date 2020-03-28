@@ -1,0 +1,48 @@
+Seed Entities:
+ESPN
+ABC
+CBS
+RTV
+
+Expanded Entities:
+NBC
+PBS
+TeleFutura
+Univision
+Telemundo
+MyNetworkTV
+DayStar
+PBS (Analog)
+FOX
+AZA
+ShopNBC
+Ion
+PBS (Digital)
+ind. home shopping
+Shop At Home
+cadenatres
+Azteca América
+WBPX retransmitter
+ind.
+ION
+Fox
+Galavisión
+Azteca 7
+Azteca 13
+Canal 5
+Multimedios
+Televisa Regional
+Independent
+Canal de las Estrellas
+ABC  FOX  MyNetworkTV
+JBC
+Discovery Channel
+NBC ++
+SABC
+ETS
+RKTV
+CyBC
+NZBC
+Xandir Malta
+Seven Network
+HAS-TV

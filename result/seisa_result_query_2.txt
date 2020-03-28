@@ -1,0 +1,210 @@
+Seed Entities:
+Japan
+Canada
+India
+Bangladesh
+
+Expanded Entities:
+India
+Canada
+Japan
+Bangladesh
+Sri Lanka
+Pakistan
+United States
+New Zealand
+South Africa
+Australia
+Kenya
+Indonesia
+West Indies
+Thailand
+Singapore
+South Korea
+United Kingdom
+Mexico
+China
+Netherlands
+Italy
+Philippines
+Malaysia
+France
+Egypt
+Argentina
+Ireland
+Spain
+Brazil
+Overall
+Germany
+Peru
+Seychelles
+Mauritius
+Tanzania
+Madagascar
+Zimbabwe
+Vietnam
+Ukraine
+Austria
+Switzerland
+Slovenia
+Belgium
+Norway
+Denmark
+Iran
+Mozambique
+Finland
+Venezuela
+Greece
+Costa Rica
+Suriname
+Trinidad and Tobago
+Chile
+United Arab Emirates
+Portugal
+Israel
+Yemen
+Sweden
+Ecuador
+Oman
+Nigeria
+Cuba
+Serbia
+Guatemala
+Bahamas
+Azerbaijan
+Cambodia
+Hungary
+Bulgaria
+Paraguay
+Belarus
+Turkey
+Vatican City
+Brunei
+Panama
+Colombia
+Taiwan
+Zambia
+Estonia
+Honduras
+Dominican Republic
+Saudi Arabia
+Slovakia
+Albania
+Macedonia
+Sudan
+Jamaica
+Russia
+Uruguay
+Sierra Leone
+Ethiopia
+Iceland
+Uganda
+Georgia
+Morocco
+Ghana
+Nicaragua
+Lebanon
+Barbados
+Poland
+Kyrgyzstan
+Saint Lucia
+Antigua and Barbuda
+Myanmar
+Guinea-Bissau
+Burundi
+Eritrea
+Ivory Coast
+Mongolia
+Turkmenistan
+Niger
+Tuvalu
+Somalia
+Libya
+Botswana
+Malawi
+South Sudan
+Nauru
+Chad
+Liberia
+Gabon
+Vanuatu
+Benin
+Central African Republic
+Mali
+Haiti
+Namibia
+Rwanda
+Afghanistan
+Lesotho
+North Korea
+Gambia
+Guinea
+El Salvador
+Algeria
+Armenia
+Scotland
+Belize
+Puerto Rico
+Liechtenstein
+Kuwait
+Cyprus
+Kazakhstan
+Lithuania
+Jordan
+Montenegro
+Monaco
+San Marino
+Malta
+Republic of the Congo
+São Tomé and Príncipe
+Mauritania
+Nepal
+Tajikistan
+Bhutan
+Maldives
+Burkina Faso
+Solomon Islands
+Kiribati
+Micronesia
+Marshall Islands
+Palau
+Djibouti
+Equatorial Guinea
+Uzbekistan
+Samoa
+Papua New Guinea
+Comoros
+East Timor
+Cape Verde
+Guyana
+Tonga
+Dominica
+Bahrain
+Qatar
+Senegal
+Romania
+Chinese Taipei
+Latvia
+Angola
+Iraq
+Czech Republic
+Hong Kong
+Grenada
+Swaziland
+Cameroon
+Tunisia
+Togo
+Laos
+Saint Kitts and Nevis
+Bolivia
+Fiji
+Luxembourg
+England
+Moldova
+Bosnia and Herzegovina
+Syria
+Andorra
+Palestine
+Croatia
+Europe
+Czechoslovakia
