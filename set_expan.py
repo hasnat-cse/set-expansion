@@ -9,9 +9,11 @@ import time
 
 # SAMPLE_RATE is the number of context feature sample rate. 0.8 means 80% of core skipgram features
 # will be selected in each ranking pass.
+# alpha
 SAMPLE_RATE = 0.6
 # TOP_K_SG is the maximum number of skipgrams that wil be selected to calculate the entity-entity
 # distributional similarity.
+# Q
 TOP_K_SG = 200
 # TOP_K_ENTITY is the number of candidate entities that we considered to calculate mrr score during
 # each ranking pass.
@@ -19,8 +21,10 @@ TOP_K_ENTITY = 30
 # MAX_ITER_SET is the maximum number of expansion iterations
 MAX_ITER_SET = 10
 # SAMPLES is the ensemble number
-SAMPLES = 30
+# T
+SAMPLES = 60
 # THRES_MRR is the threshold that determines whether a new entity will be included in the set or not
+# T/r
 THRES_MRR = SAMPLES * (1.0 / 5.0)
 # Skipgrams with score >= (THRESHOLD * nOfSeedEntities) will be retained
 THRESHOLD = 0.0

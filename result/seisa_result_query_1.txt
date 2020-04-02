@@ -6,130 +6,72 @@ RTV
 
 Expanded Entities:
 ABC
+Trisha Yearwood
+Fiona Apple
+Duncan Sheik
+Le Click
+Amber
+White Town
+Meredith Brooks
+Luscious Jackson
+DJ Kool
+The Cardigans
+Bob Carlisle
+Gina G.
+Chumbawamba
+Shawn Colvin
+The Blackout All-Stars
+Raybon Brothers
+Sister Hazel
+Tha Dogg Pound
+The Prodigy
+She Moves
+The Mighty Mighty Bosstones
+Freak Nasty
+Tonic
+Peach Union
+Kenny Lattimore
+The Verve Pipe
+OMC
+B-Rock & the Bizz
+LSG
+Mr. President
+Mark Morrison
 NBC
 CBS
 RTV
-PBS
-Univision
 ESPN
-Telemundo
-TeleFutura
-MyNetworkTV
-DayStar
-FOX
-ION
-ShopNBC
-Azteca América
-HBO
 CyBC
-GRTC
-RCTV
-SLBS
-RBC
 UTV
-ETS
-GBC
 NIR&T
-HAS-TV
+ETS
+JBC
+RBC
+RCTV
+GBC
+SLBS
 Xandir Malta
+RKTV
+ZBF-TV
+NZBC
+GRTC
 VoK
 ZNBC
+HAS-TV
 MBC
-NZBC
-RKTV
-JBC
-ZBF-TV
-Gina G.
-The Cardigans
-Duncan Sheik
-Sister Hazel
-LSG
-Bob Carlisle
-Freak Nasty
-Meredith Brooks
-Amber
-Kenny Lattimore
-Luscious Jackson
-DJ Kool
-Showtime
-CNN International
-The Verve Pipe
-Shawn Colvin
-The Mighty Mighty Bosstones
-Fiona Apple
-The Blackout All-Stars
-She Moves
-Mark Morrison
-Trisha Yearwood
-Le Click
-Chumbawamba
-The Prodigy
-White Town
-B-Rock & the Bizz
-Tha Dogg Pound
-Tonic
-Mr. President
-Peach Union
-OMC
-PBS (Analog)
-Raybon Brothers
-RTS
-CBC
+PBS
+Telemundo
+TeleFutura
+Univision
 Imani Coppola
-AZA
-Galavisión
-Fox
-Yale Repertory Theatre
-WPA Theatre
-Walter Kerr Theatre
-The Flea Theater
-The Verdict
-USA Network
-CBC Television
-Canal 5
-Canal de las Estrellas
-Avalanche Releasing
-MCC Theater
-ind. home shopping
-Flea Theater
-Second Stage
-Twentieth Century-Fox
-Azteca 7
-Playwrights Horizons
-South Coast Repertory
-Warner Bros.
-Orion Pictures
-PublicTheatre
-Azteca 13
-WBPX retransmitter
-The N (U.S.)
-Access Motion Picture Group
-Multimedios
-ind.
-SABC
-Hudson Guild Theatre
-Second Stage Theatre
-Greenwich House Theater
-Manhattan Punch Lounge
-MTV
-Westside Arts Theatre
-cadenatres
-PBS (Digital)
-INTAR Theater
-Seven Network
+FOX
+DayStar
+MyNetworkTV
+ShopNBC
+ION
+Azteca América
+RTS
 Milestone
-Televisa Regional
-Cinemax
-Lifetime Television
-Shop At Home
-Romance Classics
-Canon Theatre
-Nickelodeon
-Samuel Goldwyn Company
-Hudson Guild
-Bristol Entertainment
-Ion
-Universal
-Channel 4
-BBC
-NBC ++
+HBO
+CBC
+PBS (Analog)

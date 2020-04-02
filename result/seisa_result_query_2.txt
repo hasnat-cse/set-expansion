@@ -1,210 +1,209 @@
 Seed Entities:
-Japan
-Canada
-India
 Bangladesh
+India
+Canada
+Japan
 
 Expanded Entities:
 India
-Canada
-Japan
 Bangladesh
+Canada
 Sri Lanka
-Pakistan
-United States
-New Zealand
-South Africa
-Australia
-Kenya
-Indonesia
-West Indies
-Thailand
-Singapore
-South Korea
-United Kingdom
-Mexico
-China
-Netherlands
-Italy
-Philippines
-Malaysia
-France
-Egypt
-Argentina
-Ireland
-Spain
-Brazil
-Overall
-Germany
-Peru
-Seychelles
-Mauritius
-Tanzania
-Madagascar
-Zimbabwe
-Vietnam
-Ukraine
-Austria
-Switzerland
-Slovenia
-Belgium
-Norway
-Denmark
-Iran
-Mozambique
-Finland
-Venezuela
-Greece
-Costa Rica
-Suriname
-Trinidad and Tobago
-Chile
-United Arab Emirates
-Portugal
-Israel
-Yemen
-Sweden
-Ecuador
-Oman
-Nigeria
-Cuba
-Serbia
-Guatemala
-Bahamas
-Azerbaijan
-Cambodia
-Hungary
-Bulgaria
-Paraguay
-Belarus
-Turkey
-Vatican City
-Brunei
-Panama
-Colombia
-Taiwan
-Zambia
-Estonia
-Honduras
-Dominican Republic
-Saudi Arabia
-Slovakia
-Albania
-Macedonia
-Sudan
-Jamaica
-Russia
-Uruguay
-Sierra Leone
-Ethiopia
-Iceland
-Uganda
-Georgia
-Morocco
-Ghana
-Nicaragua
-Lebanon
-Barbados
-Poland
-Kyrgyzstan
-Saint Lucia
-Antigua and Barbuda
+Japan
+North Korea
+Lesotho
 Myanmar
-Guinea-Bissau
-Burundi
+Botswana
 Eritrea
+Malawi
+Namibia
+Nauru
+Somalia
+Burundi
+Rwanda
+Haiti
 Ivory Coast
-Mongolia
 Turkmenistan
+Mongolia
+Guinea
 Niger
 Tuvalu
-Somalia
-Libya
-Botswana
-Malawi
-South Sudan
-Nauru
-Chad
-Liberia
+Guinea-Bissau
 Gabon
-Vanuatu
-Benin
-Central African Republic
-Mali
-Haiti
-Namibia
-Rwanda
-Afghanistan
-Lesotho
-North Korea
 Gambia
-Guinea
-El Salvador
-Algeria
-Armenia
-Scotland
-Belize
-Puerto Rico
-Liechtenstein
-Kuwait
-Cyprus
-Kazakhstan
-Lithuania
-Jordan
-Montenegro
-Monaco
-San Marino
-Malta
-Republic of the Congo
-São Tomé and Príncipe
-Mauritania
-Nepal
-Tajikistan
-Bhutan
-Maldives
-Burkina Faso
-Solomon Islands
-Kiribati
-Micronesia
+Afghanistan
+Mali
+South Sudan
+Central African Republic
+Vanuatu
+Liberia
+Benin
+Chad
+Libya
+Pakistan
+Kenya
+Brunei
+Suriname
+Indonesia
+Seychelles
+Sudan
 Marshall Islands
-Palau
+Solomon Islands
+São Tomé and Príncipe
+Kiribati
 Djibouti
-Equatorial Guinea
-Uzbekistan
-Samoa
-Papua New Guinea
+Vatican City
+Trinidad and Tobago
+Madagascar
+Tanzania
+Mauritius
+New Zealand
+Nepal
+Republic of the Congo
+Burkina Faso
+Bhutan
 Comoros
-East Timor
+Papua New Guinea
+Maldives
+Equatorial Guinea
+Mauritania
+Micronesia
+Palau
+Mozambique
+Azerbaijan
 Cape Verde
-Guyana
-Tonga
-Dominica
-Bahrain
-Qatar
-Senegal
-Romania
-Chinese Taipei
-Latvia
-Angola
-Iraq
-Czech Republic
-Hong Kong
-Grenada
+United States
+Saint Lucia
+Uzbekistan
+Tajikistan
+Honduras
+Zambia
+Egypt
+South Africa
+East Timor
+Sierra Leone
+Ethiopia
+Thailand
+Bahamas
+Samoa
+Vietnam
+Antigua and Barbuda
 Swaziland
-Cameroon
-Tunisia
-Togo
-Laos
+Peru
+South Korea
+Kyrgyzstan
+Costa Rica
+Panama
+Belize
+Uganda
 Saint Kitts and Nevis
+Algeria
+Australia
+Mexico
+Laos
+Saudi Arabia
+Philippines
+Nicaragua
+China
+Barbados
+Ireland
+Singapore
+Tunisia
+Ecuador
+El Salvador
+Grenada
+Cambodia
+Venezuela
+Guyana
+Israel
+Ukraine
+Jamaica
+Kuwait
+Liechtenstein
+Yemen
+Serbia
+Oman
+Guatemala
+Nigeria
+United Kingdom
+Zimbabwe
+Paraguay
+Malaysia
+Cameroon
+Argentina
+Slovenia
+United Arab Emirates
+Netherlands
+Iran
+Monaco
+Kazakhstan
+San Marino
+Finland
+Italy
+Colombia
+Tonga
+Chile
+Albania
+Greece
+Dominica
+Turkey
+Jordan
+Macedonia
+Ghana
+Togo
+Montenegro
+France
+Norway
+Belarus
+Slovakia
+Angola
+Qatar
+Bahrain
+Morocco
+Dominican Republic
+Spain
+Germany
+Estonia
+Belgium
+Austria
+Brazil
+Bulgaria
+Iraq
+Denmark
+Switzerland
+Hungary
+Senegal
 Bolivia
-Fiji
-Luxembourg
-England
-Moldova
-Bosnia and Herzegovina
+Cuba
+Cyprus
+Sweden
+Portugal
+Iceland
+Lebanon
+Lithuania
+West Indies
 Syria
-Andorra
+Latvia
+Armenia
+Bosnia and Herzegovina
+Fiji
+Malta
 Palestine
+Romania
+Russia
+Georgia
+Poland
+Uruguay
+Luxembourg
+Moldova
+Andorra
+Czech Republic
 Croatia
-Europe
-Czechoslovakia
+Overall
+Taiwan
+Puerto Rico
+Scotland
+Hong Kong
+Chinese Taipei
+Guadeloupe
+Gibraltar

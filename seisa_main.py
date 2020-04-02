@@ -53,9 +53,10 @@ def main():
 
         # expanded_entities = seisa.static_seisa(seed_enitites, entity2features, 0.5)
         # expanded_entities = seisa.static_seisa_optimized(seed_enitites, entity2features, feature2entities, 0.9)
+        expanded_entities = seisa.static_seisa_optimized_another_interpretation(seed_enitites, entity2features, feature2entities, 0.9)
 
         # expanded_entities = seisa.dynamic_seisa(seed_enitites, entity2features, 0.5)
-        expanded_entities = seisa.dynamic_seisa_optimized(seed_enitites, entity2features, feature2entities, 0.9)
+        # expanded_entities = seisa.dynamic_seisa_optimized(seed_enitites, entity2features, feature2entities, 0.9)
 
         end = time.time()
         print("Total time taken: %s" % (end - start))
