@@ -1,0 +1,28 @@
+Seed Entities:
+Calgary
+Edmonton
+Cold Lake
+Red Deer
+
+Expanded Entities:
+Red Deer
+Camrose
+Wetaskiwin
+Lacombe
+Stettler
+Cold Lake
+Edmonton
+Calgary
+Ponoka
+Cardston
+Medicine Hat
+Grande Prairie
+Vegreville
+Leduc
+Lethbridge
+St. Albert
+Edson
+Peace River
+High River
+
+13.871686220169067

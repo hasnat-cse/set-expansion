@@ -161,6 +161,9 @@ def get_refined_entities(expanded_entities, entity2features, feature2entities):
 
 # expand the set of seedEntities and return entities by order
 def static_seisa_optimized(seed_entities, entity2features, feature2entities, alpha):
+    global entity2entity_sim
+    entity2entity_sim = {}
+
     # max_iter = 10
     print("Seed entities in Static Seisa: %s" % seed_entities)
 
@@ -241,7 +244,10 @@ def static_seisa_optimized(seed_entities, entity2features, feature2entities, alp
 
 
 # expand the set of seedEntities and return entities by order
-def static_seisa_optimized_another_interpretation(seed_entities, entity2features, feature2entities, alpha):
+def static_seisa_optimized_another_interpretation(seed_entities, entity2features, feature2entities, alpha, threshold):
+    global entity2entity_sim
+    entity2entity_sim = {}
+
     # max_iter = 10
     print("Seed entities in Static Seisa: %s" % seed_entities)
 
@@ -260,6 +266,9 @@ def static_seisa_optimized_another_interpretation(seed_entities, entity2features
     k = util.get_otsu_threshold(sorted_scores)
 
     print("Threshold: %s" % k)
+
+    if k > threshold:
+        k = threshold
 
     expanded_entities = sorted_entities[:k]
 
@@ -318,7 +327,10 @@ def static_seisa_optimized_another_interpretation(seed_entities, entity2features
 
 
 # expand the set of seedEntities and return entities by order
-def dynamic_seisa_optimized(seed_entities, entity2features, feature2entities, alpha):
+def dynamic_seisa_optimized(seed_entities, entity2features, feature2entities, alpha, threshold):
+    global entity2entity_sim
+    entity2entity_sim = {}
+
     max_iter = 10
 
     print("Seed entities in Dynamic Seisa: %s" % seed_entities)
@@ -338,6 +350,9 @@ def dynamic_seisa_optimized(seed_entities, entity2features, feature2entities, al
     k = util.get_otsu_threshold(sorted_scores)
 
     print("Threshold: %s" % k)
+
+    if k > threshold:
+        k = threshold
 
     expanded_entities = sorted_entities[:k]
 
@@ -373,6 +388,9 @@ def dynamic_seisa_optimized(seed_entities, entity2features, feature2entities, al
         k = util.get_otsu_threshold(sorted_candidate_scores)
 
         print("Threshold: %s" % k)
+
+        if k > threshold:
+            k = threshold
 
         expanded_entities = sorted_candidate_entities[:k]
 

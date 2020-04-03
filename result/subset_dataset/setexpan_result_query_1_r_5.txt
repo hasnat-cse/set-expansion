@@ -1,0 +1,56 @@
+Seed Entities:
+ESPN
+ABC
+CBS
+RTV
+
+Expanded Entities:
+NBC
+PBS
+Telemundo
+Univision
+TeleFutura
+DayStar
+FOX
+MyNetworkTV
+Azteca América
+ShopNBC
+PBS (Digital)
+ION
+ind.
+Azteca 13
+ind. home shopping
+Multimedios
+Ion
+WBPX retransmitter
+PBS (Analog)
+Shop At Home
+Canal de las Estrellas
+AZA
+Canal 5
+Galavisión
+ABC  FOX  MyNetworkTV
+Independent
+Fox
+NBC ++
+Azteca 7
+HBO
+cadenatres
+Televisa Regional
+Showtime
+CNN International
+Channel 4
+Discovery Channel
+CBC Television
+SABC
+BBC
+MTV
+Walter Kerr Theatre
+The N (U.S.)
+Seven Network
+Nickelodeon
+Bristol Entertainment
+Lifetime Television
+Access Motion Picture Group
+Samuel Goldwyn Company
+Fassa Bortolo

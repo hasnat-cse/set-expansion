@@ -1,0 +1,429 @@
+Seed Entities:
+Alberta
+Ontario
+British Columbia
+
+Expanded Entities:
+Alberta
+Virginia Military Institute
+Lynchburg
+northwest of Richmond
+Staunton
+Jonesville
+west of Linden
+Tasley
+Langley Air Force Base
+Piedmont Geriatric Hospital
+Elko Tract
+proposed route in Norfolk
+Eastern State Hospital
+Bon Air Learning Center
+South Boston
+Bland
+Madison Heights
+Red Onion State Prison
+Galax
+southwest of Williamsburg
+John Tyler Community College
+near Crozet
+east of Williamsburg
+Tazewell
+Occoneechee State Park
+Norton
+Blue Ridge Community College
+Exmore
+west of Richmond
+Radford
+Germanna Community College
+New River Community College
+Hungry Mother State Park
+Fairy Stone State Park
+College of William and Mary
+West Point
+south of Petersburg
+Jarratt
+Kenbridge
+Appalachia
+Martinsville
+Staunton River State Park
+north of Richmond
+Roanoke
+Manassas Park
+west of Holland
+Chesapeake
+Danville
+Gunston Hall
+south of Culpeper
+west of Petersburg
+Wytheville Community College
+James Madison University
+Petersburg
+Appomattox
+Capitol Square
+New Market
+south of Alexandria
+Natural Tunnel State Park
+north of Fancy Gap
+Danville Community College
+Fredericksburg
+Staunton Correctional Center
+Christiansburg
+Longwood University
+Science Museum of Virginia
+First Landing State Park
+Westmoreland State Park
+Clifton Forge
+Hanover Learning Center
+Virginia Beach
+Abingdon
+Smithfield
+Catawba Hospital
+University of Virginia
+Central State Hospital
+Beaumont Learning Center
+Richard Bland College
+Virginia State University
+Grayson Highlands State Park
+Blacksburg
+Barrett Learning Center
+British Columbia
+north of Hanover
+south of  Stonega
+Hanging Rock
+Carps Corner
+east of St. Paul
+Boydton
+Blue Ridge Parkway
+Figsboro
+south of Yorktown
+near Mathews
+Danieltown
+near Kinsale
+Vanderpool
+Wytheville
+Bent Creek
+north of Winchester
+east of Harrisonburg
+Rockville
+Yorktown
+Mount Jackson
+northeast of Madison Heights
+southeast of Richmond
+west of Manassas
+Mechanicsville
+Eltham
+east of Staunton
+near  Woolsey
+Stingray Point
+near Seaford
+west of Hopewell
+Narrows
+west of Tazewell
+Briggs
+Big Island
+Max Meadows
+south of Fincastle
+east of Madison Heights
+Hopewell
+near Port Republic
+Quinby
+Chincoteague
+south of Fort Chiswell
+Longdale Furnace
+Jewell Ridge
+east of Weber City
+Wilderness
+east of South Boston
+west of Buckingham
+Lake Jackson
+east of Norton
+Rural Retreat
+west of Leesburg
+north of Irvington
+West Virginia Norfolk
+Nelsonia
+east of Danville
+east of Stratford
+Ridgeway
+north of Madison Mills
+north of Eagle Rock
+Burgess
+west of Warrenton
+Poquoson
+Hollins
+south of Halifax
+Saltville
+Bluefield
+Dahlgren
+north of Laurel
+east of Burkeville
+west of Williamsburg
+east of Boydton
+east of Amelia
+Grottoes
+north of Powhatan
+Tabb
+Spring Grove
+Callands
+east of Afton
+Four Mile Fork
+Callaghan
+Boykins
+Wachapreague
+north of Pungoteague
+west of Colonial Beach
+Callao
+Urbanna
+east of Belle Haven
+Keysville
+east of Fredericksburg
+Saint Charles
+Reedville
+west of Clintwood
+Gwynn\'s Island
+Haysi
+south of Sperryville
+north of Litwalton
+north of Herndon
+West Virginia West Virginia
+Modest Town
+west of Martinsville
+Pamplin City
+south of Fries
+north of Williamsburg
+north of Norge
+Angelview Church
+south of Cheriton
+Fishersville
+Driver
+Poplar Camp
+west of Halifax
+Fort Lee
+Talleysville
+west of Arlington
+north of Roanoke
+Langley
+West Virginia west of Gore
+Georges Tavern
+east of Mount Crawford
+east of Mouth of Wilson
+Hallwood
+Strasburg
+south of Bensley
+east of Martinsville
+east of Coeburn
+Delila
+west of Jetersville
+Edinburg
+west of Blackstone
+Double Toll Gate
+east of Pulaski
+Fort Monroe
+Achilles
+Onley
+south of Bowling Green
+West Virginia Maryland
+Heathsville
+Scotts Fork
+Oak Grove
+south of Farmville
+east of Powhatan
+Covington
+Herndon
+District of Columbia
+no current route
+Hampton
+Suffolk
+Saint Paul
+George Mason University
+Williamsburg
+Dayton
+Newport News
+Manitoba
+Centralia
+north of Remington
+Glenns
+Painter
+south of  Burketown
+northwest of Williamsburg
+east of Silver Beach
+Carmel Church
+northeast of Bottoms Bridge
+west of Clover
+Harrisonburg
+Farmville
+Lerty
+east of Cumberland
+Culpeper
+South of Fishersville
+east of Midlothian
+Dumfries
+Chilhowie
+south of Vienna
+Coeburn
+Templeman
+near  Collierstown
+Hampden-Sydney
+Salem West Virginia
+Altavista
+Powhatan
+Bowers Hill
+Barhamsville
+Crows
+Charles City
+Mauzy West Virginia
+Woolwine
+south of Clinchport
+south of Millwood
+Steeles Tavern
+Rocky Gap
+Rich Creek
+Dillwyn
+south of Staunton
+west of Bassett
+McLean
+north of Warrenton
+west of Galax
+Fort Chiswell
+Belle Haven
+Weyers Cave
+south of South Boston
+south of Doswell
+White Stone
+north of Martinsville
+west of Orkney Springs
+south of Lively
+St. Stephens Church
+west of Edinburg
+north of Gloucester Point
+west of Rural Retreat
+west of Mount Jackson
+Ferncliff
+south of Stuart
+Chuckatuck
+south of Richmond
+Timberville
+Hudgins
+Stephens City
+Kentucky West Virginia
+north of Guilford
+south of Radford
+Newport News Suffolk (future)
+west of Danville
+southwest of Petersburg
+Corrotoman River
+Stanardsville
+Onancock
+Paint Bank
+Christian
+east of Montpelier
+east of King George
+east of Independence
+north of Pennington Gap
+Afton
+Gate City
+east of Austinville
+east of Keokee
+north of Gate City
+west of Powhatan
+Parksley
+north of South Hill
+Lyells
+Short Pump
+south of Cismont
+east of Saluda
+north of Stuart
+northwest of Radford
+Annandale
+Drakes Branch
+south of Franklin
+near West Virginia
+west of King George
+south of Charlottesville
+east of Rockbridge Baths
+Burnt Chimney
+east of Hillsville
+north of Strasburg
+south of Weems
+east of Warrenton
+east of Clifton Forge
+Purcellville
+near Harborton
+Lee Hall
+Cape Charles
+South Hill
+east of Blackstone
+east of Honaker
+Natural Bridge
+north of Amherst
+Pound
+north of Oak Hall
+east of Rocky Mount
+Ontario
+Falls Church
+Arlington
+Portsmouth
+[ edit ]   500 and up
+North Carolina
+Winchester
+Goshen
+Broadway
+West Virginia
+Norfolk
+Saskatchewan
+Kentucky
+Richmond
+Warrenton
+Buena Vista
+Waynesboro
+Bristol
+The Plains
+Sterling
+Gloucester
+Palmyra
+Bayside
+Cedarville
+Alexandria
+Fort Belvoir
+Courtland
+Falmouth
+Rice
+Shadwell
+Pocahontas
+St. Paul
+Amelia
+From
+New Brunswick
+Quebec
+Salem
+Franconia
+Mineral
+Nova Scotia
+Newfoundland and Labrador
+Leesburg
+Dranesville
+Germany Austria
+North Carolina New Jersey
+West Texas
+San Francisco Bay Area
+Pennsylvania Maryland
+South Florida
+Tennessee Florida
+Arkansas Oklahoma
+New York Connecticut
+Greater Los Angeles Area
+Illinois Michigan
+Indiana Kentucky
+Northeastern United States
+Central California
+Missouri Kansas Iowa
+Midwest area
+Oregon Washington
+Tennessee Alabama
+Canadian Maritimes
+New York Ohio
+Ohio Kentucky
+Chesterfield
+Pulaski
+Woodbridge
+Pennsylvania

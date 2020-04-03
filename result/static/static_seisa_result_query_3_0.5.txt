@@ -1,0 +1,19 @@
+Seed Entities:
+Ontario
+Quebec
+Nova Scotia
+New Brunswick
+
+Expanded Entities:
+Nova Scotia
+New Brunswick
+Manitoba
+Ontario
+Quebec
+Alberta
+British Columbia
+Saskatchewan
+Prince Edward Island
+Newfoundland and Labrador
+
+13.59060001373291

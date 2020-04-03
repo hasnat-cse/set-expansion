@@ -1,14 +1,34 @@
-Query: ESPN,ABC,CBS,RTV
-Static_Seisa depending on alpha: Running for infinite time. The expanded list contains "Milestone" and "Imani Coppola" in alternate iterations. All other entities are same.
-Situation for infinite loop:
-current: a b c d e
-candidate: a f c e d
-current: a b c d f
-candidate: d c f e d
-again current: a b c d e
+SEISA:
++ Don't need to fixed output size. It will choose the best.
 
-Static Seisa tries to replace only the last one over iterations. Is it worth doing?
+- For some query and dataset, the choosen threshold can be wrong. If the threshold too large, it can cause semantic drift based on the value of alpha. For higher value of alpha the drift will be less and for lower value drift will be more.
 
-For lower alpha value both Seisa: results depends on the coherence( other entities) a lot resulting semantic drift and poor result.
+- As previously expanded entities are replaced in successive iteration, chances of semantic drift is high.
 
-Dynamic Seisa: completely replaces the currently expanded entity set. That can cause more semantic drift and poor result depending on alpha.
++ so far, alpha = 0.9 works best for all query
+
++ optimize version works faster than set expan.
+
+
+Static SEISA:
+- Static Threshold: There are around 200 countries in the dataset.
+ But the chosen threshold is 91. So, we will get only 91 entities instead of expected 200.
+
++ Semantic drift can be less than dynamic
+
+
+Dynamic SEISA:
+ + Dynamic Threshold: We will eventually get around 200 countries.
+
+ - Semantic drift can be more than static.
+
+
+Set Expan:
+- Need to choose the expected output size. If it is large, there will be wrong entities. It it is small, we will get only few entities. Runtime also depends on K.
+
+- depends on r. For small value of r, runtime is higher but correctness is better than large value of r. Large value of r can introduce wrong entities.
+
++ Very less chance of huge semantic drift. Because in each iteration, it only adds new entities without replacing previous ones.
+
+
+*Need to check varying seed size.

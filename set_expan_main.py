@@ -5,8 +5,8 @@ import time
 
 def main():
     # Loading Corpus
-    # data_folder = "../../SetExpan_data/weblist/"
-    data_folder = "./dataset/weblist/"
+    data_folder = "../../SetExpan_data/weblist/"
+    # data_folder = "./dataset/weblist/"
 
     start = time.time()
 
@@ -21,7 +21,6 @@ def main():
     end = time.time()
     print("Finish loading all dataset, using %s seconds" % (end - start))
 
-    query_count = 0
     while True:
 
         # Start set expansion
@@ -31,8 +30,7 @@ def main():
 
         seed_enitites = user_input.split(',')
 
-        # seed_enitites = ["United States", "China", "Japan", "Germany", "England", "Russia", "India"]
-        query_count += 1
+        output_size = int(input("Enter expected output size: "))
 
         seedEntitiesWithConfidence = [(ele, 0.0) for ele in seed_enitites]
 
@@ -40,20 +38,30 @@ def main():
 
         start = time.time()
 
-        expandedEntitiesWithConfidence = set_expan.setExpan(
+        # expandedEntitiesWithConfidence = set_expan.setExpan(
+        #     seedEntitiesWithConfidence=seedEntitiesWithConfidence,
+        #     negativeSeedEntities=negativeSeedEntities,
+        #     entity2patterns=entity2patterns,
+        #     pattern2entities=pattern2entities,
+        #     entityAndPattern2strength=entityAndPattern2strength,
+        #     FLAGS_VERBOSE=True,
+        #     FLAGS_DEBUG=False,
+        # )
+
+        expandedEntitiesWithConfidence = set_expan.setExpan_according_to_paper(
             seedEntitiesWithConfidence=seedEntitiesWithConfidence,
-            negativeSeedEntities=negativeSeedEntities,
             entity2patterns=entity2patterns,
             pattern2entities=pattern2entities,
             entityAndPattern2strength=entityAndPattern2strength,
-            FLAGS_VERBOSE=True,
-            FLAGS_DEBUG=False,
+            output_size=output_size
         )
 
         end = time.time()
         print("Total time taken: %s" % (end - start))
 
-        output_file = "./result/setexpan_result_query_" + str(query_count) + ".txt"
+        milli_sec = int(round(time.time() * 1000))
+
+        output_file = "./result/setexpan/setexpan_result_query_" + str(milli_sec) + "_" + str(output_size) + ".txt"
         with open(output_file, "w", encoding="utf8") as fout:
             fout.write("Seed Entities:" + "\n")
             for entity in seed_enitites:
@@ -63,7 +71,9 @@ def main():
             for ele in expandedEntitiesWithConfidence:
                 fout.write(ele[0] + "\n")
 
-        fout.close()
+            fout.write("\nTime Spent: " + str(end - start) + "\n")
+
+            fout.close()
 
 
 if __name__ == "__main__":

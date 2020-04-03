@@ -34,10 +34,10 @@ FLAGS_SG_POPULARITY_LOWER = 3
 FLAGS_SG_POPULARITY_UPPER = 30
 
 
-def getSampledCoreSkipgrams(coreSkipgrams):
+def getSampledCoreSkipgrams(coreSkipgrams, sample_rate):
     sampledCoreSkipgrams = []
     for sg in coreSkipgrams:
-        if random.random() <= SAMPLE_RATE:
+        if random.random() <= sample_rate:
             sampledCoreSkipgrams.append(sg)
     return sampledCoreSkipgrams
 
@@ -143,7 +143,7 @@ def setExpan(seedEntitiesWithConfidence, negativeSeedEntities, entity2patterns, 
         if FLAGS_DEBUG:
             print("Start ranking ensemble at iteration %s:" % iters, end=" ")
         for i in range(SAMPLES):
-            sampledCoreSkipgrams = getSampledCoreSkipgrams(coreSkipgrams)
+            sampledCoreSkipgrams = getSampledCoreSkipgrams(coreSkipgrams, SAMPLE_RATE)
             combinedSgSimByCandidateEntity = {}
             candidates = set()
 
@@ -203,6 +203,117 @@ def setExpan(seedEntitiesWithConfidence, negativeSeedEntities, entity2patterns, 
         print('[INFO] Finish SetExpan for one set')
         print('Expanded Set Length: %s' % len(seedEntities))
         print('Expanded set: %s' % seedEntities)
+
+    expanded = []
+    for entity in seedEntities:
+        if entity not in cached_seedEntities:
+            expanded.append([entity, entity2confidence[entity]])
+
+    return expanded
+
+
+# Denoised Feature #
+Q = 200
+# Number of Ensemble
+T = 60
+# Ensemble rate
+ALPHA = 0.6
+# Average Rank
+r = 5
+
+
+# expand the set of seedEntities and return entities by order, excluding seedEntities (original children)
+def setExpan_according_to_paper(seedEntitiesWithConfidence, entity2patterns, pattern2entities, entityAndPattern2strength, output_size):
+    ''' Note: currently the confidence score of each entity id is actually not used, just ignore it.
+
+    :param seedEntitiesWithConfidence: a list of [entity (int), confidence_score (float)]
+    :param entity2patterns:
+    :param pattern2entities:
+    :param entityAndPattern2strength:
+    :param output_size:
+
+    :return: a list of expanded [entity (excluding the original input entities in seedEntities), confidence_score]
+    '''
+
+    seedEntities = [ele[0] for ele in seedEntitiesWithConfidence]
+    entity2confidence = {ele[0]: ele[1] for ele in seedEntitiesWithConfidence}
+
+    ## Cache the seedEntities for later use
+    cached_seedEntities = set([ele for ele in seedEntities])
+
+    print('Seed set: %s' % seedEntities)
+
+    iters = 0
+    while len(seedEntities) <= output_size:
+        iters += 1
+        start = time.time()
+        # generate combined weight maps
+        combinedWeightBySkipgramMap = getCombinedWeightByFeatureMap(seedEntities, entity2patterns, entityAndPattern2strength)
+
+        # get final core pattern features
+        coreSkipgrams = []
+        count = 0
+        for sg in sorted(combinedWeightBySkipgramMap, key=combinedWeightBySkipgramMap.__getitem__, reverse=True):
+            if count >= Q:
+                break
+
+            count += 1
+            coreSkipgrams.append(sg)
+
+        end = time.time()
+        print("Finish context feature selection at iteration %s using time %s seconds" % (iters, (end - start)))
+
+        # rank ensemble
+        all_start = time.time()
+        entity2mrr = {}
+
+        for i in range(T):
+            sampledCoreSkipgrams = getSampledCoreSkipgrams(coreSkipgrams, ALPHA)
+
+            combinedSgSimByCandidateEntity = {}
+            candidates = set()
+
+            for sg in sampledCoreSkipgrams:
+                candidates = candidates.union(pattern2entities[sg])
+
+            for entity in candidates:
+
+                combinedSgSimByCandidateEntity[entity] = 0.0
+                for seed in seedEntities:
+                    combinedSgSimByCandidateEntity[entity] += getFeatureSim(entity, seed, entityAndPattern2strength,
+                                                                      sampledCoreSkipgrams)
+
+            count = 0
+            for entity in sorted(combinedSgSimByCandidateEntity, key=combinedSgSimByCandidateEntity.__getitem__, reverse=True):
+                if entity not in seedEntities:
+                    count += 1
+                    if entity in entity2mrr:
+                        entity2mrr[entity] += 1.0 / count
+                    else:
+                        entity2mrr[entity] = 1.0 / count
+
+        all_end = time.time()
+
+        print("End ranking ensemble at iteration %s using time %s seconds" % (iters, (all_end - all_start)))
+
+        # Select entities to be added into the set
+        entity_incremental = []
+        for ele in sorted(entity2mrr.items(), key=lambda x: -x[1]):
+            entity = ele[0]
+            mrr_score = ele[1]
+            if mrr_score < T/r:
+                break
+
+            confidence_score = 0.0
+            entity_incremental.append(entity)
+            entity2confidence[entity] = confidence_score
+
+        seedEntities.extend(entity_incremental)
+
+        print('Expanded set after iteration %s: %s ' % (iters, seedEntities))
+
+    print('Expanded Set Length: %s' % len(seedEntities))
+    print('Expanded set: %s' % seedEntities)
 
     expanded = []
     for entity in seedEntities:

@@ -1,0 +1,59 @@
+Seed Entities:
+Texas
+North Carolina
+Virginia
+Oregon
+
+Expanded Entities:
+South Carolina
+West Virginia
+Rhode Island
+Louisiana
+Pennsylvania
+Ohio
+Kentucky
+New Jersey
+District of Columbia
+Massachusetts
+Mississippi
+Maryland
+Maine
+Alabama
+Utah
+Michigan
+Vermont
+Wyoming
+Oklahoma
+Indiana
+Tennessee
+New York
+South Dakota
+Wisconsin
+Japan
+Connecticut
+British Columbia
+Alabama Georgia Tennessee
+Adelaide
+Missouri
+Northern Michigan
+North Florida
+Delaware
+North Dakota
+Houston
+Upstate New York
+Washington
+Amarillo
+New Mexico
+North Carolina South Carolina
+Great Britain Ireland
+New Hampshire
+Montana
+Northern New Jersey
+New Jersey New York
+Nevada
+Victoria
+Alberta
+Illinois
+Nebraska
+California
+Tennessee Arkansas

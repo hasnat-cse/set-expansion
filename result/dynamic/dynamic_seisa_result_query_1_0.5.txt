@@ -1,0 +1,16 @@
+Seed Entities:
+Barisal Division
+Rajshahi Division
+Rangpur Division
+
+Expanded Entities:
+Rajshahi Division
+Barisal Division
+Khulna Division
+Dhaka Division
+Sylhet Division
+Chittagong Division
+Rangpur Division
+Dhaka Metropolis
+
+1.937075138092041

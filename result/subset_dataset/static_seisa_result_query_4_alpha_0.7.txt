@@ -1,0 +1,98 @@
+Seed Entities:
+England
+Canada
+Germany
+Spain
+
+Expanded Entities:
+Germany
+Spain
+Canada
+France
+Netherlands
+England
+United Kingdom
+Switzerland
+Italy
+Sweden
+Belgium
+Greece
+United States
+Ireland
+Austria
+Finland
+Denmark
+Australia
+Portugal
+Norway
+Ukraine
+Russia
+New Zealand
+Slovenia
+India
+Argentina
+Japan
+Peru
+Poland
+Czech Republic
+Bulgaria
+Mexico
+Lithuania
+Turkey
+Romania
+Hungary
+Brazil
+Slovakia
+Estonia
+Israel
+Latvia
+South Korea
+Egypt
+Indonesia
+Chile
+Colombia
+China
+Croatia
+Philippines
+Costa Rica
+Venezuela
+Ecuador
+Malaysia
+Singapore
+South Africa
+Malta
+Uruguay
+Thailand
+Guatemala
+Belarus
+Armenia
+El Salvador
+Pakistan
+Panama
+Trinidad and Tobago
+Cyprus
+Iceland
+Paraguay
+Luxembourg
+Cuba
+Macedonia
+Honduras
+Moldova
+Ghana
+Albania
+Dominican Republic
+Bosnia and Herzegovina
+Saudi Arabia
+Vietnam
+Nigeria
+Suriname
+Serbia
+Mauritius
+Morocco
+Jamaica
+Sri Lanka
+Iran
+Monaco
+Azerbaijan
+Nicaragua
+Georgia
