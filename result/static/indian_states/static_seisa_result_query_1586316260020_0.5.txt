@@ -1,0 +1,11 @@
+Seed Entities:
+Assam
+Haryana
+
+Expanded Entities:
+"Haryana","Assam","Madhya Pradesh","Jharkhand","Bihar","Orissa","Andhra Pradesh","West Bengal","Himachal Pradesh","Karnataka","Uttar Pradesh","Gujarat","Kerala","Tamil Nadu","Manipur","Maharashtra","Rajasthan","Mizoram","Meghalaya","Uttarakhand","Nagaland","Arunachal Pradesh","Tripura","Sikkim","Goa","Punjab","Chhattisgarh","Jammu and Kashmir",
+
+Time Spent: 6.420392751693726
+1 iteration
+R-precision: 1.0
+Average Precision: 1.0

@@ -1,0 +1,32 @@
+Seed Entities:
+Paul Martin
+John Thompson
+Wildfrid Laurier
+John Turner
+Stephen Harper
+
+Expanded Entities:
+['Paul Martin', 'John Thompson', 'Wildfrid Laurier', 'John Turner', 'Stephen Harper', 'Jean Chrétien', 'Pierre Trudeau', 'Brian Mulroney', 'Joe Clark', 'Kim Campbell', 'Louis St. Laurent', 'Lester B. Pearson', 'John Diefenbaker', 'Alexander Mackenzie', 'Arthur Meighen', 'William Lyon Mackenzie King', 'Wilfrid Laurier', 'Robert Borden', 'John A. Macdonald', 'Charles Tupper', 'Mackenzie Bowell', 'Sir Wilfrid Laurier', 'John Abbott']
+
+Time Spent: 131.74342584609985
+R-precision: 0.9130434782608695
+Average Precision: 0.9095722908014986
+
+
+
+
+Seed set: ['Paul Martin', 'John Thompson', 'Wildfrid Laurier', 'John Turner', 'Stephen Harper']
+Expanded set after iteration 1: ['Paul Martin', 'John Thompson', 'Wildfrid Laurier', 'John Turner', 'Stephen Harper', 'Jean Chrétien', 'Pierre Trudeau', 'Brian Mulroney', 'Joe Clark', 'Kim Campbell', 'Louis St.
+ Laurent', 'Lester B. Pearson', 'John Diefenbaker', 'Alexander Mackenzie', 'Arthur Meighen']
+Expanded set after iteration 2: ['Paul Martin', 'John Thompson', 'Wildfrid Laurier', 'John Turner', 'Stephen Harper', 'Jean Chrétien', 'Pierre Trudeau', 'Brian Mulroney', 'Joe Clark', 'Kim Campbell', 'Louis St.
+ Laurent', 'Lester B. Pearson', 'John Diefenbaker', 'Alexander Mackenzie', 'Arthur Meighen', 'William Lyon Mackenzie King', 'Wilfrid Laurier', 'Robert Borden', 'John A. Macdonald', 'Charles Tupper', 'Mackenzie
+Bowell', 'Sir Wilfrid Laurier', 'John Abbott']
+Expanded Set Length: 23
+Expanded set: ['Paul Martin', 'John Thompson', 'Wildfrid Laurier', 'John Turner', 'Stephen Harper', 'Jean Chrétien', 'Pierre Trudeau', 'Brian Mulroney', 'Joe Clark', 'Kim Campbell', 'Louis St. Laurent', 'Lester
+ B. Pearson', 'John Diefenbaker', 'Alexander Mackenzie', 'Arthur Meighen', 'William Lyon Mackenzie King', 'Wilfrid Laurier', 'Robert Borden', 'John A. Macdonald', 'Charles Tupper', 'Mackenzie Bowell', 'Sir Wilf
+rid Laurier', 'John Abbott']
+
+
+
+Incorrect entiites: {'Wildfrid Laurier', 'Sir Wilfrid Laurier'}
+Missing entiites: {'Justin Trudeau', 'R. B. Bennett'}

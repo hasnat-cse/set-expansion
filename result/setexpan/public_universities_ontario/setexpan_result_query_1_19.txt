@@ -1,0 +1,29 @@
+Seed Entities:
+University of Toronto
+Algoma University
+
+Expanded Entities:
+['University of Toronto', 'Algoma University', 'University of Western Ontario', 'Saint Paul University', 'Nipissing University', 'OCAD University', "Queen\\'s University", 'McMaster University', 'University of Waterloo', 'McGill University', 'Laurentian University', 'University of Guelph', 'York University', 'Trent University', 'University of Windsor', 'Ryerson University', 'Lakehead University', 'Carleton University', 'Brock University']
+
+Time Spent: 92.16909527778625
+iterations: 2
+R-precision: 0.8947368421052632
+Average Precision: 0.8833424866478956
+
+
+
+Seed set: ['University of Toronto', 'Algoma University']
+Expanded set after iteration 1: ['University of Toronto', 'Algoma University', 'University of Western Ontario', 'Saint Paul University', 'Nipissing University', 'OCAD University', "Queen\\'s University", 'McMas
+ter University', 'University of Waterloo', 'McGill University', 'Laurentian University']
+Expanded set after iteration 2: ['University of Toronto', 'Algoma University', 'University of Western Ontario', 'Saint Paul University', 'Nipissing University', 'OCAD University', "Queen\\'s University", 'McMas
+ter University', 'University of Waterloo', 'McGill University', 'Laurentian University', 'University of Guelph', 'York University', 'Trent University', 'University of Windsor', 'Ryerson University', 'Lakehead U
+niversity', 'Carleton University', 'Brock University']
+Expanded Set Length: 19
+Expanded set: ['University of Toronto', 'Algoma University', 'University of Western Ontario', 'Saint Paul University', 'Nipissing University', 'OCAD University', "Queen\\'s University", 'McMaster University', '
+University of Waterloo', 'McGill University', 'Laurentian University', 'University of Guelph', 'York University', 'Trent University', 'University of Windsor', 'Ryerson University', 'Lakehead University', 'Carle
+ton University', 'Brock University']
+
+
+
+Incorrect entiites: {'McGill University', 'Saint Paul University'}
+Missing entiites: {'Wilfrid Laurier University', 'University of Ottawa'}

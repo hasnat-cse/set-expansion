@@ -1,0 +1,32 @@
+Seed Entities:
+Alexander Mackenzie
+John Thompson
+Justin Trudeau
+
+Expanded Entities:
+['Alexander Mackenzie', 'John Thompson', 'Justin Trudeau', 'Marc Garneau', 'Total rejected ballots', 'Pierre Trudeau', 'Louis St. Laurent', 'Massimo Pacetti', 'Lester B. Pearson', 'Arthur Meighen', 'Mackenzie Bowell', 'Turnout', 'Paul Martin', 'Francis Scarpaleggia', 'John A. Macdonald', 'John Diefenbaker', 'Denis Coderre', 'Jean Chrétien', 'Wilfrid Laurier', 'Charles Tupper', 'Joe Clark', 'Robert Borden', 'Brian Mulroney']
+
+Time Spent: 118.24693655967712
+iterations: 2
+R-precision: 0.7391304347826086
+Average Precision: 0.750172482540567
+
+
+
+History:
+
+Seed set: ['Alexander Mackenzie', 'John Thompson', 'Justin Trudeau']
+Expanded set after iteration 1: ['Alexander Mackenzie', 'John Thompson', 'Justin Trudeau', 'Marc Garneau', 'Total rejected ballots', 'Pierre Trudeau', 'Louis St. Laurent', 'Massimo Pacetti', 'Lester B. Pearson'
+, 'Arthur Meighen', 'Mackenzie Bowell', 'Turnout', 'Paul Martin', 'Francis Scarpaleggia', 'John A. Macdonald', 'John Diefenbaker', 'Denis Coderre']
+Expanded set after iteration 2: ['Alexander Mackenzie', 'John Thompson', 'Justin Trudeau', 'Marc Garneau', 'Total rejected ballots', 'Pierre Trudeau', 'Louis St. Laurent', 'Massimo Pacetti', 'Lester B. Pearson'
+, 'Arthur Meighen', 'Mackenzie Bowell', 'Turnout', 'Paul Martin', 'Francis Scarpaleggia', 'John A. Macdonald', 'John Diefenbaker', 'Denis Coderre', 'Jean Chrétien', 'Wilfrid Laurier', 'Charles Tupper', 'Joe Cla
+rk', 'Robert Borden', 'Brian Mulroney']
+Expanded Set Length: 23
+Expanded set: ['Alexander Mackenzie', 'John Thompson', 'Justin Trudeau', 'Marc Garneau', 'Total rejected ballots', 'Pierre Trudeau', 'Louis St. Laurent', 'Massimo Pacetti', 'Lester B. Pearson', 'Arthur Meighen'
+, 'Mackenzie Bowell', 'Turnout', 'Paul Martin', 'Francis Scarpaleggia', 'John A. Macdonald', 'John Diefenbaker', 'Denis Coderre', 'Jean Chrétien', 'Wilfrid Laurier', 'Charles Tupper', 'Joe Clark', 'Robert Borde
+n', 'Brian Mulroney']
+
+
+
+Incorrect entiites: {'Turnout', 'Massimo Pacetti', 'Denis Coderre', 'Marc Garneau', 'Total rejected ballots', 'Francis Scarpaleggia'}
+Missing entiites: {'John Abbott', 'William Lyon Mackenzie King', 'Kim Campbell', 'R. B. Bennett', 'Stephen Harper', 'John Turner'}

@@ -1,0 +1,11 @@
+Seed Entities:
+Punjab
+Nagaland
+
+Expanded Entities:
+"Arunachal Pradesh","Goa","Jharkhand","Manipur","Meghalaya","Nagaland","Mizoram","Himachal Pradesh","Tripura","Madhya Pradesh","Bihar","Sikkim","Assam","Orissa","Haryana","West Bengal","Andhra Pradesh","Kerala","Gujarat","Karnataka","Uttarakhand","Uttar Pradesh","Tamil Nadu","Maharashtra","Rajasthan","Chhattisgarh","Jammu and Kashmir","Punjab",
+
+Time Spent: 7.685693979263306
+2 iterations: corrects Pondicherry to Punjab
+R-precision: 1.0
+Average Precision: 1.0

@@ -1,0 +1,31 @@
+Seed Entities:
+OCAD University
+Laurentian University
+
+Expanded Entities:
+['OCAD University', 'Laurentian University', 'McMaster University', 'Algoma University', 'Tyndale University College', 'University of Guelph', 'University Canada West', "Queen\\'s University", 'University of Western Ontario', 'University of Windsor', 'Trent University', 'York University', 'Athabasca University', 'Brock University', 'Dominican University College', 'University of Ottawa', 'University of Waterloo', 'Wilfrid Laurier University', 'University of Toronto']
+
+Time Spent: 42.41387486457825
+R-precision: 0.7894736842105263
+Average Precision: 0.845353192845453
+
+
+
+
+
+Seed set: ['OCAD University', 'Laurentian University']
+Expanded set after iteration 1: ['OCAD University', 'Laurentian University', 'McMaster University', 'Algoma University', 'Tyndale University College', 'University of Guelph', 'University Canada West', "Queen\\'
+s University", 'University of Western Ontario', 'University of Windsor', 'Trent University', 'York University', 'Athabasca University', 'Brock University', 'Dominican University College', 'University of Ottawa'
+, 'University of Waterloo']
+Expanded set after iteration 2: ['OCAD University', 'Laurentian University', 'McMaster University', 'Algoma University', 'Tyndale University College', 'University of Guelph', 'University Canada West', "Queen\\'
+s University", 'University of Western Ontario', 'University of Windsor', 'Trent University', 'York University', 'Athabasca University', 'Brock University', 'Dominican University College', 'University of Ottawa'
+, 'University of Waterloo', 'Wilfrid Laurier University', 'University of Toronto']
+Expanded Set Length: 19
+Expanded set: ['OCAD University', 'Laurentian University', 'McMaster University', 'Algoma University', 'Tyndale University College', 'University of Guelph', 'University Canada West', "Queen\\'s University", 'Un
+iversity of Western Ontario', 'University of Windsor', 'Trent University', 'York University', 'Athabasca University', 'Brock University', 'Dominican University College', 'University of Ottawa', 'University of W
+aterloo', 'Wilfrid Laurier University', 'University of Toronto']
+
+
+
+Incorrect entiites: {'Dominican University College', 'Tyndale University College', 'University Canada West', 'Athabasca University'}
+Missing entiites: {'Nipissing University', 'Carleton University', 'Lakehead University', 'Ryerson University'}

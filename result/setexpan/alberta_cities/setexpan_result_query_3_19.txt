@@ -1,0 +1,26 @@
+Seed Entities:
+Spruce Grove
+Chestermere
+
+Expanded Entities:
+['Spruce Grove', 'Chestermere', 'Calgary', 'Edmonton', 'Airdrie', 'Leduc', 'Cochrane', 'St. Albert', 'Okotoks', 'Brooks', 'Wetaskiwin', 'Lacombe', 'Camrose', 'Red Deer', 'Medicine Hat', 'Stettler', 'Lethbridge', 'Grande Prairie', 'Stony Plain']
+
+Time Spent: 35.40270447731018
+R-precision: 0.7894736842105263
+Average Precision: 0.9035560844384375
+
+
+
+
+Seed set: ['Spruce Grove', 'Chestermere']
+Expanded set after iteration 1: ['Spruce Grove', 'Chestermere', 'Calgary', 'Edmonton', 'Airdrie', 'Leduc', 'Cochrane', 'St. Albert', 'Okotoks', 'Brooks', 'Wetaskiwin']
+Expanded set after iteration 2: ['Spruce Grove', 'Chestermere', 'Calgary', 'Edmonton', 'Airdrie', 'Leduc', 'Cochrane', 'St. Albert', 'Okotoks', 'Brooks', 'Wetaskiwin', 'Lacombe', 'Camrose', 'Red Deer', 'Medicin
+e Hat', 'Stettler', 'Lethbridge', 'Grande Prairie', 'Stony Plain']
+Expanded Set Length: 19
+Expanded set: ['Spruce Grove', 'Chestermere', 'Calgary', 'Edmonton', 'Airdrie', 'Leduc', 'Cochrane', 'St. Albert', 'Okotoks', 'Brooks', 'Wetaskiwin', 'Lacombe', 'Camrose', 'Red Deer', 'Medicine Hat', 'Stettler'
+, 'Lethbridge', 'Grande Prairie', 'Stony Plain']
+
+
+
+Incorrect entiites: {'Stony Plain', 'Cochrane', 'Stettler', 'Okotoks'}
+Missing entiites: {'Beaumont', 'Lloydminster', 'Cold Lake', 'Fort Saskatchewan'}

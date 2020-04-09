@@ -1,0 +1,28 @@
+Seed Entities:
+Goa
+Arunachal Pradesh
+
+Expanded Entities:
+['Goa', 'Arunachal Pradesh', 'Karnataka', 'Madhya Pradesh', 'Kerala', 'Andhra Pradesh', 'Tamil Nadu', 'Rajasthan', 'West Bengal', 'Maharashtra', 'Jharkhand', 'Assam', 'Haryana', 'Uttar Pradesh', 'Gujarat', 'Bihar', 'Orissa', 'Punjab', 'Himachal Pradesh', 'Manipur', 'Sikkim', 'Mizoram', 'Meghalaya', 'Uttarakhand', 'Nagaland', 'Tripura', 'Delhi', 'Chhattisgarh']
+
+Time Spent: 82.29296350479126
+iterations: 3
+R-precision: 0.9642857142857143
+Average Precision: 0.9986772486772487
+
+
+Expanded set after iteration 1: ['Goa', 'Arunachal Pradesh', 'Karnataka', 'Madhya Pradesh', 'Kerala', 'Andhra Pradesh', 'Tamil Nadu', 'Rajasthan', 'West Bengal', 'Maharashtra', 'Jharkhand', 'Assam', 'Haryana',
+'Uttar Pradesh', 'Gujarat']
+Expanded set after iteration 2: ['Goa', 'Arunachal Pradesh', 'Karnataka', 'Madhya Pradesh', 'Kerala', 'Andhra Pradesh', 'Tamil Nadu', 'Rajasthan', 'West Bengal', 'Maharashtra', 'Jharkhand', 'Assam', 'Haryana',
+'Uttar Pradesh', 'Gujarat', 'Bihar', 'Orissa', 'Punjab', 'Himachal Pradesh', 'Manipur', 'Sikkim', 'Mizoram', 'Meghalaya', 'Uttarakhand', 'Nagaland', 'Tripura']
+Expanded set after iteration 3: ['Goa', 'Arunachal Pradesh', 'Karnataka', 'Madhya Pradesh', 'Kerala', 'Andhra Pradesh', 'Tamil Nadu', 'Rajasthan', 'West Bengal', 'Maharashtra', 'Jharkhand', 'Assam', 'Haryana',
+'Uttar Pradesh', 'Gujarat', 'Bihar', 'Orissa', 'Punjab', 'Himachal Pradesh', 'Manipur', 'Sikkim', 'Mizoram', 'Meghalaya', 'Uttarakhand', 'Nagaland', 'Tripura', 'Delhi', 'Chhattisgarh']
+Expanded Set Length: 28
+Expanded set: ['Goa', 'Arunachal Pradesh', 'Karnataka', 'Madhya Pradesh', 'Kerala', 'Andhra Pradesh', 'Tamil Nadu', 'Rajasthan', 'West Bengal', 'Maharashtra', 'Jharkhand', 'Assam', 'Haryana', 'Uttar Pradesh', '
+Gujarat', 'Bihar', 'Orissa', 'Punjab', 'Himachal Pradesh', 'Manipur', 'Sikkim', 'Mizoram', 'Meghalaya', 'Uttarakhand', 'Nagaland', 'Tripura', 'Delhi', 'Chhattisgarh']
+
+
+
+Incorrect entiites: {'Delhi'}
+Missing entiites: {'Jammu and Kashmir'}
+

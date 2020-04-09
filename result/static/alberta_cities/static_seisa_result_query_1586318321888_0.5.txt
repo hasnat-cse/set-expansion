@@ -1,0 +1,45 @@
+Seed Entities:
+Calgary
+Edmonton
+Medicine Hat
+Beaumont
+
+Expanded Entities:
+"Medicine Hat","Edmonton","Wetaskiwin","Calgary","Red Deer","Camrose","Stettler","Cardston","Lacombe","Vegreville","Ponoka","Peace River","St. Albert","Leduc","Lethbridge","Stony Plain","Macleod","Grande Prairie","Beaumont",
+
+Time Spent: 31.687223434448242
+iterations: 6
+R-precision: 0.631578947368421
+Average Precision: 0.8287813550971445
+
+
+
+
+History:
+
+Seed entities in Static Seisa: ['Calgary', 'Edmonton', 'Medicine Hat', 'Beaumont']
+Expanded entities after step 0: ['Edmonton', 'Calgary', 'Medicine Hat', 'Beaumont', 'Red Deer', 'Lethbridge', 'Vancouver', 'Winnipeg', 'Peace River', 'Wetaskiwin', 'Grande Prairie', 'Camrose', 'Macleod', 'St. A
+lbert', 'Montreal', 'Saskatoon', 'Vegreville', 'Toronto', 'Stony Plain']
+Expanded entities after step 1: ['Medicine Hat', 'Edmonton', 'Calgary', 'Red Deer', 'Wetaskiwin', 'Peace River', 'Lethbridge', 'Beaumont', 'Camrose', 'Macleod', 'Vegreville', 'St. Albert', 'Grande Prairie', 'St
+ony Plain', 'Winnipeg', 'Vancouver', 'Montreal', 'Saskatoon', 'Lacombe']
+Expanded entities after step 2: ['Medicine Hat', 'Edmonton', 'Calgary', 'Red Deer', 'Wetaskiwin', 'Peace River', 'Camrose', 'Lethbridge', 'Beaumont', 'Vegreville', 'Macleod', 'Lacombe', 'St. Albert', 'Grande Pr
+airie', 'Stony Plain', 'Winnipeg', 'Vancouver', 'Montreal', 'Stettler']
+Expanded entities after step 3: ['Medicine Hat', 'Edmonton', 'Calgary', 'Red Deer', 'Wetaskiwin', 'Camrose', 'Peace River', 'Lethbridge', 'Vegreville', 'Lacombe', 'Beaumont', 'Macleod', 'Stettler', 'St. Albert'
+, 'Grande Prairie', 'Stony Plain', 'Vancouver', 'Winnipeg', 'Cardston']
+Expanded entities after step 4: ['Medicine Hat', 'Edmonton', 'Calgary', 'Red Deer', 'Wetaskiwin', 'Camrose', 'Peace River', 'Vegreville', 'Stettler', 'Lacombe', 'Cardston', 'Lethbridge', 'Macleod', 'St. Albert'
+, 'Beaumont', 'Grande Prairie', 'Stony Plain', 'Winnipeg', 'Ponoka']
+Expanded entities after step 5: ['Medicine Hat', 'Edmonton', 'Calgary', 'Wetaskiwin', 'Red Deer', 'Camrose', 'Stettler', 'Cardston', 'Peace River', 'Vegreville', 'Lacombe', 'Ponoka', 'Lethbridge', 'St. Albert',
+ 'Macleod', 'Stony Plain', 'Grande Prairie', 'Beaumont', 'Leduc']
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['Medicine Hat', 'Edmonton', 'Wetaskiwin', 'Calgary', 'Red Deer', 'Camrose', 'Stettler', 'Cardston', 'Lacombe', 'Vegreville', 'Ponoka', 'Peace River', 'St. Albert', 'Leduc'
+, 'Lethbridge', 'Stony Plain', 'Macleod', 'Grande Prairie', 'Beaumont']
+
+
+
+Incorect entity: Stettler
+Incorect entity: Cardston
+Incorect entity: Vegreville
+Incorect entity: Ponoka
+Incorect entity: Peace River
+Incorect entity: Stony Plain
+Incorect entity: Macleod

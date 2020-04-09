@@ -1,0 +1,40 @@
+Seed Entities:
+Alexander Mackenzie
+John Thompson
+Justin Trudeau
+
+Expanded Entities:
+['Alexander Mackenzie', 'Justin Trudeau', 'John Thompson', 'Louis St. Laurent', 'Pierre Trudeau', 'Lester B. Pearson', 'Mackenzie Bowell', 'Arthur Meighen', 'Francis Scarpaleggia', 'Brian Mulroney', 'John Diefenbaker', 'John A. Macdonald', 'Massimo Pacetti', 'Jean Chrétien', 'Joe Clark', 'Marc Garneau', 'Kim Campbell', 'John Abbott', 'Charles Tupper', 'William Lyon Mackenzie King', 'Irwin Cotler', 'Lise Zarac', 'Alexandra Mendès']
+
+Time Spent: 5.032442092895508
+iterations: 4
+R-precision: 0.7391304347826086
+Average Precision: 0.9293255945778255
+
+
+
+
+History:
+
+Seed entities in Static Seisa: ['Alexander Mackenzie', 'John Thompson', 'Justin Trudeau']
+Expanded entities after step 0: ['Alexander Mackenzie', 'John Thompson', 'Justin Trudeau', 'Francis Scarpaleggia', 'Mackenzie Bowell', 'Massimo Pacetti', 'Marc Garneau', 'Arthur Meighen', 'Louis St. Laurent', '
+John A. Macdonald', 'Lester B. Pearson', 'Pierre Trudeau', 'Irwin Cotler', 'John Diefenbaker', 'John Abbott', 'William Lyon Mackenzie King', 'John Carling', 'Charles Tupper', 'Brian Mulroney', 'Lise Zarac', 'Te
+d Hsu', 'Alexandra Mendès', 'Kirsty Duncan']
+Expanded entities after step 1: ['Alexander Mackenzie', 'Justin Trudeau', 'John Thompson', 'Mackenzie Bowell', 'Francis Scarpaleggia', 'Louis St. Laurent', 'Arthur Meighen', 'Lester B. Pearson', 'Massimo Pacett
+i', 'Pierre Trudeau', 'John A. Macdonald', 'Marc Garneau', 'John Diefenbaker', 'Brian Mulroney', 'John Abbott', 'Charles Tupper', 'Irwin Cotler', 'William Lyon Mackenzie King', 'Lise Zarac', 'Alexandra Mendès',
+ 'Ted Hsu', 'Kirsty Duncan', 'Jean Chrétien']
+Expanded entities after step 2: ['Alexander Mackenzie', 'Justin Trudeau', 'John Thompson', 'Louis St. Laurent', 'Mackenzie Bowell', 'Francis Scarpaleggia', 'Arthur Meighen', 'Lester B. Pearson', 'Pierre Trudeau
+', 'Massimo Pacetti', 'John A. Macdonald', 'John Diefenbaker', 'Marc Garneau', 'Brian Mulroney', 'John Abbott', 'Charles Tupper', 'Jean Chrétien', 'Irwin Cotler', 'William Lyon Mackenzie King', 'Lise Zarac', 'A
+lexandra Mendès', 'Ted Hsu', 'Joe Clark']
+Expanded entities after step 3: ['Alexander Mackenzie', 'Justin Trudeau', 'John Thompson', 'Louis St. Laurent', 'Mackenzie Bowell', 'Lester B. Pearson', 'Arthur Meighen', 'Pierre Trudeau', 'Francis Scarpaleggia
+', 'John A. Macdonald', 'John Diefenbaker', 'Massimo Pacetti', 'Brian Mulroney', 'Marc Garneau', 'Jean Chrétien', 'Joe Clark', 'John Abbott', 'Charles Tupper', 'William Lyon Mackenzie King', 'Irwin Cotler', 'Li
+se Zarac', 'Alexandra Mendès', 'Kim Campbell']
+Expanded entities length: 23
+Expanded entities after Static Seisa: ['Alexander Mackenzie', 'Justin Trudeau', 'John Thompson', 'Louis St. Laurent', 'Pierre Trudeau', 'Lester B. Pearson', 'Mackenzie Bowell', 'Arthur Meighen', 'Francis Scarpa
+leggia', 'Brian Mulroney', 'John Diefenbaker', 'John A. Macdonald', 'Massimo Pacetti', 'Jean Chrétien', 'Joe Clark', 'Marc Garneau', 'Kim Campbell', 'John Abbott', 'Charles Tupper', 'William Lyon Mackenzie King
+', 'Irwin Cotler', 'Lise Zarac', 'Alexandra Mendès']
+
+
+
+Incorrect entiites: {'Lise Zarac', 'Alexandra Mendès', 'Marc Garneau', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Irwin Cotler'}
+Missing entiites: {'Paul Martin', 'John Turner', 'R. B. Bennett', 'Robert Borden', 'Wilfrid Laurier', 'Stephen Harper'}

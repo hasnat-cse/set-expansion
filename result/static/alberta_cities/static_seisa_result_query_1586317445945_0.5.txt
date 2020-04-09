@@ -1,0 +1,42 @@
+Seed Entities:
+Edmonton
+Calgary
+
+Expanded Entities:
+"Edmonton","Calgary","Vancouver","Winnipeg","Montreal","Toronto","Ottawa","Saskatoon","St. Louis","San Jose","Nashville","Columbus","Dallas","Los Angeles","Philadelphia","Anaheim","Salt Lake City","Regina","Quebec City",
+
+Time Spent: 116.82730793952942
+iterations: 2 semantic drift
+R-precision: 0.10526315789473684
+Average Precision: 1.0
+
+
+History:
+
+Seed entities in Static Seisa: ['Edmonton', 'Calgary']
+Expanded entities after step 0: ['Edmonton', 'Calgary', 'Vancouver', 'Winnipeg', 'Montreal', 'Toronto', 'Ottawa', 'Saskatoon', 'Regina', 'San Jose', 'St. Louis', 'Nashville', 'Salt Lake City', 'Columbus', 'Dall
+as', 'Anaheim', 'Quebec City', 'Los Angeles', 'Halifax']
+Expanded entities after step 1: ['Edmonton', 'Calgary', 'Vancouver', 'Winnipeg', 'Montreal', 'Toronto', 'Ottawa', 'Saskatoon', 'St. Louis', 'San Jose', 'Nashville', 'Columbus', 'Dallas', 'Anaheim', 'Regina', 'L
+os Angeles', 'Salt Lake City', 'Quebec City', 'Philadelphia']
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['Edmonton', 'Calgary', 'Vancouver', 'Winnipeg', 'Montreal', 'Toronto', 'Ottawa', 'Saskatoon', 'St. Louis', 'San Jose', 'Nashville', 'Columbus', 'Dallas', 'Los Angeles', 'P
+hiladelphia', 'Anaheim', 'Salt Lake City', 'Regina', 'Quebec City']
+
+
+Incorect entity: Vancouver
+Incorect entity: Winnipeg
+Incorect entity: Montreal
+Incorect entity: Toronto
+Incorect entity: Ottawa
+Incorect entity: Saskatoon
+Incorect entity: St. Louis
+Incorect entity: San Jose
+Incorect entity: Nashville
+Incorect entity: Columbus
+Incorect entity: Dallas
+Incorect entity: Los Angeles
+Incorect entity: Philadelphia
+Incorect entity: Anaheim
+Incorect entity: Salt Lake City
+Incorect entity: Regina
+Incorect entity: Quebec City

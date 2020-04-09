@@ -1,0 +1,13 @@
+Seed Entities:
+Maharashtra
+Gujarat
+Jharkhand
+Nagaland
+
+Expanded Entities:
+"Jharkhand","Gujarat","Maharashtra","Madhya Pradesh","Andhra Pradesh","Karnataka","Nagaland","Bihar","Orissa","West Bengal","Uttar Pradesh","Haryana","Himachal Pradesh","Assam","Tamil Nadu","Meghalaya","Manipur","Kerala","Mizoram","Rajasthan","Arunachal Pradesh","Tripura","Uttarakhand","Sikkim","Goa","Chhattisgarh","Punjab","Jammu and Kashmir",
+
+Time Spent: 6.52971339225769
+1 iteration
+R-precision: 1.0
+Average Precision: 1.0

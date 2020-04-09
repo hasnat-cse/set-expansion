@@ -1,0 +1,29 @@
+Seed Entities:
+West Bengal
+Punjab
+
+Expanded Entities:
+['West Bengal', 'Punjab', 'Maharashtra', 'Uttar Pradesh', 'Tamil Nadu', 'Andhra Pradesh', 'Karnataka', 'Gujarat', 'Rajasthan', 'Madhya Pradesh', 'Kerala', 'Bihar', 'Orissa', 'Haryana', 'Assam', 'Jharkhand', 'Himachal Pradesh', 'Goa', 'Uttarakhand', 'Manipur', 'Arunachal Pradesh', 'Sikkim', 'Mizoram', 'Meghalaya', 'Nagaland', 'Tripura', 'Delhi', 'Chhattisgarh']
+
+Time Spent: 19.010890007019043
+R-precision: 0.9642857142857143
+Average Precision: 0.9986772486772487
+
+
+
+
+
+Seed set: ['West Bengal', 'Punjab']
+Expanded set after iteration 1: ['West Bengal', 'Punjab', 'Maharashtra', 'Uttar Pradesh', 'Tamil Nadu', 'Andhra Pradesh', 'Karnataka', 'Gujarat', 'Rajasthan', 'Madhya Pradesh', 'Kerala']
+Expanded set after iteration 2: ['West Bengal', 'Punjab', 'Maharashtra', 'Uttar Pradesh', 'Tamil Nadu', 'Andhra Pradesh', 'Karnataka', 'Gujarat', 'Rajasthan', 'Madhya Pradesh', 'Kerala', 'Bihar', 'Orissa', 'Har
+yana', 'Assam', 'Jharkhand', 'Himachal Pradesh', 'Goa', 'Uttarakhand', 'Manipur']
+Expanded set after iteration 3: ['West Bengal', 'Punjab', 'Maharashtra', 'Uttar Pradesh', 'Tamil Nadu', 'Andhra Pradesh', 'Karnataka', 'Gujarat', 'Rajasthan', 'Madhya Pradesh', 'Kerala', 'Bihar', 'Orissa', 'Har
+yana', 'Assam', 'Jharkhand', 'Himachal Pradesh', 'Goa', 'Uttarakhand', 'Manipur', 'Arunachal Pradesh', 'Sikkim', 'Mizoram', 'Meghalaya', 'Nagaland', 'Tripura', 'Delhi', 'Chhattisgarh']
+Expanded Set Length: 28
+Expanded set: ['West Bengal', 'Punjab', 'Maharashtra', 'Uttar Pradesh', 'Tamil Nadu', 'Andhra Pradesh', 'Karnataka', 'Gujarat', 'Rajasthan', 'Madhya Pradesh', 'Kerala', 'Bihar', 'Orissa', 'Haryana', 'Assam', 'J
+harkhand', 'Himachal Pradesh', 'Goa', 'Uttarakhand', 'Manipur', 'Arunachal Pradesh', 'Sikkim', 'Mizoram', 'Meghalaya', 'Nagaland', 'Tripura', 'Delhi', 'Chhattisgarh']
+
+
+
+Incorrect entiites: {'Delhi'}
+Missing entiites: {'Jammu and Kashmir'}

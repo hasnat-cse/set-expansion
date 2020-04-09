@@ -1,0 +1,31 @@
+Seed Entities:
+University of Toronto
+University of Ottawa
+Algoma University
+Laurentian University
+
+Expanded Entities:
+['University of Toronto', 'University of Ottawa', 'Algoma University', 'Laurentian University', 'Trent University', 'Nipissing University', 'Brock University', 'Lakehead University', 'McMaster University', 'University of Windsor', 'University of Western Ontario', 'University of Guelph', "Queen\\'s University", 'Ryerson University', 'University of Waterloo', 'York University', 'Wilfrid Laurier University', 'Carleton University', 'University of New Brunswick']
+
+Time Spent: 106.4125325679779
+iterations: 2
+R-precision: 0.9473684210526315
+Average Precision: 1.0
+
+
+
+Seed set: ['University of Toronto', 'University of Ottawa', 'Algoma University', 'Laurentian University']
+Expanded set after iteration 1: ['University of Toronto', 'University of Ottawa', 'Algoma University', 'Laurentian University', 'Trent University', 'Nipissing University', 'Brock University', 'Lakehead Universi
+ty', 'McMaster University', 'University of Windsor', 'University of Western Ontario', 'University of Guelph', "Queen\\'s University", 'Ryerson University', 'University of Waterloo']
+Expanded set after iteration 2: ['University of Toronto', 'University of Ottawa', 'Algoma University', 'Laurentian University', 'Trent University', 'Nipissing University', 'Brock University', 'Lakehead Universi
+ty', 'McMaster University', 'University of Windsor', 'University of Western Ontario', 'University of Guelph', "Queen\\'s University", 'Ryerson University', 'University of Waterloo', 'York University', 'Wilfrid
+Laurier University', 'Carleton University', 'University of New Brunswick']
+Expanded Set Length: 19
+Expanded set: ['University of Toronto', 'University of Ottawa', 'Algoma University', 'Laurentian University', 'Trent University', 'Nipissing University', 'Brock University', 'Lakehead University', 'McMaster Uni
+versity', 'University of Windsor', 'University of Western Ontario', 'University of Guelph', "Queen\\'s University", 'Ryerson University', 'University of Waterloo', 'York University', 'Wilfrid Laurier University
+', 'Carleton University', 'University of New Brunswick']
+
+
+Incorrect entiites: {'University of New Brunswick'}
+Missing entiites: {'OCAD University'}
+

@@ -1,0 +1,30 @@
+Seed Entities:
+Lakehead University
+Trent University
+University of Toronto
+
+Expanded Entities:
+['Trent University', 'Lakehead University', 'Laurentian University', 'University of Guelph', 'Brock University', 'University of Toronto', 'University of Windsor', 'Nipissing University', 'Ryerson University', 'Wilfrid Laurier University', 'University of Western Ontario', 'McMaster University', 'University of Waterloo', 'York University', 'Carleton University', 'University of Ottawa', 'Conestoga College', 'Loyalist College', 'Humber College']
+
+Time Spent: 0.7513694763183594
+iterations: 1
+R-precision: 0.8421052631578947
+Average Precision: 1.0
+
+
+
+
+History:
+
+Expanded entities after step 0: ['Trent University', 'Lakehead University', 'University of Toronto', 'Laurentian University', 'University of Guelph', 'Brock University', 'Nipissing University', 'University of W
+indsor', 'Ryerson University', 'Wilfrid Laurier University', 'University of Western Ontario', 'McMaster University', 'University of Waterloo', 'Carleton University', 'York University', 'University of Ottawa', '
+Conestoga College', 'Loyalist College', 'Humber College']
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['Trent University', 'Lakehead University', 'Laurentian University', 'University of Guelph', 'Brock University', 'University of Toronto', 'University of Windsor', 'Nipissin
+g University', 'Ryerson University', 'Wilfrid Laurier University', 'University of Western Ontario', 'McMaster University', 'University of Waterloo', 'York University', 'Carleton University', 'University of Otta
+wa', 'Conestoga College', 'Loyalist College', 'Humber College']
+
+
+
+Incorrect entiites: {'Conestoga College', 'Humber College', 'Loyalist College'}
+Missing entiites: {"Queen\\'s University", 'Algoma University', 'OCAD University'}

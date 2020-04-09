@@ -1,0 +1,30 @@
+Seed Entities:
+Paul Martin
+John Thompson
+John Turner
+
+Expanded Entities:
+['Paul Martin', 'John Thompson', 'John Turner', 'Jean Chrétien', 'Pierre Trudeau', 'Joe Clark', 'Louis St. Laurent', 'Lester B. Pearson', 'Brian Mulroney', 'Kim Campbell', 'Alexander Mackenzie', 'John Diefenbaker', 'Stephen Harper', 'Arthur Meighen', 'William Lyon Mackenzie King', 'Wilfrid Laurier', 'Robert Borden', 'John A. Macdonald', 'Charles Tupper', 'Mackenzie Bowell', 'R. B. Bennett', 'John Abbott', 'Sir Wilfrid Laurier']
+
+Time Spent: 141.70229649543762
+R-precision: 0.9565217391304348
+Average Precision: 1.0
+
+
+
+Seed set: ['Paul Martin', 'John Thompson', 'John Turner']
+Expanded set after iteration 1: ['Paul Martin', 'John Thompson', 'John Turner', 'Jean Chrétien', 'Pierre Trudeau', 'Joe Clark', 'Louis St. Laurent', 'Lester B. Pearson', 'Brian Mulroney', 'Kim Campbell', 'Alexa
+nder Mackenzie', 'John Diefenbaker', 'Stephen Harper']
+Expanded set after iteration 2: ['Paul Martin', 'John Thompson', 'John Turner', 'Jean Chrétien', 'Pierre Trudeau', 'Joe Clark', 'Louis St. Laurent', 'Lester B. Pearson', 'Brian Mulroney', 'Kim Campbell', 'Alexa
+nder Mackenzie', 'John Diefenbaker', 'Stephen Harper', 'Arthur Meighen', 'William Lyon Mackenzie King', 'Wilfrid Laurier', 'Robert Borden', 'John A. Macdonald', 'Charles Tupper', 'Mackenzie Bowell', 'R. B. Benn
+ett', 'John Abbott', 'Sir Wilfrid Laurier']
+Expanded Set Length: 23
+Expanded set: ['Paul Martin', 'John Thompson', 'John Turner', 'Jean Chrétien', 'Pierre Trudeau', 'Joe Clark', 'Louis St. Laurent', 'Lester B. Pearson', 'Brian Mulroney', 'Kim Campbell', 'Alexander Mackenzie', '
+John Diefenbaker', 'Stephen Harper', 'Arthur Meighen', 'William Lyon Mackenzie King', 'Wilfrid Laurier', 'Robert Borden', 'John A. Macdonald', 'Charles Tupper', 'Mackenzie Bowell', 'R. B. Bennett', 'John Abbott
+', 'Sir Wilfrid Laurier']
+
+
+
+Incorrect entiites: {'Sir Wilfrid Laurier'}
+Missing entiites: {'Justin Trudeau'}
+

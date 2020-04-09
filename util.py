@@ -5,6 +5,7 @@ __latest_update__: 08/31/2017
 __modified_by__: Arif, 03/11/2020
 '''
 from collections import defaultdict
+import json
 
 codec = "utf8"
 
@@ -20,6 +21,20 @@ def loadFeaturesAndEntityMap(filename):
             featuresetByEntity[entity].add(feature)
             entitiesByFeature[feature].add(entity)
     return featuresetByEntity, entitiesByFeature
+
+
+def load_entity2entity_sim_map(filename):
+    entity2entity_sim = {}
+    with open(filename, 'r', encoding=codec) as fin:
+        for line in fin:
+            seg = line.strip('\r\n').split('\t')
+            if len(seg) >= 2:
+                entity1 = seg[0]
+                entity2 = seg[1]
+                sim = float(seg[2])
+                entity2entity_sim[tuple(sorted((entity1, entity2)))] = sim
+
+    return entity2entity_sim
 
 
 def loadWeightByEntityAndFeatureMap(filename, idx=-1):
@@ -69,4 +84,35 @@ def get_otsu_threshold(data_list):
 
         wb += k
         sum_b += k * data_list[k]
+    return threshold
+
+
+# https://en.wikipedia.org/wiki/Otsu%27s_method
+def get_otsu_threshold_exact(data_list):
+    top = len(data_list)
+
+    sum = 0
+    total = 0
+    for k, value in enumerate(data_list):
+        sum += k * value
+        total += value
+
+    wb = 0
+    sum_b = 0
+    var_max = 0
+    threshold = 0
+    for k in range(1, top):
+        wf = total - wb
+
+        if wb > 0 and wf > 0:
+            mf = (sum - sum_b) / wf
+            mb = sum_b / wb
+            var_between = wb * wf * (mb - mf) * (mb - mf)
+
+            if var_between >= var_max:
+                var_max = var_between
+                threshold = k
+
+        wb += data_list[k]
+        sum_b += (k - 1) * data_list[k]
     return threshold

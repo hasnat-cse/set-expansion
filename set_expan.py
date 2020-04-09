@@ -213,13 +213,13 @@ def setExpan(seedEntitiesWithConfidence, negativeSeedEntities, entity2patterns, 
 
 
 # Denoised Feature #
-Q = 200
+Q = 150
 # Number of Ensemble
 T = 60
 # Ensemble rate
 ALPHA = 0.6
 # Average Rank
-r = 5
+r = 10
 
 
 # expand the set of seedEntities and return entities by order, excluding seedEntities (original children)
@@ -238,17 +238,16 @@ def setExpan_according_to_paper(seedEntitiesWithConfidence, entity2patterns, pat
     seedEntities = [ele[0] for ele in seedEntitiesWithConfidence]
     entity2confidence = {ele[0]: ele[1] for ele in seedEntitiesWithConfidence}
 
-    ## Cache the seedEntities for later use
-    cached_seedEntities = set([ele for ele in seedEntities])
-
     print('Seed set: %s' % seedEntities)
 
     iters = 0
-    while len(seedEntities) <= output_size:
+    while len(seedEntities) < output_size:
         iters += 1
         start = time.time()
         # generate combined weight maps
         combinedWeightBySkipgramMap = getCombinedWeightByFeatureMap(seedEntities, entity2patterns, entityAndPattern2strength)
+
+        nOfSeedEntities = len(seedEntities)
 
         # get final core pattern features
         coreSkipgrams = []
@@ -256,12 +255,12 @@ def setExpan_according_to_paper(seedEntitiesWithConfidence, entity2patterns, pat
         for sg in sorted(combinedWeightBySkipgramMap, key=combinedWeightBySkipgramMap.__getitem__, reverse=True):
             if count >= Q:
                 break
-
             count += 1
-            coreSkipgrams.append(sg)
+            if combinedWeightBySkipgramMap[sg] * 1.0 / nOfSeedEntities > 0.0:
+                coreSkipgrams.append(sg)
 
         end = time.time()
-        print("Finish context feature selection at iteration %s using time %s seconds" % (iters, (end - start)))
+        # print("Finish context feature selection at iteration %s using time %s seconds" % (iters, (end - start)))
 
         # rank ensemble
         all_start = time.time()
@@ -285,6 +284,9 @@ def setExpan_according_to_paper(seedEntitiesWithConfidence, entity2patterns, pat
 
             count = 0
             for entity in sorted(combinedSgSimByCandidateEntity, key=combinedSgSimByCandidateEntity.__getitem__, reverse=True):
+                if count >= output_size:
+                    break
+
                 if entity not in seedEntities:
                     count += 1
                     if entity in entity2mrr:
@@ -294,7 +296,7 @@ def setExpan_according_to_paper(seedEntitiesWithConfidence, entity2patterns, pat
 
         all_end = time.time()
 
-        print("End ranking ensemble at iteration %s using time %s seconds" % (iters, (all_end - all_start)))
+        # print("End ranking ensemble at iteration %s using time %s seconds" % (iters, (all_end - all_start)))
 
         # Select entities to be added into the set
         entity_incremental = []
@@ -305,6 +307,10 @@ def setExpan_according_to_paper(seedEntitiesWithConfidence, entity2patterns, pat
                 break
 
             confidence_score = 0.0
+
+            if len(seedEntities) + len(entity_incremental) >= output_size:
+                break
+
             entity_incremental.append(entity)
             entity2confidence[entity] = confidence_score
 
@@ -315,9 +321,4 @@ def setExpan_according_to_paper(seedEntitiesWithConfidence, entity2patterns, pat
     print('Expanded Set Length: %s' % len(seedEntities))
     print('Expanded set: %s' % seedEntities)
 
-    expanded = []
-    for entity in seedEntities:
-        if entity not in cached_seedEntities:
-            expanded.append([entity, entity2confidence[entity]])
-
-    return expanded
+    return seedEntities

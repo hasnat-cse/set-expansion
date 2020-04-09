@@ -1,0 +1,30 @@
+Seed Entities:
+Edmonton
+Chestermere
+
+Expanded Entities:
+['Edmonton', 'Chestermere', 'Airdrie', 'Cochrane', 'Calgary', 'Grande Cache', 'Crossfield', 'Carstairs', 'Cardston', 'Barrhead', 'Beaverlodge', 'Three Hills', 'Fox Creek', 'Rimbey', 'Two Hills', 'Drayton Valley', 'Black Diamond', 'Tofield', 'Smoky Lake']
+
+Time Spent: 74.68122744560242
+R-precision: 0.21052631578947367
+Average Precision: 0.95
+
+
+
+Seed set: ['Edmonton', 'Chestermere']
+Expanded set after iteration 1: ['Edmonton', 'Chestermere', 'Airdrie', 'Cochrane', 'Calgary', 'Grande Cache', 'Crossfield', 'Carstairs', 'Cardston']
+Expanded set after iteration 2: ['Edmonton', 'Chestermere', 'Airdrie', 'Cochrane', 'Calgary', 'Grande Cache', 'Crossfield', 'Carstairs', 'Cardston', 'Barrhead', 'Beaverlodge', 'Three Hills', 'Fox Creek', 'Rimbe
+y', 'Two Hills', 'Drayton Valley', 'Black Diamond']
+Expanded set after iteration 3: ['Edmonton', 'Chestermere', 'Airdrie', 'Cochrane', 'Calgary', 'Grande Cache', 'Crossfield', 'Carstairs', 'Cardston', 'Barrhead', 'Beaverlodge', 'Three Hills', 'Fox Creek', 'Rimbe
+y', 'Two Hills', 'Drayton Valley', 'Black Diamond', 'Tofield', 'Smoky Lake']
+Expanded Set Length: 19
+Expanded set: ['Edmonton', 'Chestermere', 'Airdrie', 'Cochrane', 'Calgary', 'Grande Cache', 'Crossfield', 'Carstairs', 'Cardston', 'Barrhead', 'Beaverlodge', 'Three Hills', 'Fox Creek', 'Rimbey', 'Two Hills', '
+Drayton Valley', 'Black Diamond', 'Tofield', 'Smoky Lake']
+
+
+
+Incorrect entiites: {'Fox Creek', 'Grande Cache', 'Drayton Valley', 'Three Hills', 'Beaverlodge', 'Black Diamond', 'Carstairs', 'Two Hills', 'Rimbey', 'Smoky Lake', 'Crossfield', 'Cochrane', 'Cardston', 'Tofiel
+d', 'Barrhead'}
+Missing entiites: {'Lacombe', 'Lloydminster', 'Medicine Hat', 'Fort Saskatchewan', 'Grande Prairie', 'Red Deer', 'Spruce Grove', 'Lethbridge', 'Brooks', 'Cold Lake', 'St. Albert', 'Beaumont', 'Camrose', 'Wetask
+iwin', 'Leduc'}
+

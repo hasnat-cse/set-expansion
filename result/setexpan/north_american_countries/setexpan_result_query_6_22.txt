@@ -1,0 +1,31 @@
+Seed Entities:
+United States
+Canada
+Mexico
+
+Expanded Entities:
+['United States', 'Canada', 'Mexico', 'Cuba', 'Brazil', 'Puerto Rico', 'Argentina', 'Australia', 'Venezuela', 'Dominican Republic', 'South Africa', 'Colombia', 'Chile', 'Peru', 'Ecuador', 'Italy', 'Guatemala', 'France', 'Spain', 'Japan', 'Germany', 'Poland']
+
+Time Spent: 65.68743443489075
+R-precision: 0.2727272727272727
+Average Precision: 0.8088235294117646
+
+
+
+Seed set: ['United States', 'Canada', 'Mexico']
+Expanded set after iteration 1: ['United States', 'Canada', 'Mexico', 'Cuba', 'Brazil', 'Puerto Rico', 'Argentina', 'Australia', 'Venezuela', 'Dominican Republic', 'South Africa']
+Expanded set after iteration 2: ['United States', 'Canada', 'Mexico', 'Cuba', 'Brazil', 'Puerto Rico', 'Argentina', 'Australia', 'Venezuela', 'Dominican Republic', 'South Africa', 'Colombia', 'Chile', 'Peru', '
+Ecuador', 'Italy', 'Guatemala', 'France', 'Spain', 'Japan', 'Germany']
+Expanded set after iteration 3: ['United States', 'Canada', 'Mexico', 'Cuba', 'Brazil', 'Puerto Rico', 'Argentina', 'Australia', 'Venezuela', 'Dominican Republic', 'South Africa', 'Colombia', 'Chile', 'Peru', '
+Ecuador', 'Italy', 'Guatemala', 'France', 'Spain', 'Japan', 'Germany', 'Poland', 'Portugal']
+Expanded Set Length: 23
+Expanded set: ['United States', 'Canada', 'Mexico', 'Cuba', 'Brazil', 'Puerto Rico', 'Argentina', 'Australia', 'Venezuela', 'Dominican Republic', 'South Africa', 'Colombia', 'Chile', 'Peru', 'Ecuador', 'Italy',
+ 'Guatemala', 'France', 'Spain', 'Japan', 'Germany', 'Poland', 'Portugal']
+
+
+
+Incorrect entiites: {'Brazil', 'Peru', 'Poland', 'Puerto Rico', 'Spain', 'Argentina', 'Germany', 'Colombia', 'France', 'Chile', 'Venezuela', 'Ecuador', 'Australia', 'Italy', 'Japan', 'South Africa'}
+Missing entiites: {'Bahamas', 'Costa Rica', 'Nicaragua', 'Trinidad and Tobago', 'El Salvador', 'Saint Kitts and Nevis', 'Haiti', 'Belize', 'Panama', 'Antigua and Barbuda', 'Jamaica', 'Barbados', 'Saint Lucia',
+'Dominica', 'Grenada', 'Honduras'}
+
+

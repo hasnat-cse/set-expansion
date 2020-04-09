@@ -1,0 +1,30 @@
+Seed Entities:
+University of Toronto
+McMaster University
+Queen\'s University
+
+Expanded Entities:
+['University of Toronto', 'McMaster University', "Queen\\'s University", 'University of Western Ontario', 'University of Waterloo', 'York University', 'University of Guelph', 'University of Ottawa', 'University of Windsor', 'McGill University', 'Wilfrid Laurier University', 'Carleton University', 'University of Alberta', 'Brock University', 'Trent University', 'Lakehead University', 'Laurentian University', 'University of Manitoba', 'Ryerson University']
+
+Time Spent: 115.31672787666321
+iterations: 2
+R-precision: 0.8421052631578947
+Average Precision: 0.9468140814938415
+
+
+
+Seed set: ['University of Toronto', 'McMaster University', "Queen\\'s University"]
+Expanded set after iteration 1: ['University of Toronto', 'McMaster University', "Queen\\'s University", 'University of Western Ontario', 'University of Waterloo', 'York University', 'University of Guelph', 'Un
+iversity of Ottawa', 'University of Windsor', 'McGill University', 'Wilfrid Laurier University', 'Carleton University', 'University of Alberta']
+Expanded set after iteration 2: ['University of Toronto', 'McMaster University', "Queen\\'s University", 'University of Western Ontario', 'University of Waterloo', 'York University', 'University of Guelph', 'Un
+iversity of Ottawa', 'University of Windsor', 'McGill University', 'Wilfrid Laurier University', 'Carleton University', 'University of Alberta', 'Brock University', 'Trent University', 'Lakehead University', 'L
+aurentian University', 'University of Manitoba', 'Ryerson University']
+Expanded Set Length: 19
+Expanded set: ['University of Toronto', 'McMaster University', "Queen\\'s University", 'University of Western Ontario', 'University of Waterloo', 'York University', 'University of Guelph', 'University of Ottawa
+', 'University of Windsor', 'McGill University', 'Wilfrid Laurier University', 'Carleton University', 'University of Alberta', 'Brock University', 'Trent University', 'Lakehead University', 'Laurentian Universi
+ty', 'University of Manitoba', 'Ryerson University']
+
+
+
+Incorrect entiites: {'McGill University', 'University of Alberta', 'University of Manitoba'}
+Missing entiites: {'Nipissing University', 'OCAD University', 'Algoma University'}

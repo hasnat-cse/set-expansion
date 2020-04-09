@@ -1,0 +1,38 @@
+Seed Entities:
+Justin Trudeau
+Stephen Harper
+
+Expanded Entities:
+['Justin Trudeau', 'Stephen Harper', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Irwin Cotler', 'Kirsty Duncan', 'Frank Valeriote', 'Ted Hsu', 'Steven Blaney', 'Jacques Gourde', 'Michelle Rempel', 'Louis Plamondon', 'André Bellavance', 'David McGuinty', 'Jim Hillyer', 'Robert Goguen', 'Tim Uppal', 'Christian Paradis', 'Denis Coderre', 'Pablo Rodriguez', 'Lise Zarac', 'Alexandra Mendès']
+
+Time Spent: 0.985468864440918
+iterations: 3
+R-precision: 0.08695652173913043
+Average Precision: 1.0
+
+
+
+
+History:
+
+Seed entities in Static Seisa: ['Justin Trudeau', 'Stephen Harper']
+Expanded entities after step 0: ['Stephen Harper', 'Justin Trudeau', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Irwin Cotler', 'Brian Mulroney', 'Steven Blaney', 'Frank Valeriote', 'Ted Hsu', '
+Kirsty Duncan', 'David McGuinty', 'Denis Coderre', 'Jacques Gourde', 'Tim Uppal', 'Michelle Rempel', 'Christian Paradis', 'André Bellavance', 'Louis Plamondon', 'Pablo Rodriguez', 'Lise Zarac', 'Alexandra Mendè
+s', 'Pierre Trudeau']
+Expanded entities after step 1: ['Justin Trudeau', 'Stephen Harper', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Irwin Cotler', 'Kirsty Duncan', 'Frank Valeriote', 'Steven Blaney', 'Ted Hsu', 'J
+acques Gourde', 'Louis Plamondon', 'David McGuinty', 'André Bellavance', 'Michelle Rempel', 'Christian Paradis', 'Tim Uppal', 'Denis Coderre', 'Pablo Rodriguez', 'Lise Zarac', 'Alexandra Mendès', 'Brian Mulrone
+y', 'Jim Hillyer']
+Expanded entities after step 2: ['Justin Trudeau', 'Stephen Harper', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Irwin Cotler', 'Kirsty Duncan', 'Frank Valeriote', 'Steven Blaney', 'Ted Hsu', 'J
+acques Gourde', 'Michelle Rempel', 'Louis Plamondon', 'André Bellavance', 'David McGuinty', 'Jim Hillyer', 'Christian Paradis', 'Tim Uppal', 'Denis Coderre', 'Pablo Rodriguez', 'Lise Zarac', 'Alexandra Mendès',
+ 'Robert Goguen']
+Expanded entities length: 23
+Expanded entities after Static Seisa: ['Justin Trudeau', 'Stephen Harper', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Irwin Cotler', 'Kirsty Duncan', 'Frank Valeriote', 'Ted Hsu', 'Steven Blane
+y', 'Jacques Gourde', 'Michelle Rempel', 'Louis Plamondon', 'André Bellavance', 'David McGuinty', 'Jim Hillyer', 'Robert Goguen', 'Tim Uppal', 'Christian Paradis', 'Denis Coderre', 'Pablo Rodriguez', 'Lise Zara
+c', 'Alexandra Mendès']
+
+
+Incorrect entiites: {'Kirsty Duncan', 'André Bellavance', 'Ted Hsu', 'Jacques Gourde', 'Steven Blaney', 'Pablo Rodriguez', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'David McGuinty', 'Irwin Cot
+ler', 'Lise Zarac', 'Alexandra Mendès', 'Christian Paradis', 'Denis Coderre', 'Michelle Rempel', 'Louis Plamondon', 'Jim Hillyer', 'Tim Uppal', 'Robert Goguen', 'Frank Valeriote'}
+Missing entiites: {'Lester B. Pearson', 'R. B. Bennett', 'John Turner', 'Kim Campbell', 'Mackenzie Bowell', 'Paul Martin', 'Joe Clark', 'John Thompson', 'John A. Macdonald', 'Brian Mulroney', 'Wilfrid Laurier',
+ 'Louis St. Laurent', 'John Abbott', 'Pierre Trudeau', 'William Lyon Mackenzie King', 'Robert Borden', 'Arthur Meighen', 'Charles Tupper', 'John Diefenbaker', 'Jean Chrétien', 'Alexander Mackenzie'}
+

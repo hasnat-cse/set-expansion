@@ -1,0 +1,33 @@
+Seed Entities:
+University of Toronto
+McMaster University
+
+Expanded Entities:
+"McMaster University","University of Toronto","University of Guelph","University of Western Ontario","University of Waterloo","York University","University of Windsor","Laurentian University","Wilfrid Laurier University","Trent University","Brock University","Carleton University","Ryerson University","Lakehead University","University of Ottawa","Nipissing University","University of Alberta","McGill University","University of Saskatchewan",
+
+Time Spent: 1.124784231185913
+iterations: 2
+R-precision: 0.8421052631578947
+Average Precision: 1.0
+
+
+
+History:
+
+Seed entities in Static Seisa: ['University of Toronto', 'McMaster University']
+Expanded entities after step 0: ['McMaster University', 'University of Toronto', 'University of Western Ontario', 'University of Guelph', 'University of Waterloo', 'York University', 'University of Windsor', 'W
+ilfrid Laurier University', 'University of Ottawa', 'Carleton University', 'Laurentian University', 'McGill University', 'University of Alberta', 'Trent University', 'Brock University', 'Université de Montréal'
+, 'Ryerson University', 'Lakehead University', 'University of Saskatchewan']
+Expanded entities after step 1: ['McMaster University', 'University of Toronto', 'University of Guelph', 'University of Western Ontario', 'University of Waterloo', 'York University', 'University of Windsor', 'W
+ilfrid Laurier University', 'Laurentian University', 'Trent University', 'Brock University', 'Carleton University', 'University of Ottawa', 'Ryerson University', 'Lakehead University', 'University of Alberta',
+'McGill University', 'University of Saskatchewan', 'Nipissing University']
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['McMaster University', 'University of Toronto', 'University of Guelph', 'University of Western Ontario', 'University of Waterloo', 'York University', 'University of Windso
+r', 'Laurentian University', 'Wilfrid Laurier University', 'Trent University', 'Brock University', 'Carleton University', 'Ryerson University', 'Lakehead University', 'University of Ottawa', 'Nipissing Universi
+ty', 'University of Alberta', 'McGill University', 'University of Saskatchewan']
+
+
+
+
+Incorrect entiites: {'University of Saskatchewan', 'McGill University', 'University of Alberta'}
+Missing entiites: {'Algoma University', "Queen's University", 'OCAD University'}

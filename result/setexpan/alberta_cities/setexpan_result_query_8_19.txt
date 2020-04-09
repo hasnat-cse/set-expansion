@@ -1,0 +1,29 @@
+Seed Entities:
+Edmonton
+Calgary
+Reed Deer
+Medicine Hat
+Lethbridge
+
+Expanded Entities:
+['Edmonton', 'Calgary', 'Reed Deer', 'Medicine Hat', 'Lethbridge', 'Red Deer', 'Grande Prairie', 'Camrose', 'St. Albert', 'Winnipeg', 'Wetaskiwin', 'Vancouver', 'Victoria', 'Leduc', 'Lacombe', 'Peace River', 'Regina', 'Stettler', 'Vegreville']
+
+Time Spent: 96.0689127445221
+R-precision: 0.5789473684210527
+Average Precision: 0.8427423586514493
+
+
+
+Seed set: ['Edmonton', 'Calgary', 'Reed Deer', 'Medicine Hat', 'Lethbridge']
+Expanded set after iteration 1: ['Edmonton', 'Calgary', 'Reed Deer', 'Medicine Hat', 'Lethbridge', 'Red Deer', 'Grande Prairie', 'Camrose', 'St. Albert', 'Winnipeg', 'Wetaskiwin', 'Vancouver', 'Victoria', 'Ledu
+c', 'Lacombe', 'Peace River', 'Regina']
+Expanded set after iteration 2: ['Edmonton', 'Calgary', 'Reed Deer', 'Medicine Hat', 'Lethbridge', 'Red Deer', 'Grande Prairie', 'Camrose', 'St. Albert', 'Winnipeg', 'Wetaskiwin', 'Vancouver', 'Victoria', 'Ledu
+c', 'Lacombe', 'Peace River', 'Regina', 'Stettler', 'Vegreville']
+Expanded Set Length: 19
+Expanded set: ['Edmonton', 'Calgary', 'Reed Deer', 'Medicine Hat', 'Lethbridge', 'Red Deer', 'Grande Prairie', 'Camrose', 'St. Albert', 'Winnipeg', 'Wetaskiwin', 'Vancouver', 'Victoria', 'Leduc', 'Lacombe', 'Pe
+ace River', 'Regina', 'Stettler', 'Vegreville']
+
+
+
+Incorrect entiites: {'Reed Deer', 'Vegreville', 'Vancouver', 'Winnipeg', 'Regina', 'Peace River', 'Stettler', 'Victoria'}
+Missing entiites: {'Brooks', 'Airdrie', 'Lloydminster', 'Beaumont', 'Cold Lake', 'Fort Saskatchewan', 'Spruce Grove', 'Chestermere'}

@@ -1,0 +1,11 @@
+Seed Entities:
+West Bengal
+Punjab
+
+Expanded Entities:
+"West Bengal","Punjab","Andhra Pradesh","Madhya Pradesh","Uttar Pradesh","Karnataka","Bihar","Maharashtra","Tamil Nadu","Orissa","Gujarat","Assam","Jharkhand","Kerala","Haryana","Rajasthan","Himachal Pradesh","Manipur","Meghalaya","Uttarakhand","Mizoram","Arunachal Pradesh","Nagaland","Tripura","Sikkim","Goa","Chhattisgarh","Jammu and Kashmir",
+
+Time Spent: 6.4774487018585205
+1 iteration
+R-precision: 1.0
+Average Precision: 1.0

@@ -1,0 +1,28 @@
+Seed Entities:
+University of Toronto
+Queen\'s University
+
+Expanded Entities:
+['University of Toronto', "Queen\\'s University", 'University of Western Ontario', 'University of Ottawa', 'York University', 'University of Guelph', 'University of Waterloo', 'McMaster University', 'University of Windsor', 'McGill University', 'Wilfrid Laurier University', 'Carleton University', 'Brock University', 'Laurentian University', 'Trent University', 'Lakehead University', 'Ryerson University', 'University of Alberta', 'Dalhousie University']
+
+Time Spent: 79.68119192123413
+R-precision: 0.8421052631578947
+Average Precision: 0.9680884832079685
+
+
+
+Seed set: ['University of Toronto', "Queen\\'s University"]
+Expanded set after iteration 1: ['University of Toronto', "Queen\\'s University", 'University of Western Ontario', 'University of Ottawa', 'York University', 'University of Guelph', 'University of Waterloo', 'M
+cMaster University', 'University of Windsor', 'McGill University', 'Wilfrid Laurier University']
+Expanded set after iteration 2: ['University of Toronto', "Queen\\'s University", 'University of Western Ontario', 'University of Ottawa', 'York University', 'University of Guelph', 'University of Waterloo', 'M
+cMaster University', 'University of Windsor', 'McGill University', 'Wilfrid Laurier University', 'Carleton University', 'Brock University', 'Laurentian University', 'Trent University', 'Lakehead University', 'R
+yerson University', 'University of Alberta', 'Dalhousie University']
+Expanded Set Length: 19
+Expanded set: ['University of Toronto', "Queen\\'s University", 'University of Western Ontario', 'University of Ottawa', 'York University', 'University of Guelph', 'University of Waterloo', 'McMaster University
+', 'University of Windsor', 'McGill University', 'Wilfrid Laurier University', 'Carleton University', 'Brock University', 'Laurentian University', 'Trent University', 'Lakehead University', 'Ryerson University'
+, 'University of Alberta', 'Dalhousie University']
+
+
+Incorrect entiites: {'Dalhousie University', 'University of Alberta', 'McGill University'}
+Missing entiites: {'OCAD University', 'Algoma University', 'Nipissing University'}
+

@@ -1,0 +1,28 @@
+Seed Entities:
+Edmonton
+Calgary
+Leduc
+
+Expanded Entities:
+['Edmonton', 'Calgary', 'Leduc', 'Wetaskiwin', 'St. Albert', 'Camrose', 'Medicine Hat', 'Lethbridge', 'Lacombe', 'Red Deer', 'Peace River', 'Vegreville', 'Grande Prairie', 'Stony Plain', 'Macleod', 'Stettler', 'Cardston', 'Ponoka', 'St. Paul']
+
+Time Spent: 69.45247292518616
+R-precision: 0.5789473684210527
+Average Precision: 0.986013986013986
+
+
+
+
+Seed set: ['Edmonton', 'Calgary', 'Leduc']
+Expanded set after iteration 1: ['Edmonton', 'Calgary', 'Leduc', 'Wetaskiwin', 'St. Albert', 'Camrose', 'Medicine Hat', 'Lethbridge', 'Lacombe', 'Red Deer', 'Peace River']
+Expanded set after iteration 2: ['Edmonton', 'Calgary', 'Leduc', 'Wetaskiwin', 'St. Albert', 'Camrose', 'Medicine Hat', 'Lethbridge', 'Lacombe', 'Red Deer', 'Peace River', 'Vegreville', 'Grande Prairie', 'Stony
+ Plain', 'Macleod', 'Stettler', 'Cardston', 'Ponoka', 'St. Paul']
+Expanded Set Length: 19
+Expanded set: ['Edmonton', 'Calgary', 'Leduc', 'Wetaskiwin', 'St. Albert', 'Camrose', 'Medicine Hat', 'Lethbridge', 'Lacombe', 'Red Deer', 'Peace River', 'Vegreville', 'Grande Prairie', 'Stony Plain', 'Macleod'
+, 'Stettler', 'Cardston', 'Ponoka', 'St. Paul']
+
+
+
+
+Incorrect entiites: {'Ponoka', 'Stony Plain', 'Vegreville', 'Cardston', 'Stettler', 'Macleod', 'Peace River', 'St. Paul'}
+Missing entiites: {'Airdrie', 'Lloydminster', 'Chestermere', 'Spruce Grove', 'Brooks', 'Fort Saskatchewan', 'Beaumont', 'Cold Lake'}

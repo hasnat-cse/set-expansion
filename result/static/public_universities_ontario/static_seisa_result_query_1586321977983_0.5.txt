@@ -1,0 +1,20 @@
+Seed Entities:
+University of Toronto
+University of Ottawa
+Algoma University
+Laurentian University
+
+Expanded Entities:
+['Laurentian University', 'Trent University', 'University of Guelph', 'University of Ottawa', 'Nipissing University', 'Brock University', 'University of Toronto', 'University of Windsor', 'McMaster University', 'University of Western Ontario', 'Lakehead University', 'Algoma University', 'Ryerson University', 'Wilfrid Laurier University', 'University of Waterloo', 'Carleton University', 'York University', 'OCAD University', 'Saint Paul University']
+
+Time Spent: 0.7942605018615723
+iterations: 1
+R-precision: 0.9473684210526315
+Average Precision: 1.0
+
+
+
+
+Incorrect entiites: {'Saint Paul University'}
+Missing entiites: {"Queen\\'s University"}
+

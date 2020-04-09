@@ -1,0 +1,18 @@
+Seed Entities:
+Pierre Trudeau
+Justin Trudeau
+Mackenzie Bowell
+
+Expanded Entities:
+['Pierre Trudeau', 'Mackenzie Bowell', 'Justin Trudeau', 'Louis St. Laurent', 'Alexander Mackenzie', 'Lester B. Pearson', 'Arthur Meighen', 'Brian Mulroney', 'John Diefenbaker', 'John A. Macdonald', 'Jean Chrétien', 'Charles Tupper', 'John Abbott', 'Kim Campbell', 'Joe Clark', 'William Lyon Mackenzie King', 'Robert Borden', 'Stephen Harper', 'R. B. Bennett', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Irwin Cotler']
+
+Time Spent: 1.1829731464385986
+iterations: 1
+R-precision: 0.8260869565217391
+Average Precision: 1.0
+
+
+
+
+Incorrect entiites: {'Marc Garneau', 'Massimo Pacetti', 'Irwin Cotler', 'Francis Scarpaleggia'}
+Missing entiites: {'Wilfrid Laurier', 'Paul Martin', 'John Thompson', 'John Turner'}

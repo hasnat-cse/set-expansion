@@ -1,0 +1,31 @@
+Seed Entities:
+Mexico
+United States
+Barbados
+
+Expanded Entities:
+['Mexico', 'United States', 'Barbados', 'Canada', 'Cuba', 'Jamaica', 'Trinidad and Tobago', 'Dominican Republic', 'Brazil', 'Argentina', 'Puerto Rico', 'Guatemala', 'Venezuela', 'Chile', 'Colombia', 'Ecuador', 'Peru', 'El Salvador', 'Uruguay', 'Costa Rica', 'Paraguay', 'Panama']
+
+Time Spent: 76.87229609489441
+R-precision: 0.5454545454545454
+Average Precision: 0.8667508417508417
+
+
+
+
+
+Seed set: ['Mexico', 'United States', 'Barbados']
+Expanded set after iteration 1: ['Mexico', 'United States', 'Barbados', 'Canada', 'Cuba', 'Jamaica', 'Trinidad and Tobago', 'Dominican Republic', 'Brazil', 'Argentina', 'Puerto Rico', 'Guatemala']
+Expanded set after iteration 2: ['Mexico', 'United States', 'Barbados', 'Canada', 'Cuba', 'Jamaica', 'Trinidad and Tobago', 'Dominican Republic', 'Brazil', 'Argentina', 'Puerto Rico', 'Guatemala', 'Venezuela',
+'Chile', 'Colombia', 'Ecuador', 'Peru', 'El Salvador', 'Uruguay', 'Costa Rica', 'Paraguay', 'Panama']
+Expanded set after iteration 3: ['Mexico', 'United States', 'Barbados', 'Canada', 'Cuba', 'Jamaica', 'Trinidad and Tobago', 'Dominican Republic', 'Brazil', 'Argentina', 'Puerto Rico', 'Guatemala', 'Venezuela',
+'Chile', 'Colombia', 'Ecuador', 'Peru', 'El Salvador', 'Uruguay', 'Costa Rica', 'Paraguay', 'Panama', 'Nicaragua']
+Expanded Set Length: 23
+Expanded set: ['Mexico', 'United States', 'Barbados', 'Canada', 'Cuba', 'Jamaica', 'Trinidad and Tobago', 'Dominican Republic', 'Brazil', 'Argentina', 'Puerto Rico', 'Guatemala', 'Venezuela', 'Chile', 'Colombia
+', 'Ecuador', 'Peru', 'El Salvador', 'Uruguay', 'Costa Rica', 'Paraguay', 'Panama', 'Nicaragua']
+
+
+
+Incorrect entiites: {'Paraguay', 'Ecuador', 'Peru', 'Colombia', 'Brazil', 'Venezuela', 'Uruguay', 'Puerto Rico', 'Chile', 'Argentina'}
+Missing entiites: {'Dominica', 'Saint Lucia', 'Haiti', 'Saint Kitts and Nevis', 'Nicaragua', 'Antigua and Barbuda', 'Bahamas', 'Honduras', 'Grenada', 'Belize'}
+

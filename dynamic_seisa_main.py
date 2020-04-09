@@ -14,6 +14,10 @@ def main():
     entity2features, feature2entities = util.loadFeaturesAndEntityMap(
         data_folder + 'EntityFeatureCount.txt')  # EnitityFeatureCount.txt
 
+    # print('loading Entity 2 Entity similarity map')
+    # entity2entity_sim = util.load_entity2entity_sim_map(
+    #     data_folder + 'Entity2EntitySim.txt')  # Entity2EntitySim.txt
+
     end = time.time()
     print("Finish loading all dataset, using %s seconds" % (end - start))
 

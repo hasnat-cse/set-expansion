@@ -1,0 +1,33 @@
+Seed Entities:
+John Abbott
+Arthur Meighen
+
+Expanded Entities:
+['Arthur Meighen', 'John Abbott', 'Louis St. Laurent', 'Lester B. Pearson', 'Alexander Mackenzie', 'Mackenzie Bowell', 'Pierre Trudeau', 'John Diefenbaker', 'Brian Mulroney', 'John A. Macdonald', 'Charles Tupper', 'R. B. Bennett', 'Robert Borden', 'Kim Campbell', 'Joe Clark', 'William Lyon Mackenzie King', 'Jean Chrétien', 'R.B. Bennett', 'Sir Mackenzie Bowell', 'W.L. Mackenzie King', 'Sir John A. Macdonald', 'Sir Charles Tupper', 'Stephen Harper']
+
+Time Spent: 2.6939523220062256
+iterations: 2
+R-precision: 0.782608695652174
+Average Precision: 0.9879227053140097
+
+
+
+History:
+
+Seed entities in Static Seisa: ['John Abbott', 'Arthur Meighen']
+Expanded entities after step 0: ['John Abbott', 'Arthur Meighen', 'Mackenzie Bowell', 'Alexander Mackenzie', 'John A. Macdonald', 'Charles Tupper', 'Lester B. Pearson', 'Louis St. Laurent', 'Pierre Trudeau', 'J
+ohn Diefenbaker', 'Robert Borden', 'R. B. Bennett', 'Brian Mulroney', 'William Lyon Mackenzie King', 'Kim Campbell', 'Sir Mackenzie Bowell', 'Joe Clark', 'R.B. Bennett', 'W.L. Mackenzie King', 'Jean Chrétien',
+'Sir John A. Macdonald', 'John Sparrow David Thompson', 'Sir Charles Tupper']
+Expanded entities after step 1: ['Arthur Meighen', 'John Abbott', 'Louis St. Laurent', 'Mackenzie Bowell', 'Lester B. Pearson', 'Alexander Mackenzie', 'Pierre Trudeau', 'John A. Macdonald', 'John Diefenbaker',
+'Brian Mulroney', 'Charles Tupper', 'R. B. Bennett', 'Robert Borden', 'Kim Campbell', 'Joe Clark', 'William Lyon Mackenzie King', 'Jean Chrétien', 'R.B. Bennett', 'Sir Mackenzie Bowell', 'W.L. Mackenzie King',
+'Sir John A. Macdonald', 'Sir Charles Tupper', 'Stephen Harper']
+Expanded entities length: 23
+Expanded entities after Static Seisa: ['Arthur Meighen', 'John Abbott', 'Louis St. Laurent', 'Lester B. Pearson', 'Alexander Mackenzie', 'Mackenzie Bowell', 'Pierre Trudeau', 'John Diefenbaker', 'Brian Mulroney
+', 'John A. Macdonald', 'Charles Tupper', 'R. B. Bennett', 'Robert Borden', 'Kim Campbell', 'Joe Clark', 'William Lyon Mackenzie King', 'Jean Chrétien', 'R.B. Bennett', 'Sir Mackenzie Bowell', 'W.L. Mackenzie K
+ing', 'Sir John A. Macdonald', 'Sir Charles Tupper', 'Stephen Harper']
+
+
+
+Incorrect entiites: {'W.L. Mackenzie King', 'R.B. Bennett', 'Sir Mackenzie Bowell', 'Sir John A. Macdonald', 'Sir Charles Tupper'}
+Missing entiites: {'John Thompson', 'Wilfrid Laurier', 'John Turner', 'Justin Trudeau', 'Paul Martin'}
+

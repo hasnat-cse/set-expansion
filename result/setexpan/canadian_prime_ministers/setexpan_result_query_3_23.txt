@@ -1,0 +1,34 @@
+Seed Entities:
+John Abbott
+Arthur Meighen
+
+Expanded Entities:
+['John Abbott', 'Arthur Meighen', 'Alexander Mackenzie', 'John Diefenbaker', 'Wilfrid Laurier', 'Pierre Trudeau', 'Lester B. Pearson', 'Robert Borden', 'John A. Macdonald', 'Louis St. Laurent', 'Charles Tupper', 'Mackenzie Bowell', 'Jean Chrétien', 'Joe Clark', 'John Turner', 'Brian Mulroney', 'William Lyon Mackenzie King', 'Paul Martin', 'Stephen Harper', 'John Thompson', 'R. B. Bennett', 'Kim Campbell', 'R.B. Bennett']
+
+Time Spent: 319.6290934085846
+iterations: 3
+R-precision: 0.9565217391304348
+Average Precision: 1.0
+
+
+
+History:
+
+Seed set: ['John Abbott', 'Arthur Meighen']
+Expanded set after iteration 1: ['John Abbott', 'Arthur Meighen', 'Alexander Mackenzie', 'John Diefenbaker', 'Wilfrid Laurier', 'Pierre Trudeau', 'Lester B. Pearson', 'Robert Borden', 'John A. Macdonald', 'Loui
+s St. Laurent', 'Charles Tupper', 'Mackenzie Bowell']
+Expanded set after iteration 2: ['John Abbott', 'Arthur Meighen', 'Alexander Mackenzie', 'John Diefenbaker', 'Wilfrid Laurier', 'Pierre Trudeau', 'Lester B. Pearson', 'Robert Borden', 'John A. Macdonald', 'Loui
+s St. Laurent', 'Charles Tupper', 'Mackenzie Bowell', 'Jean Chrétien', 'Joe Clark', 'John Turner', 'Brian Mulroney', 'William Lyon Mackenzie King', 'Paul Martin', 'Stephen Harper', 'John Thompson', 'R. B. Benne
+tt', 'Kim Campbell']
+Expanded set after iteration 3: ['John Abbott', 'Arthur Meighen', 'Alexander Mackenzie', 'John Diefenbaker', 'Wilfrid Laurier', 'Pierre Trudeau', 'Lester B. Pearson', 'Robert Borden', 'John A. Macdonald', 'Loui
+s St. Laurent', 'Charles Tupper', 'Mackenzie Bowell', 'Jean Chrétien', 'Joe Clark', 'John Turner', 'Brian Mulroney', 'William Lyon Mackenzie King', 'Paul Martin', 'Stephen Harper', 'John Thompson', 'R. B. Benne
+tt', 'Kim Campbell', 'R.B. Bennett']
+Expanded Set Length: 23
+Expanded set: ['John Abbott', 'Arthur Meighen', 'Alexander Mackenzie', 'John Diefenbaker', 'Wilfrid Laurier', 'Pierre Trudeau', 'Lester B. Pearson', 'Robert Borden', 'John A. Macdonald', 'Louis St. Laurent', 'C
+harles Tupper', 'Mackenzie Bowell', 'Jean Chrétien', 'Joe Clark', 'John Turner', 'Brian Mulroney', 'William Lyon Mackenzie King', 'Paul Martin', 'Stephen Harper', 'John Thompson', 'R. B. Bennett', 'Kim Campbell
+', 'R.B. Bennett']
+
+
+
+Incorrect entiites: {'R.B. Bennett'}
+Missing entiites: {'Justin Trudeau'}

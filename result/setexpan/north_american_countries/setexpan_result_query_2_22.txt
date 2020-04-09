@@ -1,0 +1,32 @@
+Seed Entities:
+Canada
+United States
+
+Expanded Entities:
+['Canada', 'United States', 'Sweden', 'United Kingdom', 'North America', 'Australia', 'Mexico', 'Finland', 'Japan', 'Russia', 'Nationality', 'Germany', 'France', 'Italy', 'Belgium', 'Spain', 'Switzerland', 'Austria', 'Netherlands', 'Denmark', 'Norway', 'New Zealand']
+
+Time Spent: 37.55332040786743
+R-precision: 0.13636363636363635
+Average Precision: 0.8095238095238094
+
+
+
+
+Seed set: ['Canada', 'United States']
+Expanded set after iteration 1: ['Canada', 'United States', 'Sweden', 'United Kingdom', 'North America', 'Australia', 'Mexico', 'Finland', 'Japan', 'Russia', 'Nationality']
+Expanded set after iteration 2: ['Canada', 'United States', 'Sweden', 'United Kingdom', 'North America', 'Australia', 'Mexico', 'Finland', 'Japan', 'Russia', 'Nationality', 'Germany', 'France', 'Italy', 'Belgiu
+m', 'Spain', 'Switzerland', 'Austria', 'Netherlands', 'Denmark']
+Expanded set after iteration 3: ['Canada', 'United States', 'Sweden', 'United Kingdom', 'North America', 'Australia', 'Mexico', 'Finland', 'Japan', 'Russia', 'Nationality', 'Germany', 'France', 'Italy', 'Belgiu
+m', 'Spain', 'Switzerland', 'Austria', 'Netherlands', 'Denmark', 'Norway', 'New Zealand', 'Poland']
+Expanded Set Length: 23
+Expanded set: ['Canada', 'United States', 'Sweden', 'United Kingdom', 'North America', 'Australia', 'Mexico', 'Finland', 'Japan', 'Russia', 'Nationality', 'Germany', 'France', 'Italy', 'Belgium', 'Spain', 'Swit
+zerland', 'Austria', 'Netherlands', 'Denmark', 'Norway', 'New Zealand', 'Poland']
+
+
+
+
+Incorrect entiites: {'Spain', 'North America', 'Nationality', 'Norway', 'Japan', 'United Kingdom', 'Denmark', 'Switzerland', 'New Zealand', 'Australia', 'Austria', 'Italy', 'Russia', 'Germany', 'France', 'Nethe
+rlands', 'Finland', 'Belgium', 'Sweden'}
+Missing entiites: {'Panama', 'Honduras', 'Dominican Republic', 'Nicaragua', 'Jamaica', 'Antigua and Barbuda', 'Haiti', 'Bahamas', 'Barbados', 'Saint Kitts and Nevis', 'Cuba', 'El Salvador', 'Trinidad and Tobago
+', 'Guatemala', 'Grenada', 'Saint Lucia', 'Dominica', 'Belize', 'Costa Rica'}
+

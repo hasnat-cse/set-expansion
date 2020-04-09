@@ -1,0 +1,32 @@
+Seed Entities:
+Belize
+Saint Lucia
+
+Expanded Entities:
+['Belize', 'Saint Lucia', 'Jamaica', 'Saint Kitts and Nevis', 'Grenada', 'Barbados', 'Antigua and Barbuda', 'Dominica', 'Trinidad and Tobago', 'Bahamas', 'Haiti', 'Dominican Republic', 'Costa Rica', 'El Salvador', 'Nicaragua', 'Panama', 'Guatemala', 'Honduras', 'Mexico', 'Guyana', 'Canada', 'Colombia']
+
+Time Spent: 62.71758794784546
+R-precision: 0.9090909090909091
+Average Precision: 0.9976190476190476
+
+
+
+
+
+
+Seed set: ['Belize', 'Saint Lucia']
+Expanded set after iteration 1: ['Belize', 'Saint Lucia', 'Jamaica', 'Saint Kitts and Nevis', 'Grenada', 'Barbados', 'Antigua and Barbuda', 'Dominica', 'Trinidad and Tobago', 'Bahamas', 'Haiti', 'Dominican Repu
+blic']
+Expanded set after iteration 2: ['Belize', 'Saint Lucia', 'Jamaica', 'Saint Kitts and Nevis', 'Grenada', 'Barbados', 'Antigua and Barbuda', 'Dominica', 'Trinidad and Tobago', 'Bahamas', 'Haiti', 'Dominican Repu
+blic', 'Costa Rica', 'El Salvador', 'Nicaragua', 'Panama', 'Guatemala', 'Honduras', 'Mexico', 'Guyana', 'Canada']
+Expanded set after iteration 3: ['Belize', 'Saint Lucia', 'Jamaica', 'Saint Kitts and Nevis', 'Grenada', 'Barbados', 'Antigua and Barbuda', 'Dominica', 'Trinidad and Tobago', 'Bahamas', 'Haiti', 'Dominican Repu
+blic', 'Costa Rica', 'El Salvador', 'Nicaragua', 'Panama', 'Guatemala', 'Honduras', 'Mexico', 'Guyana', 'Canada', 'Colombia', 'Peru']
+Expanded Set Length: 23
+Expanded set: ['Belize', 'Saint Lucia', 'Jamaica', 'Saint Kitts and Nevis', 'Grenada', 'Barbados', 'Antigua and Barbuda', 'Dominica', 'Trinidad and Tobago', 'Bahamas', 'Haiti', 'Dominican Republic', 'Costa Rica
+', 'El Salvador', 'Nicaragua', 'Panama', 'Guatemala', 'Honduras', 'Mexico', 'Guyana', 'Canada', 'Colombia', 'Peru']
+
+
+
+Incorrect entiites: {'Guyana', 'Colombia'}
+Missing entiites: {'United States', 'Cuba'}
+

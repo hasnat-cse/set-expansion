@@ -1,0 +1,34 @@
+Seed Entities:
+University of Toronto
+Algoma University
+
+Expanded Entities:
+"University of Toronto","Algoma University","University of Guelph","Trent University","Laurentian University","Nipissing University","University of Western Ontario","McMaster University","Brock University","University of Windsor","Wilfrid Laurier University","Ryerson University","Lakehead University","University of Waterloo","York University","OCAD University","Carleton University","University of Ottawa","Saint Paul University",
+
+Time Spent: 1.6398851871490479
+iterations: 2
+R-precision: 0.9473684210526315
+Average Precision: 1.0
+
+
+
+
+
+History:
+
+Seed entities in Static Seisa: ['University of Toronto', 'Algoma University']
+Expanded entities after step 0: ['Algoma University', 'University of Toronto', 'OCAD University', 'Saint Paul University', 'University of Western Ontario', 'Nipissing University', 'McMaster University', 'Univer
+sity of Guelph', 'Trent University', 'University of Waterloo', 'Laurentian University', 'Wilfrid Laurier University', 'Ryerson University', 'Lakehead University', 'University of Windsor', 'Brock University', 'Y
+ork University', 'McGill University', 'Carleton University']
+Expanded entities after step 1: ['University of Toronto', 'Algoma University', 'University of Guelph', 'Trent University', 'Laurentian University', 'Nipissing University', 'University of Western Ontario', 'McMa
+ster University', 'Brock University', 'University of Windsor', 'Wilfrid Laurier University', 'Ryerson University', 'Lakehead University', 'University of Waterloo', 'York University', 'OCAD University', 'Carleto
+n University', 'Saint Paul University', 'University of Ottawa']
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['University of Toronto', 'Algoma University', 'University of Guelph', 'Trent University', 'Laurentian University', 'Nipissing University', 'University of Western Ontario',
+ 'McMaster University', 'Brock University', 'University of Windsor', 'Wilfrid Laurier University', 'Ryerson University', 'Lakehead University', 'University of Waterloo', 'York University', 'OCAD University', 'C
+arleton University', 'University of Ottawa', 'Saint Paul University']
+
+
+
+Incorect entity: Saint Paul University
+Missing: Queen's University

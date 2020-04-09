@@ -1,0 +1,30 @@
+Seed Entities:
+Edmonton
+Calgary
+Beaumont
+
+Expanded Entities:
+['Edmonton', 'Calgary', 'Beaumont', 'Reno', 'Vancouver', 'Portland', 'Oklahoma City', 'Houston', 'Springfield', 'Birmingham', 'Indianapolis', 'Tucson', 'Columbia', 'Tulsa', 'Jacksonville', 'Philadelphia', 'Atlanta', 'Kansas City', 'Pittsburgh']
+
+Time Spent: 173.89955711364746
+R-precision: 0.15789473684210525
+Average Precision: 1.0
+
+
+
+Seed set: ['Edmonton', 'Calgary', 'Beaumont']
+Expanded set after iteration 1: ['Edmonton', 'Calgary', 'Beaumont', 'Reno', 'Vancouver', 'Portland', 'Oklahoma City', 'Houston', 'Springfield', 'Birmingham', 'Indianapolis', 'Tucson', 'Columbia', 'Tulsa', 'Jack
+sonville']
+Expanded set after iteration 2: ['Edmonton', 'Calgary', 'Beaumont', 'Reno', 'Vancouver', 'Portland', 'Oklahoma City', 'Houston', 'Springfield', 'Birmingham', 'Indianapolis', 'Tucson', 'Columbia', 'Tulsa', 'Jack
+sonville', 'Philadelphia', 'Atlanta', 'Kansas City', 'Pittsburgh']
+Expanded Set Length: 19
+Expanded set: ['Edmonton', 'Calgary', 'Beaumont', 'Reno', 'Vancouver', 'Portland', 'Oklahoma City', 'Houston', 'Springfield', 'Birmingham', 'Indianapolis', 'Tucson', 'Columbia', 'Tulsa', 'Jacksonville', 'Philad
+elphia', 'Atlanta', 'Kansas City', 'Pittsburgh']
+
+
+
+Incorrect entiites: {'Indianapolis', 'Portland', 'Vancouver', 'Tucson', 'Columbia', 'Pittsburgh', 'Kansas City', 'Atlanta', 'Jacksonville', 'Philadelphia', 'Birmingham', 'Oklahoma City', 'Tulsa', 'Springfield',
+ 'Houston', 'Reno'}
+Missing entiites: {'Grande Prairie', 'Leduc', 'Red Deer', 'Lacombe', 'Medicine Hat', 'Wetaskiwin', 'Cold Lake', 'Lethbridge', 'Brooks', 'Camrose', 'Chestermere', 'Fort Saskatchewan', 'Spruce Grove', 'Lloydminst
+er', 'Airdrie', 'St. Albert'}
+

@@ -1,0 +1,36 @@
+Seed Entities:
+University of Toronto
+McMaster University
+Queen\'s University
+Carleton University
+University of Ottawa
+
+Expanded Entities:
+['McMaster University', 'University of Guelph', 'Carleton University', 'University of Ottawa', 'University of Western Ontario', 'University of Toronto', 'University of Waterloo', 'University of Windsor', 'York University', 'Trent University', 'Laurentian University', 'Wilfrid Laurier University', "Queen\\'s University", 'Brock University', 'Ryerson University', 'Lakehead University', 'Nipissing University', 'Dalhousie University', 'University of Alberta']
+
+Time Spent: 1.1437604427337646
+iterations: 2
+R-precision: 0.8947368421052632
+Average Precision: 1.0
+
+
+
+History:
+
+Seed entities in Static Seisa: ['University of Toronto', 'McMaster University', "Queen\\'s University", 'Carleton University', 'University of Ottawa']
+Expanded entities after step 0: ['University of Ottawa', 'McMaster University', 'Carleton University', 'University of Toronto', "Queen\\'s University", 'University of Western Ontario', 'University of Guelph', '
+University of Waterloo', 'York University', 'University of Windsor', 'Wilfrid Laurier University', 'Trent University', 'Laurentian University', 'Brock University', 'Ryerson University', 'Lakehead University', '
+Dalhousie University', 'McGill University', 'University of Alberta']
+Expanded entities after step 1: ['McMaster University', 'University of Guelph', 'University of Ottawa', 'Carleton University', 'University of Western Ontario', 'University of Toronto', 'University of Waterloo',
+ 'University of Windsor', 'York University', "Queen\\'s University", 'Trent University', 'Laurentian University', 'Wilfrid Laurier University', 'Brock University', 'Ryerson University', 'Lakehead University', '
+Dalhousie University', 'University of Alberta', 'Nipissing University']
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['McMaster University', 'University of Guelph', 'Carleton University', 'University of Ottawa', 'University of Western Ontario', 'University of Toronto', 'University of Wate
+rloo', 'University of Windsor', 'York University', 'Trent University', 'Laurentian University', 'Wilfrid Laurier University', "Queen\\'s University", 'Brock University', 'Ryerson University', 'Lakehead Universi
+ty', 'Nipissing University', 'Dalhousie University', 'University of Alberta']
+
+
+
+
+Incorrect entiites: {'University of Alberta', 'Dalhousie University'}
+Missing entiites: {'OCAD University', 'Algoma University'}

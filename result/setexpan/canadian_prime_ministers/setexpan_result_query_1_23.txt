@@ -1,0 +1,32 @@
+Seed Entities:
+Justin Trudeau
+John Thompson
+
+Expanded Entities:
+['Justin Trudeau', 'John Thompson', 'Marc Garneau', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Denis Coderre', 'David McGuinty', 'Irwin Cotler', 'Total rejected ballots', 'Stéphane Dion', 'Steven Blaney', 'Marlene Jennings', 'Denis Lebel', 'Sean Casey', 'Thomas Mulcair', 'Jacques Gourde', 'Ted Hsu', 'Louis Plamondon', 'Scott Simms', 'Russ Hiebert', 'André Bellavance', 'Kevin Lamoureux', 'Christian Paradis']
+
+Time Spent: 97.91426181793213
+R-precision: 0.08695652173913043
+Average Precision: 1.0
+
+
+
+Seed set: ['Justin Trudeau', 'John Thompson']
+Expanded set after iteration 1: ['Justin Trudeau', 'John Thompson', 'Marc Garneau', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Denis Coderre', 'David McGuinty', 'Irwin Cotler', 'Total rejected ballots']
+Expanded set after iteration 2: ['Justin Trudeau', 'John Thompson', 'Marc Garneau', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Denis Coderre', 'David McGuinty', 'Irwin Cotler', 'Total rejected ballots', 'Stéph
+ane Dion', 'Steven Blaney', 'Marlene Jennings', 'Denis Lebel', 'Sean Casey', 'Thomas Mulcair', 'Jacques Gourde', 'Ted Hsu']
+Expanded set after iteration 3: ['Justin Trudeau', 'John Thompson', 'Marc Garneau', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Denis Coderre', 'David McGuinty', 'Irwin Cotler', 'Total rejected ballots', 'Stéph
+ane Dion', 'Steven Blaney', 'Marlene Jennings', 'Denis Lebel', 'Sean Casey', 'Thomas Mulcair', 'Jacques Gourde', 'Ted Hsu', 'Louis Plamondon', 'Scott Simms', 'Russ Hiebert', 'André Bellavance', 'Kevin Lamoureux
+', 'Christian Paradis']
+Expanded Set Length: 23
+Expanded set: ['Justin Trudeau', 'John Thompson', 'Marc Garneau', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Denis Coderre', 'David McGuinty', 'Irwin Cotler', 'Total rejected ballots', 'Stéphane Dion', 'Steven
+ Blaney', 'Marlene Jennings', 'Denis Lebel', 'Sean Casey', 'Thomas Mulcair', 'Jacques Gourde', 'Ted Hsu', 'Louis Plamondon', 'Scott Simms', 'Russ Hiebert', 'André Bellavance', 'Kevin Lamoureux', 'Christian Para
+dis']
+
+
+
+Incorrect entiites: {'Louis Plamondon', 'Steven Blaney', 'David McGuinty', 'Marlene Jennings', 'Total rejected ballots', 'Christian Paradis', 'Francis Scarpaleggia', 'Stéphane Dion', 'Scott Simms', 'Marc Garnea
+u', 'Massimo Pacetti', 'Irwin Cotler', 'Sean Casey', 'Denis Coderre', 'Denis Lebel', 'Thomas Mulcair', 'Jacques Gourde', 'Ted Hsu', 'André Bellavance', 'Kevin Lamoureux', 'Russ Hiebert'}
+Missing entiites: {'Charles Tupper', 'Jean Chrétien', 'Alexander Mackenzie', 'Lester B. Pearson', 'Mackenzie Bowell', 'Stephen Harper', 'Brian Mulroney', 'Robert Borden', 'R. B. Bennett', 'John Diefenbaker', 'K
+im Campbell', 'Louis St. Laurent', 'Paul Martin', 'Joe Clark', 'John Abbott', 'William Lyon Mackenzie King', 'Wilfrid Laurier', 'Pierre Trudeau', 'John A. Macdonald', 'Arthur Meighen', 'John Turner'}
+

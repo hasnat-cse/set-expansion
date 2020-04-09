@@ -14,6 +14,13 @@ def main():
     entity2features, feature2entities = util.loadFeaturesAndEntityMap(
         data_folder + 'EntityFeatureCount.txt')  # EnitityFeatureCount.txt
 
+    print("Number of entities: %s" % len(entity2features))
+    print("Number of features: %s" % len(feature2entities))
+
+    # print('loading Entity 2 Entity similarity map')
+    # entity2entity_sim = util.load_entity2entity_sim_map(
+    #     data_folder + 'Entity2EntitySim.txt')  # Entity2EntitySim.txt
+
     end = time.time()
     print("Finish loading all dataset, using %s seconds" % (end - start))
 
@@ -33,8 +40,7 @@ def main():
         start = time.time()
 
         # expanded_entities = seisa.static_seisa(seed_enitites, entity2features, alpha)
-        # expanded_entities = seisa.static_seisa_optimized(seed_enitites, entity2features, feature2entities, alpha)
-        expanded_entities = seisa.static_seisa_optimized_another_interpretation(seed_enitites, entity2features, feature2entities, alpha, threshold)
+        expanded_entities = seisa.static_seisa_optimized(seed_enitites, entity2features, feature2entities, alpha, threshold)
 
         end = time.time()
         print("Total time taken: %s" % (end - start))
@@ -48,10 +54,12 @@ def main():
                 fout.write(entity + "\n")
 
             fout.write("\nExpanded Entities:" + "\n")
-            for ele in expanded_entities:
-                fout.write(ele + "\n")
+            # for ele in expanded_entities:
+            #     fout.write(ele + "\n")
 
-            fout.write("\nTime Spent: " + str(end - start) + "\n")
+            fout.write(str(expanded_entities))
+
+            fout.write("\n\nTime Spent: " + str(end - start) + "\n")
 
             fout.close()
 

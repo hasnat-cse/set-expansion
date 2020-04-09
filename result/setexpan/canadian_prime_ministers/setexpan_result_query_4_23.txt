@@ -1,0 +1,33 @@
+Seed Entities:
+Pierre Trudeau
+Justin Trudeau
+Mackenzie Bowell
+
+Expanded Entities:
+['Pierre Trudeau', 'Justin Trudeau', 'Mackenzie Bowell', 'Alexander Mackenzie', 'John A. Macdonald', 'Charles Tupper', 'Jean Chrétien', 'John Diefenbaker', 'Arthur Meighen', 'Lester B. Pearson', 'Marc Garneau', 'Louis St. Laurent', 'Robert Borden', 'Wilfrid Laurier', 'John Abbott', 'Brian Mulroney', 'Joe Clark', 'Paul Martin', 'John Turner', 'William Lyon Mackenzie King', 'Stephen Harper', 'Kim Campbell', 'John Thompson']
+
+Time Spent: 127.56666254997253
+iteration: 2
+R-precision: 0.9565217391304348
+Average Precision: 0.967526628808659
+
+
+
+
+History:
+
+Seed set: ['Pierre Trudeau', 'Justin Trudeau', 'Mackenzie Bowell']
+Expanded set after iteration 1: ['Pierre Trudeau', 'Justin Trudeau', 'Mackenzie Bowell', 'Alexander Mackenzie', 'John A. Macdonald', 'Charles Tupper', 'Jean Chrétien', 'John Diefenbaker', 'Arthur Meighen', 'Les
+ter B. Pearson', 'Marc Garneau', 'Louis St. Laurent', 'Robert Borden', 'Wilfrid Laurier']
+Expanded set after iteration 2: ['Pierre Trudeau', 'Justin Trudeau', 'Mackenzie Bowell', 'Alexander Mackenzie', 'John A. Macdonald', 'Charles Tupper', 'Jean Chrétien', 'John Diefenbaker', 'Arthur Meighen', 'Les
+ter B. Pearson', 'Marc Garneau', 'Louis St. Laurent', 'Robert Borden', 'Wilfrid Laurier', 'John Abbott', 'Brian Mulroney', 'Joe Clark', 'Paul Martin', 'John Turner', 'William Lyon Mackenzie King', 'Stephen Harp
+er', 'Kim Campbell', 'John Thompson']
+Expanded Set Length: 23
+Expanded set: ['Pierre Trudeau', 'Justin Trudeau', 'Mackenzie Bowell', 'Alexander Mackenzie', 'John A. Macdonald', 'Charles Tupper', 'Jean Chrétien', 'John Diefenbaker', 'Arthur Meighen', 'Lester B. Pearson', '
+Marc Garneau', 'Louis St. Laurent', 'Robert Borden', 'Wilfrid Laurier', 'John Abbott', 'Brian Mulroney', 'Joe Clark', 'Paul Martin', 'John Turner', 'William Lyon Mackenzie King', 'Stephen Harper', 'Kim Campbell
+', 'John Thompson']
+
+
+
+Incorrect entiites: {'Marc Garneau'}
+Missing entiites: {'R. B. Bennett'}

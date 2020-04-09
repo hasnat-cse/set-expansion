@@ -1,0 +1,15 @@
+Seed Entities:
+Chhattisgarh
+Arunachal Pradesh
+
+Expanded Entities:
+['Chhattisgarh', 'Arunachal Pradesh', 'Karnataka', 'Madhya Pradesh', 'Andhra Pradesh', 'Tamil Nadu', 'Assam', 'West Bengal', 'Orissa', 'Maharashtra', 'Uttar Pradesh', 'Rajasthan', 'Gujarat', 'Jharkhand', 'Kerala', 'Haryana', 'Bihar', 'Punjab', 'Himachal Pradesh', 'Goa', 'Uttarakhand', 'Manipur', 'Mizoram', 'Meghalaya', 'Sikkim', 'Nagaland', 'Tripura', 'Delhi']
+
+Time Spent: 58.80602192878723
+R-precision: 0.9642857142857143
+Average Precision: 1.0
+
+
+
+Incorrect entiites: {'Delhi'}
+Missing entiites: {'Jammu and Kashmir'}

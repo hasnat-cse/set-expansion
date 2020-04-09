@@ -1,0 +1,12 @@
+Seed Entities:
+Manipur
+Jharkhand
+Kerala
+
+Expanded Entities:
+"Jharkhand","Manipur","Kerala","Madhya Pradesh","Assam","Bihar","Orissa","Andhra Pradesh","West Bengal","Himachal Pradesh","Haryana","Karnataka","Meghalaya","Mizoram","Nagaland","Gujarat","Uttar Pradesh","Arunachal Pradesh","Tamil Nadu","Maharashtra","Tripura","Uttarakhand","Sikkim","Rajasthan","Goa","Chhattisgarh","Punjab","Jammu and Kashmir",
+
+Time Spent: 6.466932058334351
+1 iteration
+R-precision: 1.0
+Average Precision: 1.0

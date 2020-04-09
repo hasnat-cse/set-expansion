@@ -1,0 +1,29 @@
+Seed Entities:
+Edmonton
+Calgary
+
+Expanded Entities:
+['Edmonton', 'Calgary', 'Vancouver', 'Home', 'Winnipeg', 'Toronto', 'Saskatchewan', 'Hamilton', 'Detroit', 'Ottawa', 'Montreal', 'London', 'Saskatoon', 'Philadelphia', 'Halifax', 'Quebec City', 'Regina', 'Victoria', 'Atlanta']
+
+Time Spent: 58.93933939933777
+R-precision: 0.10526315789473684
+Average Precision: 1.0
+
+
+
+Seed set: ['Edmonton', 'Calgary']
+Expanded set after iteration 1: ['Edmonton', 'Calgary', 'Vancouver', 'Home', 'Winnipeg', 'Toronto', 'Saskatchewan', 'Hamilton', 'Detroit', 'Ottawa', 'Montreal']
+Expanded set after iteration 2: ['Edmonton', 'Calgary', 'Vancouver', 'Home', 'Winnipeg', 'Toronto', 'Saskatchewan', 'Hamilton', 'Detroit', 'Ottawa', 'Montreal', 'London', 'Saskatoon', 'Philadelphia', 'Halifax',
+ 'Quebec City', 'Regina', 'Victoria', 'Atlanta']
+Expanded Set Length: 19
+Expanded set: ['Edmonton', 'Calgary', 'Vancouver', 'Home', 'Winnipeg', 'Toronto', 'Saskatchewan', 'Hamilton', 'Detroit', 'Ottawa', 'Montreal', 'London', 'Saskatoon', 'Philadelphia', 'Halifax', 'Quebec City', 'R
+egina', 'Victoria', 'Atlanta']
+
+
+
+
+Incorrect entiites: {'Saskatchewan', 'Regina', 'Ottawa', 'Saskatoon', 'Detroit', 'Quebec City', 'London', 'Atlanta', 'Philadelphia', 'Vancouver', 'Victoria', 'Halifax', 'Hamilton', 'Montreal', 'Winnipeg', 'Toro
+nto', 'Home'}
+Missing entiites: {'Lacombe', 'Lloydminster', 'Grande Prairie', 'Cold Lake', 'Leduc', 'St. Albert', 'Brooks', 'Medicine Hat', 'Chestermere', 'Fort Saskatchewan', 'Spruce Grove', 'Beaumont', 'Lethbridge', 'Red D
+eer', 'Airdrie', 'Camrose', 'Wetaskiwin'}
+

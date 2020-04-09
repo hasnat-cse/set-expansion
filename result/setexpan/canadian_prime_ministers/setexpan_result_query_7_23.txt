@@ -1,0 +1,33 @@
+Seed Entities:
+Justin Trudeau
+Paul Martin
+Charles Tupper
+John Diefenbaker
+
+Expanded Entities:
+['Justin Trudeau', 'Paul Martin', 'Charles Tupper', 'John Diefenbaker', 'Pierre Trudeau', 'Mackenzie Bowell', 'Louis St. Laurent', 'Arthur Meighen', 'Total rejected ballots', 'Alexander Mackenzie', 'Lester B. Pearson', 'Wilfrid Laurier', 'Robert Borden', 'John A. Macdonald', 'John Abbott', 'Jean Chrétien', 'Joe Clark', 'John Turner', 'Brian Mulroney', 'William Lyon Mackenzie King', 'Stephen Harper', 'Kim Campbell', 'John Thompson']
+
+Time Spent: 108.48840832710266
+iterations: 2
+R-precision: 0.9565217391304348
+Average Precision: 0.9588489428582458
+
+
+
+History:
+
+Seed set: ['Justin Trudeau', 'Paul Martin', 'Charles Tupper', 'John Diefenbaker']
+Expanded set after iteration 1: ['Justin Trudeau', 'Paul Martin', 'Charles Tupper', 'John Diefenbaker', 'Pierre Trudeau', 'Mackenzie Bowell', 'Louis St. Laurent', 'Arthur Meighen', 'Total rejected ballots', 'Al
+exander Mackenzie', 'Lester B. Pearson', 'Wilfrid Laurier', 'Robert Borden', 'John A. Macdonald', 'John Abbott']
+Expanded set after iteration 2: ['Justin Trudeau', 'Paul Martin', 'Charles Tupper', 'John Diefenbaker', 'Pierre Trudeau', 'Mackenzie Bowell', 'Louis St. Laurent', 'Arthur Meighen', 'Total rejected ballots', 'Al
+exander Mackenzie', 'Lester B. Pearson', 'Wilfrid Laurier', 'Robert Borden', 'John A. Macdonald', 'John Abbott', 'Jean Chrétien', 'Joe Clark', 'John Turner', 'Brian Mulroney', 'William Lyon Mackenzie King', 'St
+ephen Harper', 'Kim Campbell', 'John Thompson']
+Expanded Set Length: 23
+Expanded set: ['Justin Trudeau', 'Paul Martin', 'Charles Tupper', 'John Diefenbaker', 'Pierre Trudeau', 'Mackenzie Bowell', 'Louis St. Laurent', 'Arthur Meighen', 'Total rejected ballots', 'Alexander Mackenzie'
+, 'Lester B. Pearson', 'Wilfrid Laurier', 'Robert Borden', 'John A. Macdonald', 'John Abbott', 'Jean Chrétien', 'Joe Clark', 'John Turner', 'Brian Mulroney', 'William Lyon Mackenzie King', 'Stephen Harper', 'Ki
+m Campbell', 'John Thompson']
+
+
+
+Incorrect entiites: {'Total rejected ballots'}
+Missing entiites: {'R. B. Bennett'}

@@ -1,0 +1,27 @@
+Seed Entities:
+Chestermere
+Space Grove
+Calgary
+
+Expanded Entities:
+['Chestermere', 'Space Grove', 'Calgary', 'Airdrie', 'Cochrane', 'Crossfield', 'Okotoks', 'Beiseker', 'Grande Cache', 'Salt Lake City', 'High River', 'Leduc', 'Stettler', 'Stony Plain', 'Ponoka', 'Olds', 'Pincher Creek', 'Edson', 'Lacombe']
+
+Time Spent: 26.01402759552002
+R-precision: 0.2631578947368421
+Average Precision: 0.6026315789473684
+
+
+Seed set: ['Chestermere', 'Space Grove', 'Calgary']
+Expanded set after iteration 1: ['Chestermere', 'Space Grove', 'Calgary', 'Airdrie', 'Cochrane', 'Crossfield', 'Okotoks', 'Beiseker', 'Grande Cache', 'Salt Lake City', 'High River', 'Leduc']
+Expanded set after iteration 2: ['Chestermere', 'Space Grove', 'Calgary', 'Airdrie', 'Cochrane', 'Crossfield', 'Okotoks', 'Beiseker', 'Grande Cache', 'Salt Lake City', 'High River', 'Leduc', 'Stettler', 'Stony
+Plain', 'Ponoka', 'Olds', 'Pincher Creek', 'Edson', 'Lacombe']
+Expanded Set Length: 19
+Expanded set: ['Chestermere', 'Space Grove', 'Calgary', 'Airdrie', 'Cochrane', 'Crossfield', 'Okotoks', 'Beiseker', 'Grande Cache', 'Salt Lake City', 'High River', 'Leduc', 'Stettler', 'Stony Plain', 'Ponoka',
+'Olds', 'Pincher Creek', 'Edson', 'Lacombe']
+
+
+
+
+Incorrect entiites: {'Olds', 'Space Grove', 'Ponoka', 'Stony Plain', 'Salt Lake City', 'Okotoks', 'Crossfield', 'Pincher Creek', 'Stettler', 'Edson', 'Beiseker', 'High River', 'Cochrane', 'Grande Cache'}
+Missing entiites: {'Medicine Hat', 'Edmonton', 'Brooks', 'Beaumont', 'Camrose', 'Fort Saskatchewan', 'Grande Prairie', 'Lloydminster', 'Cold Lake', 'Wetaskiwin', 'St. Albert', 'Spruce Grove', 'Lethbridge', 'Red
+ Deer'}

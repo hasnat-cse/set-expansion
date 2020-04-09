@@ -1,0 +1,48 @@
+Seed Entities:
+Chestermere
+Brooks
+Calgary
+
+Expanded Entities:
+"Chestermere","Tofield","Sundre","Two Hills","Westlock","Beaverlodge","High Prairie","Picture Butte","Crossfield","Smoky Lake","Bow Island","Fox Creek","Rimbey","Valleyview","Irricana","Brooks","Grimshaw","Turner Valley","Calgary",
+
+Time Spent: 5.842142581939697
+iterations: 2
+R-precision: 0.15789473684210525
+Average Precision: 0.4276315789473684
+
+
+
+
+
+
+
+History:
+
+Seed entities in Static Seisa: ['Chestermere', 'Brooks', 'Calgary']
+Expanded entities after step 0: ['Brooks', 'Chestermere', 'Calgary', 'Crossfield', 'Tofield', 'Sundre', 'Beaverlodge', 'Two Hills', 'Bow Island', 'Westlock', 'Edmonton', 'High Prairie', 'Smoky Lake', 'Fox Creek
+', 'Valleyview', 'Turner Valley', 'Picture Butte', 'Irricana', 'Rimbey']
+Expanded entities after step 1: ['Chestermere', 'Tofield', 'Sundre', 'Two Hills', 'Westlock', 'Beaverlodge', 'High Prairie', 'Crossfield', 'Picture Butte', 'Smoky Lake', 'Bow Island', 'Fox Creek', 'Rimbey', 'Br
+ooks', 'Valleyview', 'Irricana', 'Calgary', 'Turner Valley', 'Grimshaw']
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['Chestermere', 'Tofield', 'Sundre', 'Two Hills', 'Westlock', 'Beaverlodge', 'High Prairie', 'Picture Butte', 'Crossfield', 'Smoky Lake', 'Bow Island', 'Fox Creek', 'Rimbey
+', 'Valleyview', 'Irricana', 'Brooks', 'Grimshaw', 'Turner Valley', 'Calgary']
+
+
+
+Incorect entity: Tofield
+Incorect entity: Sundre
+Incorect entity: Two Hills
+Incorect entity: Westlock
+Incorect entity: Beaverlodge
+Incorect entity: High Prairie
+Incorect entity: Picture Butte
+Incorect entity: Crossfield
+Incorect entity: Smoky Lake
+Incorect entity: Bow Island
+Incorect entity: Fox Creek
+Incorect entity: Rimbey
+Incorect entity: Valleyview
+Incorect entity: Irricana
+Incorect entity: Grimshaw
+Incorect entity: Turner Valley

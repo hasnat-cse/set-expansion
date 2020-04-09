@@ -1,0 +1,45 @@
+Seed Entities:
+Edmonton
+Calgary
+Leduc
+
+Expanded Entities:
+"Leduc","Ponoka","Stettler","Cardston","Edmonton","Calgary","Lacombe","Olds","Grouard","Taber","Sedgewick","Lac Ste. Anne","Didsbury","Camrose","Edson","Gleichen","Stony Plain","St. Albert","Wetaskiwin",
+
+Time Spent: 11.27828073501587
+iterations: 4
+R-precision: 0.3684210526315789
+Average Precision: 0.5043322592194773
+
+
+
+
+History:
+
+Seed entities in Static Seisa: ['Edmonton', 'Calgary', 'Leduc']
+Expanded entities after step 0: ['Edmonton', 'Calgary', 'Leduc', 'Vancouver', 'Lacombe', 'St. Albert', 'Ponoka', 'Winnipeg', 'Stettler', 'Camrose', 'Cardston', 'Grouard', 'Wetaskiwin', 'Lac Ste. Anne', 'Olds',
+'Stony Plain', 'Sedgewick', 'Redwater', 'Taber']
+Expanded entities after step 1: ['Leduc', 'Edmonton', 'Ponoka', 'Calgary', 'Stettler', 'Cardston', 'Lacombe', 'Olds', 'Taber', 'Grouard', 'Sedgewick', 'Camrose', 'Lac Ste. Anne', 'St. Albert', 'Stony Plain', 'W
+etaskiwin', 'Redwater', 'Vancouver', 'Didsbury']
+Expanded entities after step 2: ['Leduc', 'Ponoka', 'Stettler', 'Edmonton', 'Calgary', 'Cardston', 'Lacombe', 'Olds', 'Taber', 'Grouard', 'Sedgewick', 'Lac Ste. Anne', 'Camrose', 'Didsbury', 'Stony Plain', 'St.
+ Albert', 'Wetaskiwin', 'Redwater', 'Edson']
+Expanded entities after step 3: ['Leduc', 'Ponoka', 'Stettler', 'Cardston', 'Edmonton', 'Calgary', 'Lacombe', 'Olds', 'Taber', 'Sedgewick', 'Grouard', 'Lac Ste. Anne', 'Camrose', 'Didsbury', 'Edson', 'Stony Pla
+in', 'St. Albert', 'Wetaskiwin', 'Gleichen']
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['Leduc', 'Ponoka', 'Stettler', 'Cardston', 'Edmonton', 'Calgary', 'Lacombe', 'Olds', 'Grouard', 'Taber', 'Sedgewick', 'Lac Ste. Anne', 'Didsbury', 'Camrose', 'Edson', 'Gle
+ichen', 'Stony Plain', 'St. Albert', 'Wetaskiwin']
+
+
+
+Incorect entity: Ponoka
+Incorect entity: Stettler
+Incorect entity: Cardston
+Incorect entity: Olds
+Incorect entity: Grouard
+Incorect entity: Taber
+Incorect entity: Sedgewick
+Incorect entity: Lac Ste. Anne
+Incorect entity: Didsbury
+Incorect entity: Edson
+Incorect entity: Gleichen
+Incorect entity: Stony Plain

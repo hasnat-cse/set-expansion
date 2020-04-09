@@ -1,0 +1,14 @@
+Seed Entities:
+Goa
+Himachal Pradesh
+Gujarat
+Meghalaya
+Punjab
+
+Expanded Entities:
+"Himachal Pradesh","Gujarat","Jharkhand","Madhya Pradesh","Meghalaya","Orissa","Bihar","Haryana","Andhra Pradesh","Assam","West Bengal","Karnataka","Manipur","Uttar Pradesh","Nagaland","Kerala","Arunachal Pradesh","Maharashtra","Tamil Nadu","Mizoram","Rajasthan","Goa","Tripura","Sikkim","Uttarakhand","Punjab","Chhattisgarh","Jammu and Kashmir",
+
+Time Spent: 6.529390573501587
+1 iteration
+R-precision: 1.0
+Average Precision: 1.0

@@ -1,0 +1,17 @@
+Seed Entities:
+Maharashtra
+Gujarat
+Jharkhand
+Nagaland
+
+Expanded Entities:
+['Maharashtra', 'Gujarat', 'Jharkhand', 'Nagaland', 'Karnataka', 'Andhra Pradesh', 'Uttar Pradesh', 'Madhya Pradesh', 'West Bengal', 'Punjab', 'Tamil Nadu', 'Rajasthan', 'Orissa', 'Haryana', 'Assam', 'Bihar', 'Kerala', 'Himachal Pradesh', 'Goa', 'Manipur', 'Uttarakhand', 'Meghalaya', 'Arunachal Pradesh', 'Tripura', 'Sikkim', 'Mizoram', 'Delhi', 'Chhattisgarh']
+
+Time Spent: 69.59124326705933
+R-precision: 0.9642857142857143
+Average Precision: 0.9986772486772487
+
+
+Incorrect entiites: {'Delhi'}
+Missing entiites: {'Jammu and Kashmir'}
+

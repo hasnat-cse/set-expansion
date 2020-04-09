@@ -7,7 +7,9 @@ SEISA:
 
 + so far, alpha = 0.9 works best for all query
 
-+ optimize version works faster than set expan.
++ optimized version works faster than set expan.
+
++ Wrong entities can be corrected in successive iterations
 
 
 Static SEISA:
@@ -30,5 +32,21 @@ Set Expan:
 
 + Very less chance of huge semantic drift. Because in each iteration, it only adds new entities without replacing previous ones.
 
+- There is no way to correct some wrong entities in subsequent iterations
+
 
 *Need to check varying seed size.
+
+
+
+
+** Concept lists are chosen based on easily verifiable ground truths and variation of length of the ground truth set. Ground truths are got from wikipedia list and based on availability in dataset
+
+** Mymensingh Division exists in only one list but that list contains all the results
+** Rangpur Division next less popular
+
+** With popular seeds, accuracy is less. With less popular seeds accuracy is good. Both have difficulty finding less popular entity.
+
+** for SEISA, if the concept is well distinguished from all other entities then threshold is reasonable, Otherwise threshold is not reasonable. For example: Country is well separated,
+    But, for asian countries, threshold is pretty bad.
+** Both works better for seed size greater than  or equal to 3.

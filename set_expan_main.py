@@ -48,7 +48,7 @@ def main():
         #     FLAGS_DEBUG=False,
         # )
 
-        expandedEntitiesWithConfidence = set_expan.setExpan_according_to_paper(
+        expanded_entities = set_expan.setExpan_according_to_paper(
             seedEntitiesWithConfidence=seedEntitiesWithConfidence,
             entity2patterns=entity2patterns,
             pattern2entities=pattern2entities,
@@ -68,10 +68,12 @@ def main():
                 fout.write(entity + "\n")
 
             fout.write("\nExpanded Entities:" + "\n")
-            for ele in expandedEntitiesWithConfidence:
-                fout.write(ele[0] + "\n")
+            # for ele in expanded_entities:
+            #     fout.write(ele + "\n")
 
-            fout.write("\nTime Spent: " + str(end - start) + "\n")
+            fout.write(str(expanded_entities))
+
+            fout.write("\n\nTime Spent: " + str(end - start) + "\n")
 
             fout.close()
 

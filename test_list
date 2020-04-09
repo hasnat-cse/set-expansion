@@ -1,17 +1,104 @@
-# Canada provinces 10 and Territories 3
-Ontario,Quebec,Nova Scotia,New Brunswick,Manitoba,British Columbia,Prince Edward Island,Saskatchewan,Alberta,Newfoundland and Labrador,Northwest Territories,Yukon,Nunavut
+[('Punjab', 446), ('Maharashtra', 370), ('Tamil Nadu', 356), ('Karnataka', 349), ('Uttar Pradesh', 346), ('Andhra Pradesh', 331), ('Kerala', 330), ('Rajasthan', 330), ('West Bengal', 319), ('Gujarat', 300), ('M
+adhya Pradesh', 286), ('Assam', 278), ('Orissa', 269), ('Haryana', 257), ('Bihar', 248), ('Goa', 246), ('Jharkhand', 207), ('Himachal Pradesh', 187), ('Manipur', 177), ('Sikkim', 170), ('Uttarakhand', 163), ('M
+eghalaya', 160), ('Mizoram', 154), ('Tripura', 144), ('Arunachal Pradesh', 143), ('Nagaland', 141), ('Chhattisgarh', 140), ('Jammu and Kashmir', 133)]
 
-# Bangladesh Divisions 8
-Barisal Division,Chittagong Division,Dhaka Division,Khulna Division,Mymensingh Division,Rajshahi Division,Rangpur Division,Sylhet Division
+
+[('Calgary', 1197), ('Edmonton', 1059), ('Beaumont', 159), ('Lethbridge', 158), ('Medicine Hat', 140), ('Red Deer', 127), ('Brooks', 95), ('St. Albert', 80), ('Wetaskiwin', 70), ('Lloydminster', 67), ('Airdrie'
+, 66), ('Camrose', 64), ('Grande Prairie', 62), ('Lacombe', 50), ('Leduc', 40), ('Cold Lake', 26), ('Fort Saskatchewan', 21), ('Spruce Grove', 15), ('Chestermere', 11)]
+
+
+[("Queen\\'s University", 122), ('University of Toronto', 98), ('University of Ottawa', 58), ('University of Western Ontario', 50), ('York University', 49), ('University of Waterloo', 47), ('McMaster University
+', 42), ('Carleton University', 41), ('University of Guelph', 33), ('Wilfrid Laurier University', 30), ('University of Windsor', 29), ('Brock University', 24), ('Ryerson University', 19), ('Lakehead University'
+, 17), ('Trent University', 17), ('Laurentian University', 16), ('Nipissing University', 10), ('Algoma University', 5), ('OCAD University', 2)]
+
+
+[('United States', 27954), ('Canada', 19977), ('Mexico', 8788), ('Cuba', 5320), ('Jamaica', 4199), ('Trinidad and Tobago', 2796), ('Dominican Republic', 2731), ('Costa Rica', 2637), ('Guatemala', 2348), ('Panam
+a', 2321), ('Bahamas', 2044), ('Honduras', 2013), ('El Salvador', 1928), ('Barbados', 1812), ('Nicaragua', 1502), ('Haiti', 1416), ('Grenada', 1128), ('Saint Kitts and Nevis', 989), ('Antigua and Barbuda', 981)
+, ('Belize', 939), ('Saint Lucia', 899), ('Dominica', 857)]
+
+
+[('Paul Martin', 131), ('John Thompson', 124), ('Wilfrid Laurier', 98), ('John Turner', 92), ('Stephen Harper', 61), ('Jean Chrétien', 55), ('John Diefenbaker', 47), ('Pierre Trudeau', 46), ('Joe Clark', 46), (
+'Robert Borden', 44), ('Alexander Mackenzie', 41), ('William Lyon Mackenzie King', 40), ('Lester B. Pearson', 38), ('Kim Campbell', 38), ('Louis St. Laurent', 35), ('John A. Macdonald', 32), ('Arthur Meighen',
+32), ('Brian Mulroney', 32), ('Charles Tupper', 29), ('John Abbott', 23), ('Mackenzie Bowell', 22), ('R. B. Bennett', 15), ('Justin Trudeau', 12)]
+
+
+
+Queries:
+1. 1 frequent, 1 less frequent
+2. 2 frequent
+3. 2 less frequent
+4. 2 frequent, 1 less frequent
+5. 2 less frequent, 1 frequent
+6. 3 frequent
+7. 2 frequent, 2 less frequent
+8. 5 frequent
+
 
 # India States 28
-Andhra Pradesh,Arunachal Pradesh,Assam,Bihar,Chhattisgarh,Goa,Gujarat,Haryana,Himachal Pradesh,Jharkhand,Karnataka,Kerala,Madhya Pradesh,Maharashtra,Manipur,Meghalaya,Mizoram,Nagaland,Odisha,Punjab,Rajasthan,Sikkim,Tamil Nadu,Telangana,Tripura,Uttar Pradesh,Uttarakhand,West Bengal
+Andhra Pradesh,Arunachal Pradesh,Assam,Bihar,Chhattisgarh,Goa,Gujarat,Haryana,Himachal Pradesh,Jharkhand,Karnataka,Kerala,Madhya Pradesh,Maharashtra,Manipur,Meghalaya,Mizoram,Nagaland,Orissa,Punjab,Rajasthan,Sikkim,Tamil Nadu,Tripura,Uttar Pradesh,Uttarakhand,West Bengal,Jammu and Kashmir
 
-#Bangladesh TV channels 33
-BTV,BTV Chittagong,BTV World,Sangsad Bangladesh,ATN Bangla,Channel i,Ekushey Television,NTV,RTV,Boishakhi TV,Banglavision,Desh TV,My TV,Mohona TV,Maasranga Television,Channel 9,GTV,Asian TV,SA TV,Deepto TV,Bangla TV,Nagorik TV,ATN News,Independent Television,Somoy TV,Channel 24,Ekattor TV,Jamuna TV,News24,DBC News,Gaan Bangla,Duronto TV,Bijoy TV
+Queries:
+1. Punjab,Nagaland
+2. West Bengal,Punjab
+3. Chhattisgarh,Arunachal Pradesh
+4. Himachal Pradesh,Gujarat,Karnataka
+5. Manipur,Jharkhand,Kerala
+6. Tamil Nadu,Kerala,Punjab
+7. Maharashtra,Gujarat,Jharkhand,Nagaland
+8. Punjab,Maharashtra,Gujarat,Uttar Pradesh,Kerala
+
 
 # Alberta cities 19
 Airdrie,Beaumont,Brooks,Calgary,Camrose,Chestermere,Cold Lake,Edmonton,Fort Saskatchewan,Grande Prairie,Lacombe,Leduc,Lethbridge,Lloydminster,Medicine Hat,Red Deer,Spruce Grove,St. Albert,Wetaskiwin
 
-# North American Countries 23
-United States,Mexico,Canada,Guatemala,Cuba,Haiti,Dominican Republic,Honduras,El Salvador,Nicaragua,Costa Rica,Panama,Jamaica,Trinidad and Tobago,Bahamas,Belize,Barbados,Saint Lucia,Saint Vincent and the Grenadines,Grenada,Antigua and Barbuda,Dominica,Saint Kitts and Nevis
+Queries:
+*1. Edmonton,Chestermere
+2. Edmonton,Calgary
+*3. Spruce Grove,Chestermere
+4. Edmonton,Calgary,Leduc
+*5. Chestermere,Space Grove,Calgary
+*6. Edmonton,Calgary,Beaumont
+*7. Calgary,Edmonton,Spruce Grove,Cold Lake
+*8. Edmonton,Calgary,Reed Deer,Medicine Hat,Lethbridge
+
+
+# Public Universities in Ontario 19
+Algoma University,Brock University,Carleton University,Lakehead University,Laurentian University,McMaster University,Nipissing University,Queen\\'s University,Ryerson University,Trent University,University of Guelph,University of Ottawa,University of Toronto,University of Waterloo,University of Western Ontario,University of Windsor,Wilfrid Laurier University,York University,OCAD University
+
+Queries:
+1. University of Toronto,Algoma University
+*2. University of Toronto,Queen\'s University
+*3. OCAD University,Laurentian University
+*4. University of Ottawa,University of Toronto,Nipissing University
+5. Lakehead University,Trent University,University of Toronto
+6. University of Toronto,McMaster University,Queen\'s University
+7. University of Toronto,University of Ottawa,Algoma University,Laurentian University
+8. University of Toronto,McMaster University,Queen\'s University,Carleton University,University of Ottawa
+
+
+# North American Countries 22
+Antigua and Barbuda,Bahamas,Barbados,Belize,Canada,Costa Rica,Cuba,Dominica,Dominican Republic,El Salvador,Grenada,Guatemala,Haiti,Honduras,Jamaica,Mexico,Nicaragua,Panama,Saint Kitts and Nevis,Saint Lucia,Trinidad and Tobago,United States
+
+Queries:
+1. Canada,Dominica
+2. Canada,United States
+3. Belize,Saint Lucia
+4. Mexico,United States,Barbados
+5. Dominica,Saint Lucia,Canada
+6. United States,Canada,Mexico
+7. Mexico,United States,Dominica,Grenada
+8. Mexico,United States,Canada,Cuba,Jamaica
+
+
+# Canadian prime ministers 23
+John A. Macdonald,Alexander Mackenzie,John Abbott,John Thompson,Mackenzie Bowell,Charles Tupper,Wilfrid Laurier,Robert Borden,Arthur Meighen,William Lyon Mackenzie King,R. B. Bennett,Louis St. Laurent,John Diefenbaker,Lester B. Pearson,Pierre Trudeau,Joe Clark,John Turner,Brian Mulroney,Kim Campbell,Jean Chrétien,Paul Martin,Stephen Harper,Justin Trudeau
+
+Queries:
+*1. Justin Trudeau,John Thompson
+*2. Paul Martin,John Thompson
+3. John Abbott,Arthur Meighen
+4. Alexander Mackenzie,John Thompson,Justin Trudeau
+5. Pierre Trudeau,Justin Trudeau,Mackenzie Bowell
+*6. Paul Martin,John Thompson,John Turner
+7. Justin Trudeau,Paul Martin,Charles Tupper,John Diefenbaker
+*8. Paul Martin,John Thompson,Wildfrid Laurier,John Turner,Stephen Harper
