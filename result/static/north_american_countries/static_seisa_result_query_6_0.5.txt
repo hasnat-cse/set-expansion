@@ -1,0 +1,32 @@
+Seed Entities:
+United States
+Canada
+Mexico
+
+Expanded Entities:
+['Canada', 'United States', 'Mexico', 'Germany', 'France', 'Italy', 'Australia', 'Sweden', 'Russia', 'Spain', 'Switzerland', 'Brazil', 'Netherlands', 'Japan', 'Finland', 'Poland', 'United Kingdom', 'Austria', 'Norway', 'Argentina', 'China', 'New Zealand']
+
+Time Spent: 89.70140266418457
+R-precision: 0.13636363636363635
+Average Precision: 1.0
+
+
+
+
+Seed entities in Static Seisa: ['United States', 'Canada', 'Mexico']
+Expanded entities after step 0: ['Canada', 'United States', 'Mexico', 'Australia', 'Germany', 'France', 'Brazil', 'Italy', 'Japan', 'Sweden', 'Russia', 'Argentina', 'United Kingdom', 'Switzerland', 'Spain', 'Ne
+therlands', 'Finland', 'China', 'Poland', 'New Zealand', 'Colombia', 'Norway']
+Expanded entities after step 1: ['Canada', 'United States', 'Mexico', 'Germany', 'France', 'Italy', 'Australia', 'Sweden', 'Russia', 'Spain', 'Brazil', 'Switzerland', 'Netherlands', 'Japan', 'Finland', 'Poland'
+, 'United Kingdom', 'Norway', 'Argentina', 'China', 'New Zealand', 'Austria']
+Expanded entities length: 22
+Expanded entities after Static Seisa: ['Canada', 'United States', 'Mexico', 'Germany', 'France', 'Italy', 'Australia', 'Sweden', 'Russia', 'Spain', 'Switzerland', 'Brazil', 'Netherlands', 'Japan', 'Finland', 'P
+oland', 'United Kingdom', 'Austria', 'Norway', 'Argentina', 'China', 'New Zealand']
+
+
+
+
+Incorrect entiites: {'Austria', 'Argentina', 'Sweden', 'Russia', 'China', 'Spain', 'Poland', 'France', 'Norway', 'Finland', 'United Kingdom', 'Japan', 'Australia', 'Netherlands', 'New Zealand', 'Germany', 'Swit
+zerland', 'Brazil', 'Italy'}
+Missing entiites: {'Barbados', 'Nicaragua', 'Honduras', 'Costa Rica', 'Jamaica', 'Dominican Republic', 'Bahamas', 'Trinidad and Tobago', 'Cuba', 'Belize', 'Guatemala', 'Saint Kitts and Nevis', 'Dominica', 'Pana
+ma', 'El Salvador', 'Saint Lucia', 'Antigua and Barbuda', 'Grenada', 'Haiti'}
+

@@ -1,0 +1,29 @@
+Seed Entities:
+Canada
+Dominica
+
+Expanded Entities:
+['Dominica', 'Canada', 'Saint Lucia', 'Saint Kitts and Nevis', 'Grenada', 'Antigua and Barbuda', 'Belize', 'Haiti', 'Guyana', 'Barbados', 'Nicaragua', 'Suriname', 'El Salvador', 'British Virgin Islands', 'Honduras', 'Swaziland', 'Kiribati', 'Montserrat', 'Turks and Caicos Islands', 'Anguilla', 'Cape Verde', 'Trinidad and Tobago']
+
+Time Spent: 475.2633967399597
+R-precision: 0.5909090909090909
+Average Precision: 0.9266272189349114
+
+
+
+
+Seed entities in Static Seisa: ['Canada', 'Dominica']
+Expanded entities after step 0: ['Dominica', 'Canada', 'Saint Kitts and Nevis', 'Saint Lucia', 'Grenada', 'Antigua and Barbuda', 'United States', 'Belize', 'Haiti', 'Barbados', 'Guyana', 'Nicaragua', 'Suriname'
+, 'Kiribati', 'Australia', 'El Salvador', 'British Virgin Islands', 'Montserrat', 'Turks and Caicos Islands', 'Cape Verde', 'Anguilla', 'Trinidad and Tobago']
+Expanded entities after step 1: ['Dominica', 'Canada', 'Saint Lucia', 'Saint Kitts and Nevis', 'Grenada', 'Antigua and Barbuda', 'Belize', 'Haiti', 'Guyana', 'Barbados', 'Suriname', 'Nicaragua', 'British Virgin
+ Islands', 'El Salvador', 'Montserrat', 'Turks and Caicos Islands', 'Anguilla', 'Kiribati', 'Trinidad and Tobago', 'Cape Verde', 'United States', 'Honduras']
+Expanded entities after step 2: ['Dominica', 'Canada', 'Saint Lucia', 'Saint Kitts and Nevis', 'Grenada', 'Antigua and Barbuda', 'Belize', 'Haiti', 'Guyana', 'Barbados', 'Nicaragua', 'Suriname', 'El Salvador',
+'British Virgin Islands', 'Honduras', 'Montserrat', 'Turks and Caicos Islands', 'Anguilla', 'Kiribati', 'Trinidad and Tobago', 'Cape Verde', 'Swaziland']
+Expanded entities length: 22
+Expanded entities after Static Seisa: ['Dominica', 'Canada', 'Saint Lucia', 'Saint Kitts and Nevis', 'Grenada', 'Antigua and Barbuda', 'Belize', 'Haiti', 'Guyana', 'Barbados', 'Nicaragua', 'Suriname', 'El Salva
+dor', 'British Virgin Islands', 'Honduras', 'Swaziland', 'Kiribati', 'Montserrat', 'Turks and Caicos Islands', 'Anguilla', 'Cape Verde', 'Trinidad and Tobago']
+
+
+
+Incorrect entiites: {'Guyana', 'Turks and Caicos Islands', 'Suriname', 'Anguilla', 'Montserrat', 'British Virgin Islands', 'Kiribati', 'Swaziland', 'Cape Verde'}
+Missing entiites: {'Cuba', 'Mexico', 'Panama', 'Guatemala', 'United States', 'Bahamas', 'Dominican Republic', 'Costa Rica', 'Jamaica'}

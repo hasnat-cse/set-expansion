@@ -1,0 +1,29 @@
+Seed Entities:
+Mexico
+United States
+Canada
+Cuba
+Jamaica
+
+Expanded Entities:
+['Canada', 'United States', 'Mexico', 'Cuba', 'Jamaica', 'Brazil', 'France', 'Germany', 'Colombia', 'Argentina', 'Italy', 'Australia', 'Venezuela', 'Russia', 'Chile', 'Spain', 'Sweden', 'Dominican Republic', 'Japan', 'Costa Rica', 'Guatemala', 'Trinidad and Tobago']
+
+Time Spent: 146.5750572681427
+R-precision: 0.4090909090909091
+Average Precision: 0.7192640692640692
+
+
+
+Seed entities in Static Seisa: ['Mexico', 'United States', 'Canada', 'Cuba', 'Jamaica']
+Expanded entities after step 0: ['Canada', 'United States', 'Mexico', 'Cuba', 'Jamaica', 'Brazil', 'Australia', 'Germany', 'Colombia', 'France', 'Argentina', 'Venezuela', 'Dominican Republic', 'Russia', 'Trinid
+ad and Tobago', 'Italy', 'Japan', 'Sweden', 'Chile', 'Spain', 'Costa Rica', 'Guatemala']
+Expanded entities length: 22
+Expanded entities after Static Seisa: ['Canada', 'United States', 'Mexico', 'Cuba', 'Jamaica', 'Brazil', 'France', 'Germany', 'Colombia', 'Argentina', 'Italy', 'Australia', 'Venezuela', 'Russia', 'Chile', 'Spai
+n', 'Sweden', 'Dominican Republic', 'Japan', 'Costa Rica', 'Guatemala', 'Trinidad and Tobago']
+
+
+Incorrect entiites: {'Germany', 'Chile', 'Colombia', 'Japan', 'Venezuela', 'Italy', 'Argentina', 'Australia', 'Spain', 'Brazil', 'Russia', 'France', 'Sweden'}
+Missing entiites: {'Grenada', 'Honduras', 'Saint Lucia', 'Panama', 'Barbados', 'El Salvador', 'Antigua and Barbuda', 'Haiti', 'Dominica', 'Nicaragua', 'Bahamas', 'Saint Kitts and Nevis', 'Belize'}
+
+
+

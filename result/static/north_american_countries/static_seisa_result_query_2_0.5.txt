@@ -1,0 +1,48 @@
+Seed Entities:
+Canada
+United States
+
+Expanded Entities:
+['Canada', 'United States', 'Germany', 'France', 'Italy', 'Australia', 'Sweden', 'Russia', 'Switzerland', 'Spain', 'Netherlands', 'Japan', 'Finland', 'United Kingdom', 'Poland', 'Austria', 'Norway', 'Belgium', 'Czech Republic', 'Brazil', 'China', 'Mexico']
+
+Time Spent: 3184.4311649799347
+R-precision: 0.13636363636363635
+Average Precision: 0.712121212121212
+
+
+
+
+
+Seed entities in Static Seisa: ['Canada', 'Dominica']
+Expanded entities after step 0: ['Dominica', 'Canada', 'Saint Kitts and Nevis', 'Saint Lucia', 'Grenada', 'Antigua and Barbuda', 'United States', 'Belize', 'Haiti', 'Barbados', 'Guyana', 'Nicaragua', 'Suriname'
+, 'Kiribati', 'Australia', 'El Salvador', 'British Virgin Islands', 'Montserrat', 'Turks and Caicos Islands', 'Cape Verde', 'Anguilla', 'Trinidad and Tobago']
+Expanded entities after step 1: ['Dominica', 'Canada', 'Saint Lucia', 'Saint Kitts and Nevis', 'Grenada', 'Antigua and Barbuda', 'Belize', 'Haiti', 'Guyana', 'Barbados', 'Suriname', 'Nicaragua', 'British Virgin
+ Islands', 'El Salvador', 'Montserrat', 'Turks and Caicos Islands', 'Anguilla', 'Kiribati', 'Trinidad and Tobago', 'Cape Verde', 'United States', 'Honduras']
+Expanded entities after step 2: ['Dominica', 'Canada', 'Saint Lucia', 'Saint Kitts and Nevis', 'Grenada', 'Antigua and Barbuda', 'Belize', 'Haiti', 'Guyana', 'Barbados', 'Nicaragua', 'Suriname', 'El Salvador',
+'British Virgin Islands', 'Honduras', 'Montserrat', 'Turks and Caicos Islands', 'Anguilla', 'Kiribati', 'Trinidad and Tobago', 'Cape Verde', 'Swaziland']
+Expanded entities length: 22
+Expanded entities after Static Seisa: ['Dominica', 'Canada', 'Saint Lucia', 'Saint Kitts and Nevis', 'Grenada', 'Antigua and Barbuda', 'Belize', 'Haiti', 'Guyana', 'Barbados', 'Nicaragua', 'Suriname', 'El Salva
+dor', 'British Virgin Islands', 'Honduras', 'Swaziland', 'Kiribati', 'Montserrat', 'Turks and Caicos Islands', 'Anguilla', 'Cape Verde', 'Trinidad and Tobago']
+Total time taken: 475.2633967399597
+Enter seed entities (separated with comma, q to exit): Canada,United States
+Enter expected output size: 22
+Enter value of alpha: 0.5
+Seed entities in Static Seisa: ['Canada', 'United States']
+Expanded entities after step 0: ['United States', 'Canada', 'Australia', 'Germany', 'France', 'Japan', 'Russia', 'Italy', 'Sweden', 'United Kingdom', 'Switzerland', 'Brazil', 'Netherlands', 'Finland', 'Spain',
+'Mexico', 'China', 'Poland', 'New Zealand', 'Norway', 'Czech Republic', 'Austria']
+Expanded entities after step 1: ['Canada', 'United States', 'Germany', 'France', 'Australia', 'Italy', 'Sweden', 'Russia', 'Switzerland', 'Japan', 'Spain', 'Netherlands', 'United Kingdom', 'Finland', 'Poland',
+'Austria', 'Norway', 'Czech Republic', 'Brazil', 'China', 'Mexico', 'Belgium']
+Expanded entities length: 22
+Expanded entities after Static Seisa: ['Canada', 'United States', 'Germany', 'France', 'Italy', 'Australia', 'Sweden', 'Russia', 'Switzerland', 'Spain', 'Netherlands', 'Japan', 'Finland', 'United Kingdom', 'Pol
+and', 'Austria', 'Norway', 'Belgium', 'Czech Republic', 'Brazil', 'China', 'Mexico']
+
+
+
+
+Incorrect entiites: {'United Kingdom', 'Germany', 'Poland', 'Belgium', 'Sweden', 'Czech Republic', 'Italy', 'Australia', 'Netherlands', 'Japan', 'France', 'Spain', 'Austria', 'China', 'Switzerland', 'Finland',
+'Brazil', 'Norway', 'Russia'}
+Missing entiites: {'Saint Lucia', 'Costa Rica', 'Trinidad and Tobago', 'Dominican Republic', 'Panama', 'Guatemala', 'Cuba', 'Dominica', 'Haiti', 'Nicaragua', 'Honduras', 'Bahamas', 'Barbados', 'El Salvador', 'S
+aint Kitts and Nevis', 'Antigua and Barbuda', 'Belize', 'Grenada', 'Jamaica'}
+
+
+

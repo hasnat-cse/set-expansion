@@ -1,0 +1,23 @@
+Seed Entities:
+Belize
+Saint Lucia
+
+Expanded Entities:
+['Belize', 'Saint Lucia', 'Dominica', 'Antigua and Barbuda', 'Saint Kitts and Nevis', 'Grenada', 'Guyana', 'Suriname', 'Nicaragua', 'Swaziland', 'Haiti', 'Barbados', 'Lesotho', 'Guinea-Bissau', 'Cape Verde', 'Comoros', 'Sierra Leone', 'Kiribati', 'Bhutan', 'Solomon Islands', 'El Salvador', 'Honduras']
+
+Time Spent: 8.482129096984863
+R-precision: 0.5
+Average Precision: 0.839203725567362
+
+
+Seed entities in Static Seisa: ['Belize', 'Saint Lucia']
+Expanded entities after step 0: ['Belize', 'Saint Lucia', 'Dominica', 'Saint Kitts and Nevis', 'Antigua and Barbuda', 'Grenada', 'Guyana', 'Suriname', 'Nicaragua', 'Barbados', 'Haiti', 'Swaziland', 'Kiribati',
+'El Salvador', 'Lesotho', 'Honduras', 'Bhutan', 'Solomon Islands', 'Guinea-Bissau', 'Cape Verde', 'Sierra Leone', 'Comoros']
+Expanded entities length: 22
+Expanded entities after Static Seisa: ['Belize', 'Saint Lucia', 'Dominica', 'Antigua and Barbuda', 'Saint Kitts and Nevis', 'Grenada', 'Guyana', 'Suriname', 'Nicaragua', 'Swaziland', 'Haiti', 'Barbados', 'Lesot
+ho', 'Guinea-Bissau', 'Cape Verde', 'Comoros', 'Sierra Leone', 'Kiribati', 'Bhutan', 'Solomon Islands', 'El Salvador', 'Honduras']
+
+
+
+Incorrect entiites: {'Kiribati', 'Sierra Leone', 'Guyana', 'Suriname', 'Lesotho', 'Comoros', 'Swaziland', 'Guinea-Bissau', 'Cape Verde', 'Bhutan', 'Solomon Islands'}
+Missing entiites: {'Mexico', 'Panama', 'Dominican Republic', 'Costa Rica', 'Canada', 'Trinidad and Tobago', 'United States', 'Cuba', 'Guatemala', 'Bahamas', 'Jamaica'}

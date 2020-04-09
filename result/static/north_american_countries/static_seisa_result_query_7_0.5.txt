@@ -1,0 +1,29 @@
+Seed Entities:
+Mexico
+United States
+Dominica
+Grenada
+
+Expanded Entities:
+['Grenada', 'Dominica', 'Saint Lucia', 'Saint Kitts and Nevis', 'Antigua and Barbuda', 'Belize', 'Mexico', 'Haiti', 'Barbados', 'Nicaragua', 'Guyana', 'El Salvador', 'Honduras', 'Guatemala', 'Suriname', 'Trinidad and Tobago', 'United States', 'Dominican Republic', 'Costa Rica', 'Panama', 'Bahamas', 'Jamaica']
+
+Time Spent: 20.5417001247406
+R-precision: 0.9090909090909091
+Average Precision: 0.9511573252169228
+
+
+
+Seed entities in Static Seisa: ['Mexico', 'United States', 'Dominica', 'Grenada']
+Expanded entities after step 0: ['Grenada', 'Dominica', 'Mexico', 'United States', 'Saint Lucia', 'Saint Kitts and Nevis', 'Antigua and Barbuda', 'Belize', 'Haiti', 'Barbados', 'Guyana', 'Nicaragua', 'Canada',
+'Suriname', 'El Salvador', 'Dominican Republic', 'Trinidad and Tobago', 'Honduras', 'Guatemala', 'Bahamas', 'Costa Rica', 'Jamaica']
+Expanded entities after step 1: ['Grenada', 'Dominica', 'Saint Lucia', 'Saint Kitts and Nevis', 'Antigua and Barbuda', 'Mexico', 'Belize', 'Haiti', 'Barbados', 'Guyana', 'Nicaragua', 'El Salvador', 'United Stat
+es', 'Honduras', 'Suriname', 'Guatemala', 'Trinidad and Tobago', 'Dominican Republic', 'Costa Rica', 'Bahamas', 'Jamaica', 'Panama']
+Expanded entities length: 22
+Expanded entities after Static Seisa: ['Grenada', 'Dominica', 'Saint Lucia', 'Saint Kitts and Nevis', 'Antigua and Barbuda', 'Belize', 'Mexico', 'Haiti', 'Barbados', 'Nicaragua', 'Guyana', 'El Salvador', 'Hondu
+ras', 'Guatemala', 'Suriname', 'Trinidad and Tobago', 'United States', 'Dominican Republic', 'Costa Rica', 'Panama', 'Bahamas', 'Jamaica']
+Total time taken: 20.5417001247406
+
+
+
+Incorrect entiites: {'Suriname', 'Guyana'}
+Missing entiites: {'Cuba', 'Canada'}

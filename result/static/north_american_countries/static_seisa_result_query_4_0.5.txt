@@ -1,0 +1,37 @@
+Seed Entities:
+Mexico
+United States
+Barbados
+
+Expanded Entities:
+['Mexico', 'Barbados', 'United States', 'Guatemala', 'Costa Rica', 'El Salvador', 'Dominican Republic', 'Trinidad and Tobago', 'Honduras', 'Colombia', 'Venezuela', 'Panama', 'Nicaragua', 'Jamaica', 'Canada', 'Grenada', 'Guyana', 'Chile', 'Brazil', 'Antigua and Barbuda', 'Argentina', 'Cuba']
+
+Time Spent: 561.8894958496094
+R-precision: 0.7272727272727273
+Average Precision: 0.9222230894105895
+
+
+
+
+
+
+
+Seed entities in Static Seisa: ['Mexico', 'United States', 'Barbados']
+Expanded entities after step 0: ['Mexico', 'United States', 'Barbados', 'Canada', 'Brazil', 'Trinidad and Tobago', 'Australia', 'Jamaica', 'Colombia', 'Dominican Republic', 'Venezuela', 'Argentina', 'Guatemala'
+, 'Costa Rica', 'Germany', 'Cuba', 'France', 'Grenada', 'Chile', 'Antigua and Barbuda', 'El Salvador', 'Guyana']
+Expanded entities after step 1: ['Mexico', 'Barbados', 'United States', 'Canada', 'Colombia', 'Trinidad and Tobago', 'Guatemala', 'Venezuela', 'Dominican Republic', 'Brazil', 'Costa Rica', 'Jamaica', 'El Salvad
+or', 'Argentina', 'Chile', 'Grenada', 'Guyana', 'Cuba', 'Antigua and Barbuda', 'Australia', 'Germany', 'Honduras']
+Expanded entities after step 2: ['Mexico', 'Barbados', 'United States', 'Canada', 'Guatemala', 'Trinidad and Tobago', 'Costa Rica', 'Colombia', 'Dominican Republic', 'Venezuela', 'El Salvador', 'Brazil', 'Hondu
+ras', 'Jamaica', 'Chile', 'Argentina', 'Grenada', 'Guyana', 'Cuba', 'Antigua and Barbuda', 'Australia', 'Panama']
+Expanded entities after step 3: ['Mexico', 'Barbados', 'United States', 'Guatemala', 'Costa Rica', 'Dominican Republic', 'Trinidad and Tobago', 'El Salvador', 'Colombia', 'Venezuela', 'Canada', 'Honduras', 'Pan
+ama', 'Jamaica', 'Brazil', 'Chile', 'Grenada', 'Guyana', 'Argentina', 'Antigua and Barbuda', 'Cuba', 'Nicaragua']
+Expanded entities length: 22
+Expanded entities after Static Seisa: ['Mexico', 'Barbados', 'United States', 'Guatemala', 'Costa Rica', 'El Salvador', 'Dominican Republic', 'Trinidad and Tobago', 'Honduras', 'Colombia', 'Venezuela', 'Panama'
+, 'Nicaragua', 'Jamaica', 'Canada', 'Grenada', 'Guyana', 'Chile', 'Brazil', 'Antigua and Barbuda', 'Argentina', 'Cuba']
+
+
+
+
+Incorrect entiites: {'Guyana', 'Colombia', 'Venezuela', 'Brazil', 'Chile', 'Argentina'}
+Missing entiites: {'Bahamas', 'Saint Kitts and Nevis', 'Dominica', 'Saint Lucia', 'Belize', 'Haiti'}
+

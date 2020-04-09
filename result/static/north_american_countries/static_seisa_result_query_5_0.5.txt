@@ -1,0 +1,26 @@
+Seed Entities:
+Dominica
+Saint Lucia
+Canada
+
+Expanded Entities:
+['Dominica', 'Saint Lucia', 'Saint Kitts and Nevis', 'Grenada', 'Antigua and Barbuda', 'Belize', 'Guyana', 'Haiti', 'Barbados', 'Suriname', 'Canada', 'Nicaragua', 'Swaziland', 'Kiribati', 'Guinea-Bissau', 'British Virgin Islands', 'Cape Verde', 'Turks and Caicos Islands', 'Solomon Islands', 'Montserrat', 'El Salvador', 'Anguilla']
+
+Time Spent: 3.2177140712738037
+R-precision: 0.5
+Average Precision: 0.9035648694739605
+
+
+Seed entities in Static Seisa: ['Dominica', 'Saint Lucia', 'Canada']
+Expanded entities after step 0: ['Saint Lucia', 'Dominica', 'Canada', 'Saint Kitts and Nevis', 'Grenada', 'Antigua and Barbuda', 'Belize', 'Haiti', 'Barbados', 'Guyana', 'Suriname', 'Nicaragua', 'Kiribati', 'Br
+itish Virgin Islands', 'Swaziland', 'Turks and Caicos Islands', 'Montserrat', 'El Salvador', 'Guinea-Bissau', 'Solomon Islands', 'Anguilla', 'Cape Verde']
+Expanded entities length: 22
+Expanded entities after Static Seisa: ['Dominica', 'Saint Lucia', 'Saint Kitts and Nevis', 'Grenada', 'Antigua and Barbuda', 'Belize', 'Guyana', 'Haiti', 'Barbados', 'Suriname', 'Canada', 'Nicaragua', 'Swazilan
+d', 'Kiribati', 'Guinea-Bissau', 'British Virgin Islands', 'Cape Verde', 'Turks and Caicos Islands', 'Solomon Islands', 'Montserrat', 'El Salvador', 'Anguilla']
+
+
+
+
+Incorrect entiites: {'Guinea-Bissau', 'Swaziland', 'Turks and Caicos Islands', 'Solomon Islands', 'Guyana', 'British Virgin Islands', 'Montserrat', 'Suriname', 'Cape Verde', 'Kiribati', 'Anguilla'}
+Missing entiites: {'Guatemala', 'Trinidad and Tobago', 'Cuba', 'Dominican Republic', 'United States', 'Honduras', 'Jamaica', 'Panama', 'Costa Rica', 'Mexico', 'Bahamas'}
+
