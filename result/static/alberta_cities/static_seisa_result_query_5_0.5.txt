@@ -1,0 +1,30 @@
+Seed Entities:
+Chestermere
+Space Grove
+Calgary
+
+Expanded Entities:
+['Chestermere', 'Tofield', 'Sundre', 'Two Hills', 'Beaverlodge', 'Westlock', 'Picture Butte', 'Crossfield', 'High Prairie', 'Bow Island', 'Smoky Lake', 'Fox Creek', 'Rimbey', 'Irricana', 'Valleyview', 'Grimshaw', 'Bashaw', 'Turner Valley', 'Calgary']
+
+Time Spent: 4.371842622756958
+R-precision: 0.10526315789473684
+Average Precision: 0.5526315789473684
+
+
+
+Seed entities in Static Seisa: ['Chestermere', 'Space Grove', 'Calgary']
+Expanded entities after step 0: ['Chestermere', 'Calgary', 'Crossfield', 'Tofield', 'Beaverlodge', 'Edmonton', 'Sundre', 'Two Hills', 'Bow Island', 'Westlock', 'Picture Butte', 'Turner Valley', 'Irricana', 'Fox
+ Creek', 'Bashaw', 'Valleyview', 'High Prairie', 'Smoky Lake', 'Rimbey']
+Expanded entities after step 1: ['Chestermere', 'Tofield', 'Sundre', 'Two Hills', 'Westlock', 'Beaverlodge', 'Crossfield', 'Picture Butte', 'High Prairie', 'Bow Island', 'Smoky Lake', 'Fox Creek', 'Rimbey', 'Ir
+ricana', 'Valleyview', 'Calgary', 'Bashaw', 'Turner Valley', 'Grimshaw']
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['Chestermere', 'Tofield', 'Sundre', 'Two Hills', 'Beaverlodge', 'Westlock', 'Picture Butte', 'Crossfield', 'High Prairie', 'Bow Island', 'Smoky Lake', 'Fox Creek', 'Rimbey
+', 'Irricana', 'Valleyview', 'Grimshaw', 'Bashaw', 'Turner Valley', 'Calgary']
+
+
+
+Incorrect entiites: {'Crossfield', 'Westlock', 'High Prairie', 'Smoky Lake', 'Bow Island', 'Fox Creek', 'Two Hills', 'Bashaw', 'Rimbey', 'Beaverlodge', 'Sundre', 'Irricana', 'Turner Valley', 'Picture Butte', 'T
+ofield', 'Grimshaw', 'Valleyview'}
+Missing entiites: {'Cold Lake', 'Edmonton', 'Lacombe', 'Beaumont', 'Airdrie', 'Red Deer', 'Lethbridge', 'Grande Prairie', 'St. Albert', 'Spruce Grove', 'Medicine Hat', 'Leduc', 'Wetaskiwin', 'Fort Saskatchewan'
+, 'Camrose', 'Brooks', 'Lloydminster'}
+

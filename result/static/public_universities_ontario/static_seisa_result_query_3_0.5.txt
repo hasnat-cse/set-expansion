@@ -1,0 +1,27 @@
+Seed Entities:
+OCAD University
+Laurentian University
+
+Expanded Entities:
+['Laurentian University', 'OCAD University', 'Nipissing University', 'Trent University', 'Lakehead University', 'Brock University', 'Algoma University', 'Ryerson University', 'Tyndale University College', 'Dominican University College', 'University of Guelph', 'University of Windsor', 'Quest University Canada', 'Wilfrid Laurier University', 'Redeemer University College', 'Saint Paul University', 'McMaster University', 'Université Sainte-Anne', "University of King\\'s College"]
+
+Time Spent: 0.1871638298034668
+R-precision: 0.631578947368421
+Average Precision: 0.9285926491808846
+
+
+
+Seed entities in Static Seisa: ['OCAD University', 'Laurentian University']
+Expanded entities after step 0: ['Laurentian University', 'OCAD University', 'Nipissing University', 'Trent University', 'Algoma University', 'Dominican University College', 'Tyndale University College', 'Quest
+ University Canada', 'Lakehead University', 'Brock University', 'Ryerson University', 'University of Windsor', 'University of Guelph', 'Université Sainte-Anne', 'Redeemer University College', 'Saint Paul Univer
+sity', 'Wilfrid Laurier University', 'McMaster University', "University of King\\'s College"]
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['Laurentian University', 'OCAD University', 'Nipissing University', 'Trent University', 'Lakehead University', 'Brock University', 'Algoma University', 'Ryerson University
+', 'Tyndale University College', 'Dominican University College', 'University of Guelph', 'University of Windsor', 'Quest University Canada', 'Wilfrid Laurier University', 'Redeemer University College', 'Saint P
+aul University', 'McMaster University', 'Université Sainte-Anne', "University of King\\'s College"]
+
+
+
+Incorrect entiites: {'Université Sainte-Anne', "University of King\\'s College", 'Dominican University College', 'Redeemer University College', 'Tyndale University College', 'Saint Paul University', 'Quest Univ
+ersity Canada'}
+Missing entiites: {'York University', "Queen\\'s University", 'University of Ottawa', 'University of Toronto', 'University of Waterloo', 'University of Western Ontario', 'Carleton University'}

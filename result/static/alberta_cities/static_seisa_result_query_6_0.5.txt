@@ -1,0 +1,28 @@
+Seed Entities:
+Edmonton
+Calgary
+Beaumont
+
+Expanded Entities:
+['Edmonton', 'Calgary', 'Beaumont', 'Vancouver', 'Winnipeg', 'Montreal', 'Toronto', 'Ottawa', 'Saskatoon', 'Nashville', 'San Jose', 'Columbus', 'St. Louis', 'Dallas', 'Salt Lake City', 'Anaheim', 'Tampa', 'Regina', 'Quebec City']
+
+Time Spent: 80.99635291099548
+R-precision: 0.15789473684210525
+Average Precision: 1.0
+
+
+Seed entities in Static Seisa: ['Edmonton', 'Calgary', 'Beaumont']
+Expanded entities after step 0: ['Edmonton', 'Calgary', 'Beaumont', 'Vancouver', 'Winnipeg', 'Montreal', 'Toronto', 'Saskatoon', 'Ottawa', 'Regina', 'Nashville', 'San Jose', 'Salt Lake City', 'Columbus', 'St. L
+ouis', 'Dallas', 'Anaheim', 'Quebec City', 'Tampa']
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['Edmonton', 'Calgary', 'Beaumont', 'Vancouver', 'Winnipeg', 'Montreal', 'Toronto', 'Ottawa', 'Saskatoon', 'Nashville', 'San Jose', 'Columbus', 'St. Louis', 'Dallas', 'Salt
+ Lake City', 'Anaheim', 'Tampa', 'Regina', 'Quebec City']
+Total time taken: 80.99635291099548
+
+
+
+Incorrect entiites: {'Vancouver', 'Ottawa', 'Anaheim', 'Regina', 'Tampa', 'Columbus', 'Quebec City', 'Toronto', 'Dallas', 'Winnipeg', 'St. Louis', 'Nashville', 'Salt Lake City', 'Saskatoon', 'San Jose', 'Montre
+al'}
+Missing entiites: {'Spruce Grove', 'Airdrie', 'Lloydminster', 'Cold Lake', 'Medicine Hat', 'Lethbridge', 'Chestermere', 'Camrose', 'St. Albert', 'Grande Prairie', 'Brooks', 'Lacombe', 'Red Deer', 'Leduc', 'Weta
+skiwin', 'Fort Saskatchewan'}
+

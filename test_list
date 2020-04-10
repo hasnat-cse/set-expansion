@@ -52,14 +52,14 @@ Queries:
 Airdrie,Beaumont,Brooks,Calgary,Camrose,Chestermere,Cold Lake,Edmonton,Fort Saskatchewan,Grande Prairie,Lacombe,Leduc,Lethbridge,Lloydminster,Medicine Hat,Red Deer,Spruce Grove,St. Albert,Wetaskiwin
 
 Queries:
-*1. Edmonton,Chestermere
+1. Edmonton,Chestermere
 2. Edmonton,Calgary
-*3. Spruce Grove,Chestermere
+3. Spruce Grove,Chestermere
 4. Edmonton,Calgary,Leduc
-*5. Chestermere,Space Grove,Calgary
-*6. Edmonton,Calgary,Beaumont
-*7. Calgary,Edmonton,Spruce Grove,Cold Lake
-*8. Edmonton,Calgary,Reed Deer,Medicine Hat,Lethbridge
+5. Chestermere,Space Grove,Calgary
+6. Edmonton,Calgary,Beaumont
+7. Calgary,Edmonton,Spruce Grove,Cold Lake
+8. Edmonton,Calgary,Reed Deer,Medicine Hat,Lethbridge
 
 
 # Public Universities in Ontario 19
@@ -67,9 +67,9 @@ Algoma University,Brock University,Carleton University,Lakehead University,Laure
 
 Queries:
 1. University of Toronto,Algoma University
-*2. University of Toronto,Queen\'s University
-*3. OCAD University,Laurentian University
-*4. University of Ottawa,University of Toronto,Nipissing University
+2. University of Toronto,Queen\'s University
+3. OCAD University,Laurentian University
+4. University of Ottawa,University of Toronto,Nipissing University
 5. Lakehead University,Trent University,University of Toronto
 6. University of Toronto,McMaster University,Queen\'s University
 7. University of Toronto,University of Ottawa,Algoma University,Laurentian University
@@ -94,11 +94,11 @@ Queries:
 John A. Macdonald,Alexander Mackenzie,John Abbott,John Thompson,Mackenzie Bowell,Charles Tupper,Wilfrid Laurier,Robert Borden,Arthur Meighen,William Lyon Mackenzie King,R. B. Bennett,Louis St. Laurent,John Diefenbaker,Lester B. Pearson,Pierre Trudeau,Joe Clark,John Turner,Brian Mulroney,Kim Campbell,Jean Chrétien,Paul Martin,Stephen Harper,Justin Trudeau
 
 Queries:
-*1. Justin Trudeau,John Thompson
-*2. Paul Martin,John Thompson
+1. Justin Trudeau,John Thompson
+2. Paul Martin,John Thompson
 3. John Abbott,Arthur Meighen
 4. Alexander Mackenzie,John Thompson,Justin Trudeau
 5. Pierre Trudeau,Justin Trudeau,Mackenzie Bowell
-*6. Paul Martin,John Thompson,John Turner
+6. Paul Martin,John Thompson,John Turner
 7. Justin Trudeau,Paul Martin,Charles Tupper,John Diefenbaker
-*8. Paul Martin,John Thompson,Wildfrid Laurier,John Turner,Stephen Harper
+8. Paul Martin,John Thompson,Wildfrid Laurier,John Turner,Stephen Harper

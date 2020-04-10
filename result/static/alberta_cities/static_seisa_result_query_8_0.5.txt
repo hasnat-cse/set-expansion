@@ -1,0 +1,35 @@
+Seed Entities:
+Edmonton
+Calgary
+Reed Deer
+Medicine Hat
+Lethbridge
+
+Expanded Entities:
+['Medicine Hat', 'Lethbridge', 'Wetaskiwin', 'Red Deer', 'Camrose', 'Stettler', 'Lacombe', 'Cardston', 'Vegreville', 'Ponoka', 'Peace River', 'Edmonton', 'Leduc', 'Macleod', 'Calgary', 'St. Albert', 'Grande Prairie', 'Stony Plain', 'Edson']
+
+Time Spent: 17.544442176818848
+R-precision: 0.5789473684210527
+Average Precision: 0.8116290572172923
+
+
+
+Seed entities in Static Seisa: ['Edmonton', 'Calgary', 'Reed Deer', 'Medicine Hat', 'Lethbridge']
+Expanded entities after step 0: ['Lethbridge', 'Edmonton', 'Calgary', 'Medicine Hat', 'Red Deer', 'Wetaskiwin', 'Peace River', 'Camrose', 'Macleod', 'Grande Prairie', 'Winnipeg', 'Vancouver', 'St. Albert', 'Veg
+reville', 'Lacombe', 'Leduc', 'Edmonton East', 'Saskatoon', 'Stony Plain']
+Expanded entities after step 1: ['Medicine Hat', 'Lethbridge', 'Red Deer', 'Wetaskiwin', 'Edmonton', 'Calgary', 'Camrose', 'Peace River', 'Macleod', 'Vegreville', 'Lacombe', 'St. Albert', 'Grande Prairie', 'Led
+uc', 'Stony Plain', 'Edmonton East', 'Winnipeg', 'Vancouver', 'Stettler']
+Expanded entities after step 2: ['Medicine Hat', 'Lethbridge', 'Wetaskiwin', 'Red Deer', 'Camrose', 'Edmonton', 'Calgary', 'Peace River', 'Vegreville', 'Macleod', 'Lacombe', 'Stettler', 'St. Albert', 'Grande Pr
+airie', 'Leduc', 'Stony Plain', 'Edmonton East', 'Winnipeg', 'Cardston']
+Expanded entities after step 3: ['Medicine Hat', 'Lethbridge', 'Wetaskiwin', 'Red Deer', 'Camrose', 'Peace River', 'Vegreville', 'Edmonton', 'Lacombe', 'Calgary', 'Stettler', 'Macleod', 'Cardston', 'St. Albert'
+, 'Grande Prairie', 'Leduc', 'Stony Plain', 'Edmonton East', 'Ponoka']
+Expanded entities after step 4: ['Medicine Hat', 'Lethbridge', 'Wetaskiwin', 'Red Deer', 'Camrose', 'Vegreville', 'Stettler', 'Peace River', 'Lacombe', 'Cardston', 'Ponoka', 'Macleod', 'Edmonton', 'Calgary', 'S
+t. Albert', 'Leduc', 'Grande Prairie', 'Stony Plain', 'Edson']
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['Medicine Hat', 'Lethbridge', 'Wetaskiwin', 'Red Deer', 'Camrose', 'Stettler', 'Lacombe', 'Cardston', 'Vegreville', 'Ponoka', 'Peace River', 'Edmonton', 'Leduc', 'Macleod'
+, 'Calgary', 'St. Albert', 'Grande Prairie', 'Stony Plain', 'Edson']
+
+
+
+Incorrect entiites: {'Vegreville', 'Cardston', 'Ponoka', 'Peace River', 'Stony Plain', 'Edson', 'Stettler', 'Macleod'}
+Missing entiites: {'Cold Lake', 'Fort Saskatchewan', 'Brooks', 'Chestermere', 'Beaumont', 'Lloydminster', 'Airdrie', 'Spruce Grove'}

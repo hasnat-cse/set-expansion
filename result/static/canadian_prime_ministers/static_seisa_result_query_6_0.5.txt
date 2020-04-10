@@ -1,0 +1,30 @@
+Seed Entities:
+Paul Martin
+John Thompson
+John Turner
+
+Expanded Entities:
+['John Turner', 'Paul Martin', 'John Thompson', 'Brian Mulroney', 'Jean Chrétien', 'Louis St. Laurent', 'Pierre Trudeau', 'Lester B. Pearson', 'Joe Clark', 'Kim Campbell', 'John Diefenbaker', 'Arthur Meighen', 'Alexander Mackenzie', 'Jim Boeheim', 'Bob Knight', 'Lute Olson', 'Eddie Sutton', 'Denny Crum', 'Stephen Harper', 'Mike Krzyzewski', 'William Lyon Mackenzie King', 'John A. Macdonald', 'Lou Carnesecca']
+
+Time Spent: 3.296053886413574
+R-precision: 0.6956521739130435
+Average Precision: 0.9486500341763499
+
+
+
+
+Seed entities in Static Seisa: ['Paul Martin', 'John Thompson', 'John Turner']
+Expanded entities after step 0: ['John Turner', 'Paul Martin', 'John Thompson', 'Jean Chrétien', 'Brian Mulroney', 'Pierre Trudeau', 'Louis St. Laurent', 'Joe Clark', 'Kim Campbell', 'Lester B. Pearson', 'Alexa
+nder Mackenzie', 'John Diefenbaker', 'Arthur Meighen', 'Stephen Harper', 'Jim Boeheim', 'Bob Knight', 'William Lyon Mackenzie King', 'Lute Olson', 'Eddie Sutton', 'Denny Crum', 'Mike Krzyzewski', 'John A. Macdo
+nald', 'Lou Carnesecca']
+Expanded entities length: 23
+Expanded entities after Static Seisa: ['John Turner', 'Paul Martin', 'John Thompson', 'Brian Mulroney', 'Jean Chrétien', 'Louis St. Laurent', 'Pierre Trudeau', 'Lester B. Pearson', 'Joe Clark', 'Kim Campbell',
+'John Diefenbaker', 'Arthur Meighen', 'Alexander Mackenzie', 'Jim Boeheim', 'Bob Knight', 'Lute Olson', 'Eddie Sutton', 'Denny Crum', 'Stephen Harper', 'Mike Krzyzewski', 'William Lyon Mackenzie King', 'John A.
+ Macdonald', 'Lou Carnesecca']
+
+
+
+
+
+Incorrect entiites: {'Jim Boeheim', 'Denny Crum', 'Lou Carnesecca', 'Mike Krzyzewski', 'Eddie Sutton', 'Bob Knight', 'Lute Olson'}
+Missing entiites: {'Wilfrid Laurier', 'Mackenzie Bowell', 'John Abbott', 'R. B. Bennett', 'Robert Borden', 'Justin Trudeau', 'Charles Tupper'}

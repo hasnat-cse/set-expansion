@@ -1,0 +1,31 @@
+Seed Entities:
+Spruce Grove
+Chestermere
+
+Expanded Entities:
+['Chestermere', 'Tofield', 'Sundre', 'Two Hills', 'Beaverlodge', 'Spruce Grove', 'Westlock', 'Picture Butte', 'Crossfield', 'High Prairie', 'Fox Creek', 'Smoky Lake', 'Bow Island', 'Rimbey', 'Irricana', 'Morinville', 'Valleyview', 'Grimshaw', 'High Level']
+
+Time Spent: 0.7651605606079102
+R-precision: 0.10526315789473684
+Average Precision: 0.6666666666666666
+
+
+
+
+Seed entities in Static Seisa: ['Spruce Grove', 'Chestermere']
+Expanded entities after step 0: ['Spruce Grove', 'Chestermere', 'Crossfield', 'Tofield', 'Beaverlodge', 'Two Hills', 'Sundre', 'Picture Butte', 'Fort Saskatchewan', 'Westlock', 'Morinville', 'Fox Creek', 'Bow I
+sland', 'Irricana', 'Smoky Lake', 'Rimbey', 'High Prairie', 'Okotoks', 'Valleyview']
+Expanded entities after step 1: ['Chestermere', 'Tofield', 'Spruce Grove', 'Sundre', 'Two Hills', 'Beaverlodge', 'Westlock', 'Picture Butte', 'Crossfield', 'High Prairie', 'Fox Creek', 'Smoky Lake', 'Rimbey', '
+Bow Island', 'Morinville', 'Irricana', 'Valleyview', 'Fort Saskatchewan', 'Grimshaw']
+Expanded entities after step 2: ['Chestermere', 'Tofield', 'Sundre', 'Spruce Grove', 'Two Hills', 'Beaverlodge', 'Westlock', 'Picture Butte', 'Crossfield', 'High Prairie', 'Fox Creek', 'Smoky Lake', 'Bow Island
+', 'Rimbey', 'Morinville', 'Irricana', 'Valleyview', 'Grimshaw', 'High Level']
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['Chestermere', 'Tofield', 'Sundre', 'Two Hills', 'Beaverlodge', 'Spruce Grove', 'Westlock', 'Picture Butte', 'Crossfield', 'High Prairie', 'Fox Creek', 'Smoky Lake', 'Bow
+Island', 'Rimbey', 'Irricana', 'Morinville', 'Valleyview', 'Grimshaw', 'High Level']
+
+
+
+Incorrect entiites: {'Fox Creek', 'Tofield', 'Rimbey', 'Beaverlodge', 'Crossfield', 'Bow Island', 'Two Hills', 'High Prairie', 'Westlock', 'High Level', 'Picture Butte', 'Sundre', 'Irricana', 'Morinville', 'Gri
+mshaw', 'Smoky Lake', 'Valleyview'}
+Missing entiites: {'Wetaskiwin', 'Airdrie', 'Calgary', 'Camrose', 'Grande Prairie', 'Leduc', 'Lethbridge', 'Medicine Hat', 'St. Albert', 'Red Deer', 'Edmonton', 'Fort Saskatchewan', 'Cold Lake', 'Brooks', 'Beau
+mont', 'Lloydminster', 'Lacombe'}

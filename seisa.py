@@ -157,6 +157,8 @@ def get_refined_entities(expanded_entities, entity2features, feature2entities):
 
 # expand the set of seedEntities and return entities by order
 def static_seisa_optimized(seed_entities, entity2features, feature2entities, alpha, threshold):
+    global entity2entity_sim
+    entity2entity_sim = {}
 
     print("Seed entities in Static Seisa: %s" % seed_entities)
 

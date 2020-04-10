@@ -1,0 +1,50 @@
+Seed Entities:
+Justin Trudeau
+John Thompson
+
+Expanded Entities:
+['Justin Trudeau', 'John Thompson', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Pierre Diamond', 'Hon. Stéphane Dion', 'Hon. Denis Coderre', 'Irwin Cotler', 'Alexandra Mendès', 'Lise Zarac', 'Pablo Rodriguez', 'Denis Joannette', 'Linda Schwey', 'Jean Beaupré', 'René Roy', 'Eva Nassif', 'Bernard Demers', 'William Hogg', 'Kirsty Duncan', 'Frank Valeriote', 'Ted Hsu', 'David McGuinty']
+
+Time Spent: 2.9680538177490234
+R-precision: 0.08695652173913043
+Average Precision: 1.0
+
+
+
+Seed entities in Static Seisa: ['Justin Trudeau', 'John Thompson']
+Expanded entities after step 0: ['John Thompson', 'Justin Trudeau', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Irwin Cotler', 'Alexandra Mendès', 'Lise Zarac', 'Kirsty Duncan', 'Frank Valeriote
+', 'Ted Hsu', 'Pablo Rodriguez', 'David McGuinty', 'Jim Boeheim', 'Denis Coderre', 'Bob Knight', 'Hon. Stéphane Dion', 'Ingrid Hein', 'Jacques Gourde', 'Hon. Denis Coderre', 'Costa Zafiropoulos', 'Pierre Diamon
+d', 'André Bellavance']
+Expanded entities after step 1: ['Justin Trudeau', 'John Thompson', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Irwin Cotler', 'Kirsty Duncan', 'Frank Valeriote', 'Hon. Stéphane Dion', 'Hon. Den
+is Coderre', 'Alexandra Mendès', 'Lise Zarac', 'Pablo Rodriguez', 'Ted Hsu', 'David McGuinty', 'Pierre Diamond', 'Jacques Gourde', 'Denis Coderre', 'André Bellavance', 'Ingrid Hein', 'Costa Zafiropoulos', 'Jim
+Boeheim', 'Denis Joannette']
+Expanded entities after step 2: ['Justin Trudeau', 'John Thompson', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Irwin Cotler', 'Hon. Stéphane Dion', 'Hon. Denis Coderre', 'Kirsty Duncan', 'Frank
+ Valeriote', 'Alexandra Mendès', 'Lise Zarac', 'Pablo Rodriguez', 'Ted Hsu', 'Pierre Diamond', 'David McGuinty', 'Denis Joannette', 'Jacques Gourde', 'Denis Coderre', 'André Bellavance', 'Ingrid Hein', 'Costa Z
+afiropoulos', 'Linda Schwey']
+Expanded entities after step 3: ['Justin Trudeau', 'John Thompson', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Irwin Cotler', 'Hon. Stéphane Dion', 'Hon. Denis Coderre', 'Alexandra Mendès', 'Li
+se Zarac', 'Pablo Rodriguez', 'Kirsty Duncan', 'Frank Valeriote', 'Pierre Diamond', 'Ted Hsu', 'Denis Joannette', 'Linda Schwey', 'David McGuinty', 'Jacques Gourde', 'Denis Coderre', 'André Bellavance', 'Ingrid
+ Hein', 'Jean Beaupré']
+Expanded entities after step 4: ['Justin Trudeau', 'John Thompson', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Irwin Cotler', 'Hon. Stéphane Dion', 'Hon. Denis Coderre', 'Alexandra Mendès', 'Li
+se Zarac', 'Pablo Rodriguez', 'Pierre Diamond', 'Kirsty Duncan', 'Frank Valeriote', 'Denis Joannette', 'Linda Schwey', 'Jean Beaupré', 'Ted Hsu', 'David McGuinty', 'Jacques Gourde', 'Denis Coderre', 'André Bell
+avance', 'René Roy']
+Expanded entities after step 5: ['Justin Trudeau', 'John Thompson', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Irwin Cotler', 'Hon. Stéphane Dion', 'Hon. Denis Coderre', 'Pierre Diamond', 'Alex
+andra Mendès', 'Lise Zarac', 'Pablo Rodriguez', 'Denis Joannette', 'Linda Schwey', 'Jean Beaupré', 'René Roy', 'Kirsty Duncan', 'Frank Valeriote', 'Ted Hsu', 'David McGuinty', 'Jacques Gourde', 'Denis Coderre',
+ 'Eva Nassif']
+Expanded entities after step 6: ['Justin Trudeau', 'John Thompson', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Irwin Cotler', 'Pierre Diamond', 'Hon. Stéphane Dion', 'Hon. Denis Coderre', 'Alex
+andra Mendès', 'Lise Zarac', 'Pablo Rodriguez', 'Denis Joannette', 'Linda Schwey', 'Jean Beaupré', 'René Roy', 'Eva Nassif', 'Kirsty Duncan', 'Frank Valeriote', 'Ted Hsu', 'David McGuinty', 'Denis Coderre', 'Be
+rnard Demers']
+Expanded entities after step 7: ['Justin Trudeau', 'John Thompson', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Pierre Diamond', 'Hon. Stéphane Dion', 'Hon. Denis Coderre', 'Irwin Cotler', 'Alex
+andra Mendès', 'Lise Zarac', 'Pablo Rodriguez', 'Denis Joannette', 'Linda Schwey', 'Jean Beaupré', 'René Roy', 'Eva Nassif', 'Bernard Demers', 'Kirsty Duncan', 'Frank Valeriote', 'Ted Hsu', 'David McGuinty', 'W
+illiam Hogg']
+Expanded entities length: 23
+Expanded entities after Static Seisa: ['Justin Trudeau', 'John Thompson', 'Francis Scarpaleggia', 'Massimo Pacetti', 'Marc Garneau', 'Pierre Diamond', 'Hon. Stéphane Dion', 'Hon. Denis Coderre', 'Irwin Cotler',
+ 'Alexandra Mendès', 'Lise Zarac', 'Pablo Rodriguez', 'Denis Joannette', 'Linda Schwey', 'Jean Beaupré', 'René Roy', 'Eva Nassif', 'Bernard Demers', 'William Hogg', 'Kirsty Duncan', 'Frank Valeriote', 'Ted Hsu'
+, 'David McGuinty']
+
+
+
+Incorrect entiites: {'Kirsty Duncan', 'Irwin Cotler', 'Eva Nassif', 'Jean Beaupré', 'Linda Schwey', 'Alexandra Mendès', 'Hon. Denis Coderre', 'Ted Hsu', 'Massimo Pacetti', 'William Hogg', 'Denis Joannette', 'Be
+rnard Demers', 'Lise Zarac', 'Pablo Rodriguez', 'Marc Garneau', 'Pierre Diamond', 'René Roy', 'Frank Valeriote', 'Francis Scarpaleggia', 'David McGuinty', 'Hon. Stéphane Dion'}
+Missing entiites: {'Jean Chrétien', 'Mackenzie Bowell', 'John Turner', 'Robert Borden', 'Brian Mulroney', 'Stephen Harper', 'Lester B. Pearson', 'R. B. Bennett', 'Arthur Meighen', 'Kim Campbell', 'Charles Tuppe
+r', 'William Lyon Mackenzie King', 'Paul Martin', 'Pierre Trudeau', 'Joe Clark', 'John A. Macdonald', 'John Abbott', 'Louis St. Laurent', 'John Diefenbaker', 'Wilfrid Laurier', 'Alexander Mackenzie'}
+

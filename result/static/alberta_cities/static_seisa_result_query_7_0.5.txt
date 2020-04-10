@@ -1,0 +1,40 @@
+Seed Entities:
+Calgary
+Edmonton
+Spruce Grove
+Cold Lake
+
+Expanded Entities:
+['Cold Lake', 'Spruce Grove', 'Lacombe', 'Leduc', 'Ponoka', 'Edmonton', 'Stettler', 'Calgary', 'Camrose', 'Cardston', 'High River', 'Olds', 'Pincher Creek', 'Taber', 'Fort Saskatchewan', 'Claresholm', 'Grande Prairie', 'Wetaskiwin', 'Okotoks']
+
+Time Spent: 16.668019771575928
+R-precision: 0.5263157894736842
+Average Precision: 0.7979411764705882
+
+
+
+Seed entities in Static Seisa: ['Calgary', 'Edmonton', 'Spruce Grove', 'Cold Lake']
+Expanded entities after step 0: ['Edmonton', 'Calgary', 'Cold Lake', 'Spruce Grove', 'Fort Saskatchewan', 'Vancouver', 'Grande Prairie', 'Winnipeg', 'Leduc', 'Canmore', 'Lacombe', 'Camrose', 'High River', 'Weta
+skiwin', 'Lloydminster', 'Okotoks', 'Montreal', 'Sundre', 'Sylvan Lake']
+Expanded entities after step 1: ['Cold Lake', 'Spruce Grove', 'Edmonton', 'Calgary', 'Fort Saskatchewan', 'Lacombe', 'Grande Prairie', 'Leduc', 'Camrose', 'High River', 'Canmore', 'Wetaskiwin', 'Okotoks', 'Sund
+re', 'Lloydminster', 'Sylvan Lake', 'Vancouver', 'Winnipeg', 'Stettler']
+Expanded entities after step 2: ['Cold Lake', 'Spruce Grove', 'Edmonton', 'Calgary', 'Fort Saskatchewan', 'Lacombe', 'Leduc', 'Camrose', 'Grande Prairie', 'High River', 'Canmore', 'Wetaskiwin', 'Stettler', 'Oko
+toks', 'Sundre', 'Lloydminster', 'Sylvan Lake', 'Vancouver', 'Ponoka']
+Expanded entities after step 3: ['Cold Lake', 'Spruce Grove', 'Edmonton', 'Calgary', 'Lacombe', 'Fort Saskatchewan', 'Leduc', 'Camrose', 'High River', 'Grande Prairie', 'Stettler', 'Ponoka', 'Wetaskiwin', 'Canm
+ore', 'Okotoks', 'Sundre', 'Lloydminster', 'Sylvan Lake', 'Cardston']
+Expanded entities after step 4: ['Cold Lake', 'Spruce Grove', 'Edmonton', 'Calgary', 'Lacombe', 'Leduc', 'Camrose', 'Fort Saskatchewan', 'High River', 'Stettler', 'Grande Prairie', 'Ponoka', 'Cardston', 'Wetask
+iwin', 'Canmore', 'Okotoks', 'Sundre', 'Lloydminster', 'Pincher Creek']
+Expanded entities after step 5: ['Cold Lake', 'Spruce Grove', 'Edmonton', 'Lacombe', 'Calgary', 'Leduc', 'Camrose', 'Fort Saskatchewan', 'Stettler', 'High River', 'Ponoka', 'Grande Prairie', 'Cardston', 'Pinche
+r Creek', 'Wetaskiwin', 'Okotoks', 'Canmore', 'Sundre', 'Olds']
+Expanded entities after step 6: ['Cold Lake', 'Spruce Grove', 'Lacombe', 'Edmonton', 'Calgary', 'Leduc', 'Stettler', 'Camrose', 'Ponoka', 'High River', 'Fort Saskatchewan', 'Cardston', 'Olds', 'Pincher Creek',
+'Grande Prairie', 'Wetaskiwin', 'Okotoks', 'Canmore', 'Taber']
+Expanded entities after step 7: ['Cold Lake', 'Spruce Grove', 'Lacombe', 'Edmonton', 'Calgary', 'Leduc', 'Stettler', 'Ponoka', 'Camrose', 'Cardston', 'High River', 'Olds', 'Fort Saskatchewan', 'Pincher Creek',
+'Taber', 'Grande Prairie', 'Wetaskiwin', 'Okotoks', 'Claresholm']
+Expanded entities length: 19
+Expanded entities after Static Seisa: ['Cold Lake', 'Spruce Grove', 'Lacombe', 'Leduc', 'Ponoka', 'Edmonton', 'Stettler', 'Calgary', 'Camrose', 'Cardston', 'High River', 'Olds', 'Pincher Creek', 'Taber', 'Fort
+Saskatchewan', 'Claresholm', 'Grande Prairie', 'Wetaskiwin', 'Okotoks']
+
+
+
+Incorrect entiites: {'Claresholm', 'Cardston', 'Stettler', 'Olds', 'Taber', 'Ponoka', 'Okotoks', 'Pincher Creek', 'High River'}
+Missing entiites: {'Chestermere', 'Red Deer', 'Beaumont', 'Medicine Hat', 'Brooks', 'Lethbridge', 'Airdrie', 'Lloydminster', 'St. Albert'}

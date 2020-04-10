@@ -1,0 +1,33 @@
+Seed Entities:
+Paul Martin
+John Thompson
+Wildfrid Laurier
+John Turner
+Stephen Harper
+
+Expanded Entities:
+['Stephen Harper', 'John Turner', 'Paul Martin', 'Brian Mulroney', 'Louis St. Laurent', 'Pierre Trudeau', 'John Thompson', 'Jean Chrétien', 'Lester B. Pearson', 'Arthur Meighen', 'Joe Clark', 'John Diefenbaker', 'Kim Campbell', 'Alexander Mackenzie', 'John A. Macdonald', 'Mackenzie Bowell', 'William Lyon Mackenzie King', 'Charles Tupper', 'John Abbott', 'Robert Borden', 'R. B. Bennett', 'Jim Boeheim', 'Bob Knight']
+
+Time Spent: 3.545758008956909
+R-precision: 0.9130434782608695
+Average Precision: 1.0
+
+
+
+
+Seed entities in Static Seisa: ['Paul Martin', 'John Thompson', 'Wildfrid Laurier', 'John Turner', 'Stephen Harper']
+Expanded entities after step 0: ['Paul Martin', 'Stephen Harper', 'John Turner', 'John Thompson', 'Jean Chrétien', 'Brian Mulroney', 'Pierre Trudeau', 'Louis St. Laurent', 'Joe Clark', 'Kim Campbell', 'Lester B
+. Pearson', 'John Diefenbaker', 'Arthur Meighen', 'Alexander Mackenzie', 'William Lyon Mackenzie King', 'John A. Macdonald', 'Robert Borden', 'Mackenzie Bowell', 'John Abbott', 'Charles Tupper', 'Jim Boeheim',
+'Bob Knight', 'Angela Merkel']
+Expanded entities after step 1: ['Stephen Harper', 'John Turner', 'Paul Martin', 'Brian Mulroney', 'Louis St. Laurent', 'Pierre Trudeau', 'John Thompson', 'Jean Chrétien', 'Lester B. Pearson', 'Joe Clark', 'Joh
+n Diefenbaker', 'Arthur Meighen', 'Kim Campbell', 'Alexander Mackenzie', 'John A. Macdonald', 'Mackenzie Bowell', 'William Lyon Mackenzie King', 'Charles Tupper', 'John Abbott', 'Robert Borden', 'Jim Boeheim',
+'Bob Knight', 'R. B. Bennett']
+Expanded entities length: 23
+Expanded entities after Static Seisa: ['Stephen Harper', 'John Turner', 'Paul Martin', 'Brian Mulroney', 'Louis St. Laurent', 'Pierre Trudeau', 'John Thompson', 'Jean Chrétien', 'Lester B. Pearson', 'Arthur Mei
+ghen', 'Joe Clark', 'John Diefenbaker', 'Kim Campbell', 'Alexander Mackenzie', 'John A. Macdonald', 'Mackenzie Bowell', 'William Lyon Mackenzie King', 'Charles Tupper', 'John Abbott', 'Robert Borden', 'R. B. Be
+nnett', 'Jim Boeheim', 'Bob Knight']
+
+
+
+Incorrect entiites: {'Bob Knight', 'Jim Boeheim'}
+Missing entiites: {'Justin Trudeau', 'Wilfrid Laurier'}

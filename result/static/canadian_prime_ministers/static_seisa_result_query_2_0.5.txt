@@ -1,0 +1,48 @@
+Seed Entities:
+Paul Martin
+John Thompson
+
+Expanded Entities:
+['John Thompson', 'Paul Martin', 'Jim Boeheim', 'Bob Knight', 'Eddie Sutton', 'Lute Olson', 'Denny Crum', 'Gene Keady', 'Jim Harrick', 'Nolan Richardson', 'Lou Carnesecca', 'Mike Krzyzewski', 'Jim Calhoun', 'Jerry Tarkanian', 'Norm Stewart', 'John Chaney', 'Billy Tubbs', 'Lou Henson', 'Dale Brown', 'Digger Phelps', 'Rollie Massimino', 'Jud Heathcote', 'Wimp Sanderson']
+
+Time Spent: 9.435027599334717
+R-precision: 0.08695652173913043
+Average Precision: 1.0
+
+
+
+Seed entities in Static Seisa: ['Paul Martin', 'John Thompson']
+Expanded entities after step 0: ['John Thompson', 'Paul Martin', 'Jim Boeheim', 'Bob Knight', 'Jean Chrétien', 'Brian Mulroney', 'Lute Olson', 'Eddie Sutton', 'Denny Crum', 'Pierre Trudeau', 'Louis St. Laurent'
+, 'Joe Clark', 'Mike Krzyzewski', 'Lou Carnesecca', 'Dean Smith', 'Kim Campbell', 'Lester B. Pearson', 'Gene Keady', 'Nolan Richardson', 'Jerry Tarkanian', 'Zach Parise', 'Jim Calhoun', 'Jamie Langenbrunner']
+Expanded entities after step 1: ['John Thompson', 'Paul Martin', 'Jim Boeheim', 'Bob Knight', 'Lute Olson', 'Denny Crum', 'Eddie Sutton', 'Mike Krzyzewski', 'Gene Keady', 'Jim Calhoun', 'Nolan Richardson', 'Lou
+ Carnesecca', 'Jerry Tarkanian', 'Brian Mulroney', 'Jean Chrétien', 'Louis St. Laurent', 'Pierre Trudeau', 'Dean Smith', 'Joe Clark', 'Lester B. Pearson', 'Kim Campbell', 'Zach Parise', 'Jim Harrick']
+Expanded entities after step 2: ['John Thompson', 'Paul Martin', 'Jim Boeheim', 'Bob Knight', 'Lute Olson', 'Eddie Sutton', 'Denny Crum', 'Mike Krzyzewski', 'Gene Keady', 'Nolan Richardson', 'Jim Calhoun', 'Jim
+ Harrick', 'Lou Carnesecca', 'Jerry Tarkanian', 'Brian Mulroney', 'Jean Chrétien', 'Dean Smith', 'Louis St. Laurent', 'Pierre Trudeau', 'Joe Clark', 'Lester B. Pearson', 'Kim Campbell', 'John Chaney']
+Expanded entities after step 3: ['John Thompson', 'Paul Martin', 'Jim Boeheim', 'Bob Knight', 'Lute Olson', 'Eddie Sutton', 'Denny Crum', 'Mike Krzyzewski', 'Gene Keady', 'Nolan Richardson', 'Jim Calhoun', 'Jim
+ Harrick', 'John Chaney', 'Lou Carnesecca', 'Jerry Tarkanian', 'Brian Mulroney', 'Jean Chrétien', 'Dean Smith', 'Louis St. Laurent', 'Pierre Trudeau', 'Joe Clark', 'Lester B. Pearson', 'Norm Stewart']
+Expanded entities after step 4: ['John Thompson', 'Paul Martin', 'Jim Boeheim', 'Bob Knight', 'Lute Olson', 'Eddie Sutton', 'Denny Crum', 'Gene Keady', 'Mike Krzyzewski', 'Nolan Richardson', 'Jim Calhoun', 'Jim
+ Harrick', 'John Chaney', 'Lou Carnesecca', 'Norm Stewart', 'Jerry Tarkanian', 'Dean Smith', 'Brian Mulroney', 'Jean Chrétien', 'Louis St. Laurent', 'Pierre Trudeau', 'Joe Clark', 'Lou Henson']
+Expanded entities after step 5: ['John Thompson', 'Paul Martin', 'Jim Boeheim', 'Bob Knight', 'Lute Olson', 'Eddie Sutton', 'Denny Crum', 'Gene Keady', 'Mike Krzyzewski', 'Nolan Richardson', 'Jim Harrick', 'Jim
+ Calhoun', 'John Chaney', 'Lou Carnesecca', 'Norm Stewart', 'Jerry Tarkanian', 'Lou Henson', 'Dean Smith', 'Jean Chrétien', 'Brian Mulroney', 'Pierre Trudeau', 'Louis St. Laurent', 'Jud Heathcote']
+Expanded entities after step 6: ['John Thompson', 'Paul Martin', 'Jim Boeheim', 'Bob Knight', 'Lute Olson', 'Eddie Sutton', 'Denny Crum', 'Gene Keady', 'Mike Krzyzewski', 'Jim Harrick', 'Nolan Richardson', 'Jim
+ Calhoun', 'John Chaney', 'Lou Carnesecca', 'Norm Stewart', 'Jerry Tarkanian', 'Lou Henson', 'Jud Heathcote', 'Dean Smith', 'Jean Chrétien', 'Brian Mulroney', 'Pierre Trudeau', 'Billy Tubbs']
+Expanded entities after step 7: ['John Thompson', 'Paul Martin', 'Jim Boeheim', 'Bob Knight', 'Lute Olson', 'Eddie Sutton', 'Denny Crum', 'Gene Keady', 'Mike Krzyzewski', 'Nolan Richardson', 'Jim Harrick', 'Jim
+ Calhoun', 'John Chaney', 'Lou Carnesecca', 'Norm Stewart', 'Jerry Tarkanian', 'Lou Henson', 'Jud Heathcote', 'Billy Tubbs', 'Dean Smith', 'Jean Chrétien', 'Brian Mulroney', 'Digger Phelps']
+Expanded entities after step 8: ['John Thompson', 'Paul Martin', 'Jim Boeheim', 'Bob Knight', 'Eddie Sutton', 'Lute Olson', 'Denny Crum', 'Gene Keady', 'Mike Krzyzewski', 'Jim Harrick', 'Nolan Richardson', 'Jim
+ Calhoun', 'Lou Carnesecca', 'John Chaney', 'Norm Stewart', 'Jerry Tarkanian', 'Lou Henson', 'Billy Tubbs', 'Jud Heathcote', 'Digger Phelps', 'Dean Smith', 'Jean Chrétien', 'Dale Brown']
+Expanded entities after step 9: ['John Thompson', 'Paul Martin', 'Jim Boeheim', 'Bob Knight', 'Eddie Sutton', 'Lute Olson', 'Denny Crum', 'Gene Keady', 'Mike Krzyzewski', 'Nolan Richardson', 'Jim Harrick', 'Jim
+ Calhoun', 'Lou Carnesecca', 'John Chaney', 'Norm Stewart', 'Jerry Tarkanian', 'Lou Henson', 'Billy Tubbs', 'Jud Heathcote', 'Digger Phelps', 'Dale Brown', 'Dean Smith', 'Rollie Massimino']
+Expanded entities after step 10: ['John Thompson', 'Paul Martin', 'Jim Boeheim', 'Bob Knight', 'Eddie Sutton', 'Denny Crum', 'Lute Olson', 'Gene Keady', 'Jim Harrick', 'Nolan Richardson', 'Mike Krzyzewski', 'Lo
+u Carnesecca', 'Jim Calhoun', 'John Chaney', 'Jerry Tarkanian', 'Norm Stewart', 'Lou Henson', 'Billy Tubbs', 'Digger Phelps', 'Jud Heathcote', 'Dale Brown', 'Rollie Massimino', 'Wimp Sanderson']
+Expanded entities length: 23
+Expanded entities after Static Seisa: ['John Thompson', 'Paul Martin', 'Jim Boeheim', 'Bob Knight', 'Eddie Sutton', 'Lute Olson', 'Denny Crum', 'Gene Keady', 'Jim Harrick', 'Nolan Richardson', 'Lou Carnesecca',
+ 'Mike Krzyzewski', 'Jim Calhoun', 'Jerry Tarkanian', 'Norm Stewart', 'John Chaney', 'Billy Tubbs', 'Lou Henson', 'Dale Brown', 'Digger Phelps', 'Rollie Massimino', 'Jud Heathcote', 'Wimp Sanderson']
+
+
+
+
+Incorrect entiites: {'Digger Phelps', 'Rollie Massimino', 'Bob Knight', 'John Chaney', 'Nolan Richardson', 'Jim Harrick', 'Jim Calhoun', 'Norm Stewart', 'Jim Boeheim', 'Jud Heathcote', 'Wimp Sanderson', 'Eddie
+Sutton', 'Lou Henson', 'Mike Krzyzewski', 'Dale Brown', 'Lou Carnesecca', 'Billy Tubbs', 'Gene Keady', 'Denny Crum', 'Lute Olson', 'Jerry Tarkanian'}
+Missing entiites: {'Kim Campbell', 'Charles Tupper', 'Mackenzie Bowell', 'R. B. Bennett', 'Stephen Harper', 'William Lyon Mackenzie King', 'Justin Trudeau', 'Arthur Meighen', 'John Abbott', 'John Diefenbaker',
+'Wilfrid Laurier', 'Brian Mulroney', 'Lester B. Pearson', 'Joe Clark', 'Alexander Mackenzie', 'Robert Borden', 'John Turner', 'Jean Chrétien', 'Louis St. Laurent', 'John A. Macdonald', 'Pierre Trudeau'}
+
