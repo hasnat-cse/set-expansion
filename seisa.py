@@ -156,7 +156,7 @@ def get_refined_entities(expanded_entities, entity2features, feature2entities):
 
 
 # expand the set of seedEntities and return entities by order
-def static_seisa_optimized(seed_entities, entity2features, feature2entities, alpha, threshold):
+def static_seisa_optimized(seed_entities, entity2features, feature2entities, alpha, k):
     global entity2entity_sim
     entity2entity_sim = {}
 
@@ -174,11 +174,12 @@ def static_seisa_optimized(seed_entities, entity2features, feature2entities, alp
 
     sorted_entities, sorted_scores = get_sorted_key_and_value_based_on_value(rel_score_dict)
 
-    # k = util.get_otsu_threshold(sorted_scores)
-    #
-    # print("Threshold: %s" % k)
+    threshold = util.get_otsu_threshold(sorted_scores)
 
-    k = threshold
+    print("Threshold: %s" % threshold)
+
+    if threshold <= k:
+        k = threshold
 
     expanded_entities = sorted_entities[:k]
 
