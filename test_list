@@ -2,26 +2,34 @@
 adhya Pradesh', 286), ('Assam', 278), ('Orissa', 269), ('Haryana', 257), ('Bihar', 248), ('Goa', 246), ('Jharkhand', 207), ('Himachal Pradesh', 187), ('Manipur', 177), ('Sikkim', 170), ('Uttarakhand', 163), ('M
 eghalaya', 160), ('Mizoram', 154), ('Tripura', 144), ('Arunachal Pradesh', 143), ('Nagaland', 141), ('Chhattisgarh', 140), ('Jammu and Kashmir', 133)]
 
+Number of lists: 949
+
 
 [('Calgary', 1197), ('Edmonton', 1059), ('Beaumont', 159), ('Lethbridge', 158), ('Medicine Hat', 140), ('Red Deer', 127), ('Brooks', 95), ('St. Albert', 80), ('Wetaskiwin', 70), ('Lloydminster', 67), ('Airdrie'
 , 66), ('Camrose', 64), ('Grande Prairie', 62), ('Lacombe', 50), ('Leduc', 40), ('Cold Lake', 26), ('Fort Saskatchewan', 21), ('Spruce Grove', 15), ('Chestermere', 11)]
+
+Number of lists: 2119
 
 
 [("Queen\\'s University", 122), ('University of Toronto', 98), ('University of Ottawa', 58), ('University of Western Ontario', 50), ('York University', 49), ('University of Waterloo', 47), ('McMaster University
 ', 42), ('Carleton University', 41), ('University of Guelph', 33), ('Wilfrid Laurier University', 30), ('University of Windsor', 29), ('Brock University', 24), ('Ryerson University', 19), ('Lakehead University'
 , 17), ('Trent University', 17), ('Laurentian University', 16), ('Nipissing University', 10), ('Algoma University', 5), ('OCAD University', 2)]
 
+Number of lists: 316
+
 
 [('United States', 27954), ('Canada', 19977), ('Mexico', 8788), ('Cuba', 5320), ('Jamaica', 4199), ('Trinidad and Tobago', 2796), ('Dominican Republic', 2731), ('Costa Rica', 2637), ('Guatemala', 2348), ('Panam
 a', 2321), ('Bahamas', 2044), ('Honduras', 2013), ('El Salvador', 1928), ('Barbados', 1812), ('Nicaragua', 1502), ('Haiti', 1416), ('Grenada', 1128), ('Saint Kitts and Nevis', 989), ('Antigua and Barbuda', 981)
 , ('Belize', 939), ('Saint Lucia', 899), ('Dominica', 857)]
+
+Number of lists: 43415
 
 
 [('Paul Martin', 131), ('John Thompson', 124), ('Wilfrid Laurier', 98), ('John Turner', 92), ('Stephen Harper', 61), ('Jean Chrétien', 55), ('John Diefenbaker', 47), ('Pierre Trudeau', 46), ('Joe Clark', 46), (
 'Robert Borden', 44), ('Alexander Mackenzie', 41), ('William Lyon Mackenzie King', 40), ('Lester B. Pearson', 38), ('Kim Campbell', 38), ('Louis St. Laurent', 35), ('John A. Macdonald', 32), ('Arthur Meighen',
 32), ('Brian Mulroney', 32), ('Charles Tupper', 29), ('John Abbott', 23), ('Mackenzie Bowell', 22), ('R. B. Bennett', 15), ('Justin Trudeau', 12)]
 
-
+Number of lists: 730
 
 Queries:
 1. 1 frequent, 1 less frequent

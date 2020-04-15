@@ -42,13 +42,22 @@ def main():
     for truth_list in truth_lists:
         entity_feature_count = {}
 
+        unique_features = set()
+
         for entity in truth_list:
             feature_count = len(entity2features[entity])
             entity_feature_count[entity] = feature_count
 
+            unique_features = unique_features.union(set(entity2features[entity]))
+
+
         sorted_entity_feature_count = sorted(entity_feature_count.items(), key=lambda item: item[1], reverse=True)
 
+
+
         print(sorted_entity_feature_count)
+        print("\n")
+        print("number of lists: %s" % len(unique_features))
         print("\n\n")
 
 
