@@ -321,13 +321,12 @@ def get_sim_score(expanded_entities, entity2features, feature2entities):
     entity2total_sim = {}
     for entity in expanded_entities:
         for related_entity in entity2related_entities[entity]:
-
+            sim = get_jaccard_sim(related_entity, entity, entity2features)
             if related_entity in entity2total_sim:
-                # todo: better equation
-                entity2total_sim[related_entity] += get_jaccard_sim(related_entity, entity, entity2features)
+                entity2total_sim[related_entity] += sim
 
             else:
-                entity2total_sim[related_entity] = get_jaccard_sim(related_entity, entity, entity2features)
+                entity2total_sim[related_entity] = sim
 
     entity2sim_score = {}
     for entity in entity2total_sim:

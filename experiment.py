@@ -1,5 +1,3 @@
-import util
-
 entity2entity_sim = {}
 
 
@@ -44,13 +42,13 @@ def get_sim_score(expanded_entities, entity2features, feature2entities):
     entity2total_sim = {}
     for entity in expanded_entities:
         for related_entity in entity2related_entities[entity]:
+            sim = get_jaccard_sim(related_entity, entity, entity2features)
 
             if related_entity in entity2total_sim:
-                # todo: better equation
-                entity2total_sim[related_entity] += get_jaccard_sim(related_entity, entity, entity2features)
+                entity2total_sim[related_entity] += sim
 
             else:
-                entity2total_sim[related_entity] = get_jaccard_sim(related_entity, entity, entity2features)
+                entity2total_sim[related_entity] = sim
 
     entity2sim_score = {}
     for entity in entity2total_sim:
@@ -72,19 +70,16 @@ def experiment_algorithm(seed_entities, entity2features, feature2entities, alpha
 
     sorted_entities, sorted_scores = get_sorted_key_and_value_based_on_value(rel_score_dict)
 
-    threshold = util.get_otsu_threshold(sorted_scores)
+    candidate_entities = sorted_entities[:k]
 
-    print("Threshold: %s" % threshold)
+    expanded_entities = seed_entities
 
-    if threshold <= k:
-        k = threshold
-
-    expanded_entities = sorted_entities[:k]
-
-    print("Expanded entities after step 0: %s" % expanded_entities)
+    new_candidate_entities = [entity for entity in candidate_entities if entity not in expanded_entities]
+    expanded_entities.append(new_candidate_entities[0])
+    print("Expanded entities after step %s: %s" % (0, expanded_entities))
 
     iter = 1
-    while True:
+    while len(expanded_entities) < k:
         sim_score_dict = get_sim_score(expanded_entities, entity2features, feature2entities)
         print("number of candidate entities: %s" % len(sim_score_dict))
 
@@ -97,20 +92,13 @@ def experiment_algorithm(seed_entities, entity2features, feature2entities, alpha
             else:
                 combined_score_dict[entity] = (1 - alpha) * sim_score_dict[entity]
 
-        sorted_candidate_entities, sorted_candidate_scores = get_sorted_key_and_value_based_on_value(combined_score_dict)
+        sorted_candidate_entities, sorted_candidate_scores = get_sorted_key_and_value_based_on_value(
+            combined_score_dict)
 
         candidate_entities = sorted_candidate_entities[:k]
 
-        sorted_expanded_entities = []
-        for entity in sorted_candidate_entities:
-            if entity in expanded_entities:
-                sorted_expanded_entities.append(entity)
-
-        expanded_entities = sorted_expanded_entities
-
         if set(candidate_entities) != set(expanded_entities):
             new_candidate_entities = [entity for entity in candidate_entities if entity not in expanded_entities]
-            expanded_entities.pop()
             expanded_entities.append(new_candidate_entities[0])
             print("Expanded entities after step %s: %s" % (iter, expanded_entities))
 
