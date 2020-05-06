@@ -1,52 +1,88 @@
-SEISA:
-+ Don't need to fixed output size. It will choose the best.
-
-- For some query and dataset, the choosen threshold can be wrong. If the threshold too large, it can cause semantic drift based on the value of alpha. For higher value of alpha the drift will be less and for lower value drift will be more.
-
-- As previously expanded entities are replaced in successive iteration, chances of semantic drift is high.
-
-+ so far, alpha = 0.9 works best for all query
-
-+ optimized version works faster than set expan.
-
-+ Wrong entities can be corrected in successive iterations
-
-
-Static SEISA:
-- Static Threshold: There are around 200 countries in the dataset.
- But the chosen threshold is 91. So, we will get only 91 entities instead of expected 200.
-
-+ Semantic drift can be less than dynamic
-
-
-Dynamic SEISA:
- + Dynamic Threshold: We will eventually get around 200 countries.
-
- - Semantic drift can be more than static.
-
-
-Set Expan:
-- Need to choose the expected output size. If it is large, there will be wrong entities. It it is small, we will get only few entities. Runtime also depends on K.
-
-- depends on r. For small value of r, runtime is higher but correctness is better than large value of r. Large value of r can introduce wrong entities.
-
-+ Very less chance of huge semantic drift. Because in each iteration, it only adds new entities without replacing previous ones.
-
-- There is no way to correct some wrong entities in subsequent iterations
-
-
-*Need to check varying seed size.
-
-
-
-
-** Concept lists are chosen based on easily verifiable ground truths and variation of length of the ground truth set. Ground truths are got from wikipedia list and based on availability in dataset
-
-** Mymensingh Division exists in only one list but that list contains all the results
-** Rangpur Division next less popular
-
-** With popular seeds, accuracy is less. With less popular seeds accuracy is good. Both have difficulty finding less popular entity.
-
-** for SEISA, if the concept is well distinguished from all other entities then threshold is reasonable, Otherwise threshold is not reasonable. For example: Country is well separated,
-    But, for asian countries, threshold is pretty bad.
-** Both works better for seed size greater than  or equal to 3.
+Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
+Enter the candidate entity: Vancouver
+Feature count for candidate Vancouver: 1394
+Feature count for seed Edmonton: 1059
+Common Features count for candidate Vancouver with seed Edmonton: 489
+Feature count for seed Calgary: 1197
+Common Features count for candidate Vancouver with seed Calgary: 499
+Common Features count for candidate Vancouver with all seeds: 357
+Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
+Enter the candidate entity: Beaumont
+Feature count for candidate Beaumont: 159
+Feature count for seed Edmonton: 1059
+Common Features count for candidate Beaumont with seed Edmonton: 17
+Feature count for seed Calgary: 1197
+Common Features count for candidate Beaumont with seed Calgary: 13
+Common Features count for candidate Beaumont with all seeds: 12
+Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
+Enter the candidate entity: Leduc
+Feature count for candidate Leduc: 40
+Feature count for seed Edmonton: 1059
+Common Features count for candidate Leduc with seed Edmonton: 29
+Feature count for seed Calgary: 1197
+Common Features count for candidate Leduc with seed Calgary: 23
+Common Features count for candidate Leduc with all seeds: 22
+Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
+Enter the candidate entity: Cold Lake
+Feature count for candidate Cold Lake: 26
+Feature count for seed Edmonton: 1059
+Common Features count for candidate Cold Lake with seed Edmonton: 15
+Feature count for seed Calgary: 1197
+Common Features count for candidate Cold Lake with seed Calgary: 17
+Common Features count for candidate Cold Lake with all seeds: 15
+Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
+Enter the candidate entity: Medicine Hat
+Feature count for candidate Medicine Hat: 140
+Feature count for seed Edmonton: 1059
+Common Features count for candidate Medicine Hat with seed Edmonton: 55
+Feature count for seed Calgary: 1197
+Common Features count for candidate Medicine Hat with seed Calgary: 52
+Common Features count for candidate Medicine Hat with all seeds: 50
+Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
+Enter the candidate entity: Lacombe
+Feature count for candidate Lacombe: 50
+Feature count for seed Edmonton: 1059
+Common Features count for candidate Lacombe with seed Edmonton: 25
+Feature count for seed Calgary: 1197
+Common Features count for candidate Lacombe with seed Calgary: 26
+Common Features count for candidate Lacombe with all seeds: 23
+Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
+Enter the candidate entity: Camrose
+Feature count for candidate Camrose: 64
+Feature count for seed Edmonton: 1059
+Common Features count for candidate Camrose with seed Edmonton: 32
+Feature count for seed Calgary: 1197
+Common Features count for candidate Camrose with seed Calgary: 33
+Common Features count for candidate Camrose with all seeds: 29
+Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
+Enter the candidate entity: Lethbridge
+Feature count for candidate Lethbridge: 158
+Feature count for seed Edmonton: 1059
+Common Features count for candidate Lethbridge with seed Edmonton: 78
+Feature count for seed Calgary: 1197
+Common Features count for candidate Lethbridge with seed Calgary: 89
+Common Features count for candidate Lethbridge with all seeds: 71
+Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
+Enter the candidate entity: Montreal
+Feature count for candidate Montreal: 1542
+Feature count for seed Edmonton: 1059
+Common Features count for candidate Montreal with seed Edmonton: 359
+Feature count for seed Calgary: 1197
+Common Features count for candidate Montreal with seed Calgary: 376
+Common Features count for candidate Montreal with all seeds: 275
+Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
+Enter the candidate entity: Toronto
+Feature count for candidate Toronto: 2357
+Feature count for seed Edmonton: 1059
+Common Features count for candidate Toronto with seed Edmonton: 419
+Feature count for seed Calgary: 1197
+Common Features count for candidate Toronto with seed Calgary: 427
+Common Features count for candidate Toronto with all seeds: 307
+Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
+Enter the candidate entity: Ottawa
+Feature count for candidate Ottawa: 1278
+Feature count for seed Edmonton: 1059
+Common Features count for candidate Ottawa with seed Edmonton: 273
+Feature count for seed Calgary: 1197
+Common Features count for candidate Ottawa with seed Calgary: 301
+Common Features count for candidate Ottawa with all seeds: 231

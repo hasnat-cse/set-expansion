@@ -10,8 +10,6 @@ def main():
     entity2features, feature2entities = util.loadFeaturesAndEntityMap(
         data_folder + 'EntityFeatureCount.txt')  # EnitityFeatureCount.txt
 
-    print("Finish loading all dataset, using %s seconds")
-
     truth_lists = [
         ["Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana",
          "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur",
