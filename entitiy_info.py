@@ -25,6 +25,12 @@ def main():
             common_features_count = len(entity2features[candidate_entity].intersection(entity2features[entity]))
             print("Common Features count for candidate %s with seed %s: %s" % (candidate_entity, entity, common_features_count))
 
+        common_features = entity2features[seed_enitites[0]]
+        for entity in seed_enitites:
+            common_features = common_features.intersection(entity2features[entity])
+
+        print("Common Features count between all seeds: %s" % len(common_features))
+
         common_features = entity2features[candidate_entity]
         for entity in seed_enitites:
             common_features = common_features.intersection(entity2features[entity])
