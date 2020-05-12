@@ -2,86 +2,75 @@ import util
 import time
 
 
-def get_sorted_key_and_value_based_on_value(entity_score_dict, reverse):
-    sorted_entities = []
-    sorted_scores = []
+def one_step_lookahead(common_lists_len, entity2count):
+    max_guaranteed_pruning = 0
+    entity_with_max_guaranteed_pruning = None
+    for entity in entity2count:
+        pruning_neg = entity2count[entity]
+        pruning_pos = common_lists_len - pruning_neg
 
-    for k, v in sorted(entity_score_dict.items(), key=lambda item: item[1], reverse=reverse):
-        sorted_entities.append(k)
-        sorted_scores.append(v)
+        # the entity is in all the lists
+        if pruning_pos == 0:
+            continue
 
-    return sorted_entities, sorted_scores
+        min_pruning = min(pruning_pos, pruning_neg)
+
+        if min_pruning >= max_guaranteed_pruning:
+            max_guaranteed_pruning = min_pruning
+            entity_with_max_guaranteed_pruning = entity
+
+    return entity_with_max_guaranteed_pruning, max_guaranteed_pruning
 
 
-def find_set(seed_entities, feature2entities, entity2features):
-    common_lists = set()
-    for i, entity in enumerate(seed_entities):
-        if i == 0:
-            common_lists = entity2features[entity]
+def two_step_lookahead(common_lists, entity2count, entity2features, feature2entities, entity_list):
+    max_guaranteed_pruning = 0
+    entity_with_max_guaranteed_pruning = None
 
-        else:
-            common_lists = common_lists.intersection(entity2features[entity])
+    for entity in entity2count:
+        common_lists_neg = common_lists.difference(entity2features[entity])
 
-    positive_entity_list = seed_entities
-    negative_entity_list = []
+        # the entity is in all the lists
+        if len(common_lists_neg) == 0:
+            continue
 
-    while len(common_lists) > 1:
-        print("\nCommon lists among seed entities: %s" % len(common_lists))
-
-        entity2count = {}
-        for l in common_lists:
+        entity2count_neg = {}
+        for l in common_lists_neg:
             for e in feature2entities[l]:
-                if e not in positive_entity_list:
-                    if e in entity2count:
-                        entity2count[e] += 1
+                if e not in entity_list:
+                    if e in entity2count_neg:
+                        entity2count_neg[e] += 1
 
                     else:
-                        entity2count[e] = 1
+                        entity2count_neg[e] = 1
 
-        entity_pair2score = {}
-        for entity1 in entity2count:
-            for entity2 in entity2count:
-                if entity2 != entity1 and (entity1, entity2) not in entity_pair2score:
-                    entity_pair2score[(entity1, entity2)] = (entity2count[entity1] + entity2count[entity2] + 1) / (len(
-                        entity2features[entity1].intersection(entity2features[entity2])) + 1)
+        common_lists_pos = common_lists.intersection(entity2features[entity])
 
-        if len(entity2count) > 0:
-            sorted_entity_pairs, sorted_pair_scores = get_sorted_key_and_value_based_on_value(entity_pair2score, True)
+        positive_entity_list = entity_list[:]
+        positive_entity_list.append(entity)
 
-            entity1 = sorted_entity_pairs[0][0]
-            entity2 = sorted_entity_pairs[0][1]
+        entity2count_pos = {}
+        for l in common_lists_pos:
+            for e in feature2entities[l]:
+                if e not in positive_entity_list:
+                    if e in entity2count_pos:
+                        entity2count_pos[e] += 1
 
-        else:
-            break
+                    else:
+                        entity2count_pos[e] = 1
 
-        entity1_exists = input("\nIs %s in your set? Type y or n: " % entity1)
-        entity2_exists = input("\nIs %s in your set? Type y or n: " % entity2)
+        entity_neg, max_pruning_neg = one_step_lookahead(len(common_lists_neg), entity2count_neg)
+        entity_pos, max_pruning_pos = one_step_lookahead(len(common_lists_pos), entity2count_pos)
 
-        if entity1_exists == 'n':
-            common_lists = common_lists.difference(entity2features[entity1])
-            negative_entity_list.append(entity1)
+        min_max_pruning = min(max_pruning_neg, max_pruning_pos)
 
-        else:
-            common_lists = common_lists.intersection(entity2features[entity1])
-            positive_entity_list.append(entity1)
+        if min_max_pruning >= max_guaranteed_pruning:
+            max_guaranteed_pruning = min_max_pruning
+            entity_with_max_guaranteed_pruning = entity
 
-        if entity2_exists == 'n':
-            common_lists = common_lists.difference(entity2features[entity2])
-            negative_entity_list.append(entity2)
-
-        else:
-            common_lists = common_lists.intersection(entity2features[entity2])
-            positive_entity_list.append(entity2)
-
-    print("\nOutput set is: ")
-    for l in common_lists:
-        print(feature2entities[l])
-
-    print("\nPositive Entities considered during searching:\n %s" % positive_entity_list)
-    print("\nNegative Entities considered during searching:\n %s" % negative_entity_list)
+    return entity_with_max_guaranteed_pruning
 
 
-def find_set_v2(seed_entities, feature2entities, entity2features):
+def find_set(seed_entities, feature2entities, entity2features, lookahead):
     start = time.time()
 
     common_lists = set()
@@ -92,7 +81,7 @@ def find_set_v2(seed_entities, feature2entities, entity2features):
         else:
             common_lists = common_lists.intersection(entity2features[entity])
 
-    positive_entity_list = seed_entities
+    positive_entity_list = seed_entities[:]
     negative_entity_list = []
 
     question_count = 0
@@ -110,37 +99,29 @@ def find_set_v2(seed_entities, feature2entities, entity2features):
                     else:
                         entity2count[e] = 1
 
-        entity2diff = {}
-        min_freq = len(common_lists)
-        for entity in entity2count:
-            diff = abs(entity2count[entity] - (len(common_lists) - entity2count[entity]))
-            entity2diff[entity] = diff
+        if lookahead == 'o':
+            selected_entity, max_guaranteed_pruning = one_step_lookahead(len(common_lists), entity2count)
+        else:
+            selected_entity = two_step_lookahead(common_lists, entity2count, entity2features, feature2entities, positive_entity_list)
 
-            if diff < min_freq:
-                min_freq = diff
-
-        # No unexplored entity in the lists or all the lists are identical
-        if min_freq == len(common_lists):
+        # all entities are in all the lists
+        if selected_entity is None:
             break
 
-        sorted_entities, sorted_diffs = get_sorted_key_and_value_based_on_value(entity2diff, False)
-
-        entity_with_min_diff = sorted_entities[0]
-
         question_start_time = time.time()
-        entity_exists = input("\nIs %s in your set? Type y or n: " % entity_with_min_diff)
+        entity_exists = input("\nIs %s in your set? Type y or n: " % selected_entity)
         question_end_time = time.time()
 
         question_time += question_end_time - question_start_time
         question_count += 1
 
         if entity_exists == 'n':
-            common_lists = common_lists.difference(entity2features[entity_with_min_diff])
-            negative_entity_list.append(entity_with_min_diff)
+            common_lists = common_lists.difference(entity2features[selected_entity])
+            negative_entity_list.append(selected_entity)
 
         else:
-            common_lists = common_lists.intersection(entity2features[entity_with_min_diff])
-            positive_entity_list.append(entity_with_min_diff)
+            common_lists = common_lists.intersection(entity2features[selected_entity])
+            positive_entity_list.append(selected_entity)
 
     print("\nOutput set: ")
     for l in common_lists:
@@ -183,7 +164,9 @@ def main():
 
         seed_enitites = user_input.split(',')
 
-        find_set_v2(seed_enitites, feature2entities, entity2features)
+        method = input("\nEnter method ('o' for one-step, 't' for two-step): ")
+
+        find_set(seed_enitites, feature2entities, entity2features, method)
 
 
 if __name__ == "__main__":
