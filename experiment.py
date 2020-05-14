@@ -22,6 +22,16 @@ def get_jaccard_sim(entity1, entity2, entity2features):
     return sim
 
 
+def get_context_dependent_jaccard_sim(entity1, entity2, entity2features, selected_features):
+
+    entity1_features = entity2features[entity1].intersection(selected_features)
+    entity2_features = entity2features[entity2].intersection(selected_features)
+
+    sim = len(entity1_features.intersection(entity2_features)) / len(entity1_features.union(entity2_features))
+
+    return sim
+
+
 def get_context_dependent_weighted_jaccard_sim(entity1, entity2, feature2entities, top_features, feature2rank):
     numerator = 0
     denominator = 0

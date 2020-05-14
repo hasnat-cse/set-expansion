@@ -1,88 +1,181 @@
-Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
-Enter the candidate entity: Vancouver
-Feature count for candidate Vancouver: 1394
-Feature count for seed Edmonton: 1059
-Common Features count for candidate Vancouver with seed Edmonton: 489
-Feature count for seed Calgary: 1197
-Common Features count for candidate Vancouver with seed Calgary: 499
-Common Features count for candidate Vancouver with all seeds: 357
-Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
-Enter the candidate entity: Beaumont
-Feature count for candidate Beaumont: 159
-Feature count for seed Edmonton: 1059
-Common Features count for candidate Beaumont with seed Edmonton: 17
-Feature count for seed Calgary: 1197
-Common Features count for candidate Beaumont with seed Calgary: 13
-Common Features count for candidate Beaumont with all seeds: 12
-Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
-Enter the candidate entity: Leduc
-Feature count for candidate Leduc: 40
-Feature count for seed Edmonton: 1059
-Common Features count for candidate Leduc with seed Edmonton: 29
-Feature count for seed Calgary: 1197
-Common Features count for candidate Leduc with seed Calgary: 23
-Common Features count for candidate Leduc with all seeds: 22
-Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
-Enter the candidate entity: Cold Lake
-Feature count for candidate Cold Lake: 26
-Feature count for seed Edmonton: 1059
-Common Features count for candidate Cold Lake with seed Edmonton: 15
-Feature count for seed Calgary: 1197
-Common Features count for candidate Cold Lake with seed Calgary: 17
-Common Features count for candidate Cold Lake with all seeds: 15
-Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
-Enter the candidate entity: Medicine Hat
-Feature count for candidate Medicine Hat: 140
-Feature count for seed Edmonton: 1059
-Common Features count for candidate Medicine Hat with seed Edmonton: 55
-Feature count for seed Calgary: 1197
-Common Features count for candidate Medicine Hat with seed Calgary: 52
-Common Features count for candidate Medicine Hat with all seeds: 50
-Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
-Enter the candidate entity: Lacombe
-Feature count for candidate Lacombe: 50
-Feature count for seed Edmonton: 1059
-Common Features count for candidate Lacombe with seed Edmonton: 25
-Feature count for seed Calgary: 1197
-Common Features count for candidate Lacombe with seed Calgary: 26
-Common Features count for candidate Lacombe with all seeds: 23
-Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
-Enter the candidate entity: Camrose
-Feature count for candidate Camrose: 64
-Feature count for seed Edmonton: 1059
-Common Features count for candidate Camrose with seed Edmonton: 32
-Feature count for seed Calgary: 1197
-Common Features count for candidate Camrose with seed Calgary: 33
-Common Features count for candidate Camrose with all seeds: 29
-Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
-Enter the candidate entity: Lethbridge
-Feature count for candidate Lethbridge: 158
-Feature count for seed Edmonton: 1059
-Common Features count for candidate Lethbridge with seed Edmonton: 78
-Feature count for seed Calgary: 1197
-Common Features count for candidate Lethbridge with seed Calgary: 89
-Common Features count for candidate Lethbridge with all seeds: 71
-Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
-Enter the candidate entity: Montreal
-Feature count for candidate Montreal: 1542
-Feature count for seed Edmonton: 1059
-Common Features count for candidate Montreal with seed Edmonton: 359
-Feature count for seed Calgary: 1197
-Common Features count for candidate Montreal with seed Calgary: 376
-Common Features count for candidate Montreal with all seeds: 275
-Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
-Enter the candidate entity: Toronto
-Feature count for candidate Toronto: 2357
-Feature count for seed Edmonton: 1059
-Common Features count for candidate Toronto with seed Edmonton: 419
-Feature count for seed Calgary: 1197
-Common Features count for candidate Toronto with seed Calgary: 427
-Common Features count for candidate Toronto with all seeds: 307
-Enter seed entities(separated with comma, q to exit): Edmonton,Calgary
-Enter the candidate entity: Ottawa
-Feature count for candidate Ottawa: 1278
-Feature count for seed Edmonton: 1059
-Common Features count for candidate Ottawa with seed Edmonton: 273
-Feature count for seed Calgary: 1197
-Common Features count for candidate Ottawa with seed Calgary: 301
-Common Features count for candidate Ottawa with all seeds: 231
+Enter seed entities (separated with comma, q to exit): Canada,Mexico
+
+Enter method ('o' for one-step, 't' for two-step): o
+
+Common lists among seed entities: 4190
+
+Is Spain in your set? Type y or n: n
+
+Common lists among seed entities: 2080
+
+Is Brazil in your set? Type y or n: n
+
+Common lists among seed entities: 1054
+
+Is United States in your set? Type y or n: y
+
+Common lists among seed entities: 712
+
+Is Australia in your set? Type y or n: n
+
+Common lists among seed entities: 476
+
+Is Cuba in your set? Type y or n: y
+
+Common lists among seed entities: 133
+
+Is Dominican Republic in your set? Type y or n: y
+
+Common lists among seed entities: 60
+
+Is Trinidad and Tobago in your set? Type y or n: y
+
+Common lists among seed entities: 28
+
+Is Grenada in your set? Type y or n: y
+
+Common lists among seed entities: 15
+
+Is Bermuda in your set? Type y or n: n
+
+Common lists among seed entities: 8
+
+Is Decades/Countries in your set? Type y or n: n
+
+Common lists among seed entities: 7
+
+Is Martinique (Fr.) in your set? Type y or n: n
+
+Common lists among seed entities: 6
+
+Is Countries/Decades in your set? Type y or n: n
+
+Common lists among seed entities: 5
+
+Is Greenland in your set? Type y or n: n
+
+Common lists among seed entities: 4
+
+Is British Virgin Islands ( UK ) in your set? Type y or n: n
+
+Common lists among seed entities: 3
+
+Is Aruba in your set? Type y or n: n
+
+Common lists among seed entities: 2
+
+Output set:
+171216-3-2 : {'Jamaica', 'Trinidad and Tobago', 'United States', 'Nicaragua', 'Saint Lucia', 'Canada', 'Honduras', 'Antigua and Barbuda', 'Haiti', 'Guatemala', 'Mexico', 'Barbados', 'Cuba', 'Belize', 'Saint Kit
+ts and Nevis', 'Panama', 'Costa Rica', 'Bahamas', 'Dominica', 'Dominican Republic', 'Grenada', 'El Salvador'}
+330263-1-1 : {'Jamaica', 'Trinidad and Tobago', 'United States', 'Nicaragua', 'Saint Lucia', 'Canada', 'Honduras', 'Antigua and Barbuda', 'Haiti', 'Guatemala', 'Mexico', 'Barbados', 'Cuba', 'Belize', 'Saint Kit
+ts and Nevis', 'Panama', 'Costa Rica', 'Bahamas', 'Dominica', 'Dominican Republic', 'Grenada', 'El Salvador'}
+
+Number of question asked: 15
+
+Positive Entities considered during searching:
+ ['Canada', 'Mexico', 'United States', 'Cuba', 'Dominican Republic', 'Trinidad and Tobago', 'Grenada']
+
+Negative Entities considered during searching:
+ ['Spain', 'Brazil', 'Australia', 'Bermuda', 'Decades/Countries', 'Martinique (Fr.)', 'Countries/Decades', 'Greenland', 'British Virgin Islands ( UK )', 'Aruba']
+
+Processing time: 1.4352285861968994
+Total time: 72.72504615783691
+
+Enter seed entities (separated with comma, q to exit): Canada,Mexico
+
+Enter method ('o' for one-step, 't' for two-step): t
+
+Common lists among seed entities: 4190
+
+Is Spain in your set? Type y or n: n
+
+Common lists among seed entities: 2080
+
+Is Argentina in your set? Type y or n: n
+
+Common lists among seed entities: 1343
+
+Is Australia in your set? Type y or n: n
+
+Common lists among seed entities: 837
+
+Is Cuba in your set? Type y or n: y
+
+Common lists among seed entities: 222
+
+Is Dominican Republic in your set? Type y or n: y
+
+Common lists among seed entities: 84
+
+Is Puerto Rico in your set? Type y or n: n
+
+Common lists among seed entities: 38
+
+Is El Salvador in your set? Type y or n: y
+
+Common lists among seed entities: 19
+
+Is Trinidad and Tobago in your set? Type y or n: y
+
+Common lists among seed entities: 11
+
+Is Bermuda in your set? Type y or n: n
+
+Common lists among seed entities: 7
+
+Is Decades/Countries in your set? Type y or n: n
+
+Common lists among seed entities: 6
+
+Is Martinique (Fr.) in your set? Type y or n: n
+
+Common lists among seed entities: 5
+
+Is Countries/Decades in your set? Type y or n: n
+
+Common lists among seed entities: 4
+
+Is British Virgin Islands ( UK ) in your set? Type y or n: n
+
+Common lists among seed entities: 3
+
+Is Greenland in your set? Type y or n: n
+
+Common lists among seed entities: 2
+
+Output set:
+171216-3-2 : {'Jamaica', 'Trinidad and Tobago', 'United States', 'Nicaragua', 'Saint Lucia', 'Canada', 'Honduras', 'Antigua and Barbuda', 'Haiti', 'Guatemala', 'Mexico', 'Barbados', 'Cuba', 'Belize', 'Saint Kit
+ts and Nevis', 'Panama', 'Costa Rica', 'Bahamas', 'Dominica', 'Dominican Republic', 'Grenada', 'El Salvador'}
+330263-1-1 : {'Jamaica', 'Trinidad and Tobago', 'United States', 'Nicaragua', 'Saint Lucia', 'Canada', 'Honduras', 'Antigua and Barbuda', 'Haiti', 'Guatemala', 'Mexico', 'Barbados', 'Cuba', 'Belize', 'Saint Kit
+ts and Nevis', 'Panama', 'Costa Rica', 'Bahamas', 'Dominica', 'Dominican Republic', 'Grenada', 'El Salvador'}
+
+Number of question asked: 14
+
+Positive Entities considered during searching:
+ ['Canada', 'Mexico', 'Cuba', 'Dominican Republic', 'El Salvador', 'Trinidad and Tobago']
+
+Negative Entities considered during searching:
+ ['Spain', 'Argentina', 'Australia', 'Puerto Rico', 'Bermuda', 'Decades/Countries', 'Martinique (Fr.)', 'Countries/Decades', 'British Virgin Islands ( UK )', 'Greenland']
+
+Processing time: 459.9803087711334
+Total time: 530.2211503982544
+
+
+
+
+
+Worst case for algorithms:
+a,b,c,d,e,f,g (desired)
+a,b,c,d,e,f
+a,b,c,d,e,g
+a,b,c,d,f,g
+a,b,c,e,f,g
+a,b,d,e,f,g
+
+Another worse case for algorithms:
+a,b,c,d
+a,b,e,f
+a,b,g,h
+a,b,i,h
+a,b,k,l
+a,b,m,n

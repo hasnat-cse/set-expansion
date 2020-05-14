@@ -2,6 +2,17 @@ import util
 import time
 
 
+def get_sorted_key_and_value_based_on_value(entity_score_dict, reverse):
+    sorted_entities = []
+    sorted_scores = []
+
+    for k, v in sorted(entity_score_dict.items(), key=lambda item: item[1], reverse=reverse):
+        sorted_entities.append(k)
+        sorted_scores.append(v)
+
+    return sorted_entities, sorted_scores
+
+
 def one_step_lookahead(common_lists_len, entity2count):
     max_guaranteed_pruning = 0
     entity_with_max_guaranteed_pruning = None
@@ -22,7 +33,7 @@ def one_step_lookahead(common_lists_len, entity2count):
     return entity_with_max_guaranteed_pruning, max_guaranteed_pruning
 
 
-def two_step_lookahead(common_lists, entity2count, entity2features, feature2entities, entity_list):
+def two_step_lookahead(common_lists, entity2count, entity_list, entity2features, feature2entities):
     max_guaranteed_pruning = 0
     entity_with_max_guaranteed_pruning = None
 
@@ -70,6 +81,31 @@ def two_step_lookahead(common_lists, entity2count, entity2features, feature2enti
     return entity_with_max_guaranteed_pruning
 
 
+def heuristic(common_lists, entity2count, positive_entity_list, entity2features, feature2entities):
+    selected_features = set()
+    for entity in positive_entity_list:
+        for feature in entity2features[entity]:
+            selected_features.add(feature)
+
+    entity2count_all = {}
+    for entity in entity2count:
+        for feature in selected_features:
+            if entity in feature2entities[feature]:
+                if entity in entity2count_all:
+                    entity2count_all[entity] += 1
+
+                else:
+                    entity2count_all[entity] = 1
+
+    entity2scores = {}
+    for entity in entity2count:
+        entity2scores[entity] = abs((entity2count_all[entity] / len(selected_features)) - (entity2count[entity] / len(common_lists)))
+
+    sorted_entities, sorted_scores = get_sorted_key_and_value_based_on_value(entity2scores, True)
+
+    return sorted_entities[0]
+
+
 def find_set(seed_entities, feature2entities, entity2features, lookahead):
     start = time.time()
 
@@ -101,8 +137,12 @@ def find_set(seed_entities, feature2entities, entity2features, lookahead):
 
         if lookahead == 'o':
             selected_entity, max_guaranteed_pruning = one_step_lookahead(len(common_lists), entity2count)
+
+        elif lookahead == 't':
+            selected_entity = two_step_lookahead(common_lists, entity2count, positive_entity_list, entity2features, feature2entities)
+
         else:
-            selected_entity = two_step_lookahead(common_lists, entity2count, entity2features, feature2entities, positive_entity_list)
+            selected_entity = heuristic(common_lists, entity2count, positive_entity_list, entity2features, feature2entities)
 
         # all entities are in all the lists
         if selected_entity is None:
@@ -164,7 +204,7 @@ def main():
 
         seed_enitites = user_input.split(',')
 
-        method = input("\nEnter method ('o' for one-step, 't' for two-step): ")
+        method = input("\nEnter method ('o' for one-step, 't' for two-step, 'h' for heuristic): ")
 
         find_set(seed_enitites, feature2entities, entity2features, method)
 
