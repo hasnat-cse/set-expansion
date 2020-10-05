@@ -2,29 +2,6 @@ from collections import defaultdict
 from math import log
 
 
-def calculate_jaccard_sim(output_filename, entity2features):
-    entity2entity_sim = {}
-    for entity1 in entity2features.keys():
-        for entity2 in entity2features.keys():
-            if tuple(sorted((entity1, entity2))) in entity2entity_sim:
-                continue
-
-            else:
-                entity1_features = set(entity2features[entity1])
-                entity2_features = set(entity2features[entity2])
-
-                sim = len(entity1_features.intersection(entity2_features)) / len(
-                                                    entity1_features.union(entity2_features))
-
-                entity2entity_sim[tuple(sorted((entity1, entity2)))] = sim
-
-    with open(output_filename, "w", encoding="utf8") as fout:
-        for entity_tuple in entity2entity_sim.keys():
-            sim = entity2entity_sim[entity_tuple]
-            if len(entity_tuple) > 1:
-                fout.write(entity_tuple[0] + "\t" + entity_tuple[1] + "\t" + str(sim) + "\n")
-
-
 def calculate_TFIDF_strength(inputFileName, outputFileName):
     entity_w_feature2count = defaultdict()  # mapping between (entity, feature) -> count
     feature2entitycount = defaultdict(int)  # number of distinct entities that match this feature
@@ -68,8 +45,9 @@ def calculate_TFIDF_strength(inputFileName, outputFileName):
 
 
 def main():
-    data_folder = "../../SetExpan_data/weblist/"
+    # data_folder = "../../SetExpan_data/weblist/"
     # data_folder = "./dataset/weblist/"
+    data_folder = "./dataset/"
 
     data_file_name = data_folder + "data.txt"
     entity_feature_count_file = data_folder + "EntityFeatureCount.txt"
@@ -102,9 +80,6 @@ def main():
 
     tfidf_strength_file = data_folder + "EntityFeature2TFIDFStrength.txt"
     calculate_TFIDF_strength(entity_feature_count_file, tfidf_strength_file)
-
-    # jaccard_sim_file = data_folder + "Entity2EntitySim.txt"
-    # calculate_jaccard_sim(jaccard_sim_file, entity_feature_mapping)
 
 
 if __name__ == "__main__":

@@ -7,6 +7,7 @@ def main():
     # Loading Corpus
     data_folder = "../../SetExpan_data/weblist/"
     # data_folder = "./dataset/weblist/"
+    # data_folder = "./dataset/"
 
     start = time.time()
 
@@ -61,7 +62,7 @@ def main():
 
         milli_sec = int(round(time.time() * 1000))
 
-        output_file = "./result/setexpan/setexpan_result_query_" + str(milli_sec) + "_" + str(output_size) + ".txt"
+        output_file = "./result/setexpan/test/setexpan_result_query_" + str(milli_sec) + "_" + str(output_size) + ".txt"
         with open(output_file, "w", encoding="utf8") as fout:
             fout.write("Seed Entities:" + "\n")
             for entity in seed_enitites:

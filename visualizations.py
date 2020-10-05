@@ -97,19 +97,6 @@ def plot_group_bar():
     # plt.show()
 
 
-
-def plot_multi_line():
-    seisa = [0.5461, 0.4447, 0.6039, 0.7459, 0.6547, 0.5770, 0.8505, 0.7591]
-    setexpan = [0.6131, 0.6009, 0.8818, 0.7445, 0.7975, 0.6387, 0.9343, 0.7883]
-    plt.plot(range(1, 9), seisa, '--')
-    plt.plot(range(1, 9), setexpan, ':')
-    plt.title('Monthly sales of 2016 and 2017')
-    plt.xlabel('Query')
-    plt.ylabel('Average R-Precision')
-    plt.legend(['M-SEISA', 'SetExpan'], loc=4)
-    plt.show()
-
-
 def main():
     plot_group_bar()
     # plot_multi_line()
