@@ -1,2 +1,2 @@
-# 605_project
-Project repository for 605 project
+# set-expansion
+Study of Set Expansion Problem using SEISA and SetExpan paper. A project of graduate course "Independent study: Topic in Computing Science"
